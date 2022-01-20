@@ -1,0 +1,24 @@
+
+
+Github Pages - Verify a custom domain
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
+
+Add a DNS TXT record
+Copy verification steps
+Before we can verify usedgoodies.com, you'll need to complete these steps:
+
+Create a TXT record in your DNS configuration for the following hostname:
+	
+_github-pages-challenge-jliu70.usedgoodies.com
+
+
+3c9b0e7c1e6c3486af8fbfe4069988
+
+
+
+https://github.com/jliu70/adafruit.usedgoodies.com
+
+
+
+https://www.mkdocs.org/user-guide/deploying-your-docs/
+

@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://adafruit.usedgoodies.com/getting-started/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Overview - Adafruit For Newbies</title>
+        <link href="../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="..">Adafruit For Newbies</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href=".." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Overview</a>
+</li>
+                                    
+<li>
+    <a href="website-structure/" class="dropdown-item">How Website is Organized</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hardware <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../hardware/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../hardware/connectors/" class="dropdown-item">Connectors</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CircuitPython <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../circuitpython/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../circuitpython/installation/" class="dropdown-item">Installation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Glossary <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../glossary/" class="dropdown-item">Index</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/backpack/" class="dropdown-item">Backpack</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/cape/" class="dropdown-item">Cape</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/feather/" class="dropdown-item">Feather</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/gpio/" class="dropdown-item">GPIO</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/hat/" class="dropdown-item">HAT</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/itsy_bitsy/" class="dropdown-item">Itsy Bitsy</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/jst/" class="dropdown-item">JST</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/qt_py/" class="dropdown-item">QT Py</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/qwiic/" class="dropdown-item">Qwiic</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/shield/" class="dropdown-item">Sheild</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/stemma_and_stemma_qt/" class="dropdown-item">Stemma</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/stemma_and_stemma_qt/" class="dropdown-item">Stemma QT</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href=".." class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="website-structure/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#the-adafruit-website" class="nav-link">The Adafruit website</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#learn-guides" class="nav-link">Learn Guides</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#shows" class="nav-link">Shows</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#adabox" class="nav-link">Adabox</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#list-of-adaboxes" class="nav-link">List of Adaboxes</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#next-steps" class="nav-link">Next Steps</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="introduction">Introduction</h1>
+<p>This guide is for people new to Adafruit and to electronics.  The focus is on the Adafruit ecosystem -- to provide a roadmap for people new to the Adafruit ecosystem.  We will review Adafruit lingo and branding.  This website does not cover electronics in general --  Along the way some electronics will be discussed, but this website will not cover topics in depth.  As much as possible, links to additional resources or references will be provided.</p>
+<p>Adafruit is an open-source hardware company which designs custom hardware and components.  Located in New York City, Adafruit was founded by Limor Fried (aka "Lady Ada") in 2005.  All designs and guides are openly shared. </p>
+<p>Adafruit also provides <a href="https://learn.adafruit.com">Learn Guides</a> which uses the hardware to do cool stuff.
+Adafruit has almost 2,500 guides, and it can be overwhelming for those just starting out ("newbies"). </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>While there is no "right" or "wrong" approach to learning electronics, on this website I make some opinionated recommendations geared to the absolute "newbie" – people who are new to both electronics and to the Adafruit ecosystem.  </p>
+<p>Feel free to ignore my recommendations if you are already knowledgable in electronics in general and just wish to get quickly acclimated with the Adafruit lingo.  Often "newbies" just want a clearly defined roadmap, so my recommendations are for those who have no idea where to start and just want to get started somewhere.  I will explain why I make the particular recommendations.   </p>
+</div>
+<h1 id="the-adafruit-website">The Adafruit website</h1>
+<p>Let's begin with a general overview of how the <a href="https://www.adafruit.com">Adafruit website</a> is organized.<br />
+As of 1/2022, the adafruit.com website has a navigation bar on the top left.</p>
+<p><img alt="Screenshot" src="/images/adafruit-menu-banner-2022-01-05.png" /></p>
+<ul>
+<li><strong>"Shop"</strong> - the online store where you can peruse product pages, and place online orders.  Specific product pages will often include links to related Learn Guides. </li>
+<li><strong>"Learn"</strong> - where documenation and <a href="https://learn.adafruit.com/">Learn Guides</a> are located.  <em>More details below.</em></li>
+<li><strong>"Blog"</strong> - Adafruit's blog which is updated daily.  </li>
+<li><strong>"Forums"</strong> - Adafruit's support forums where you can seek help from customer support or the community.</li>
+<li><strong>"LIVE!"</strong> - where you can find Adafruit's currently live streaming show, or if there isn't currently a live stream their main YouTube Channel.  <em>More details below.</em></li>
+<li><strong>"AdaBox"</strong> - a link to their order page for Adabox.  <em>More on Adabox below.</em></li>
+<li><strong>"IO"</strong> - a link to Adafruit's online service. </li>
+</ul>
+<h1 id="learn-guides">Learn Guides</h1>
+<p>Adafruit offers thousands of <a href="https://learn.adafruit.com">learn guides</a> -- Most Learn Guides are walk throughs of specific projects with Adafruit hardware and software.  Some Learn Guides discuss  electronics topics. </p>
+<h3 id="guides-for-beginners">Guides for Beginners</h3>
+<p><a href="https://blog.adafruit.com/2021/04/20/adafruitlearningsystem-weekly-update-beginner/">https://blog.adafruit.com/2021/04/20/adafruitlearningsystem-weekly-update-beginner/</a></p>
+<p>"If you are just getting started with electronics, it can be difficult to know where to begin. With almost 2,500 guides published on the Adafruit Learning System, it might seem hard to figure out which guides are best for a beginner like you. Thankfully, we have each guide tagged with its difficulty level making it easier for beginners to find the right guides.
+We even have a curated beginners page that has a breakdown of guides that might interest those who know nothing about electronics, all the way through those who are just getting their feet wet."</p>
+<ul>
+<li>
+<p>Adafruit Learn Guides tagged "beginner":  <a href="https://learn.adafruit.com/guides/beginner">https://learn.adafruit.com/guides/beginner</a></p>
+</li>
+<li>
+<p>Adafruit Weekly Trending Learn Guides:  <a href="https://learn.adafruit.com/guides/trending">https://learn.adafruit.com/guides/trending</a></p>
+</li>
+<li>
+<p>Git repo for Adafruit Learning Guides (kinda large at 1.1GB):  <a href="https://github.com/adafruit/Adafruit_Learning_System_Guides">https://github.com/adafruit/Adafruit_Learning_System_Guides</a></p>
+</li>
+</ul>
+<h1 id="shows">Shows</h1>
+<p>Aside from articles on the adafruit.com website, Adafruit broadcasts many shows throughout the week covering various topics.  Most of these shows are posted to YouTube if you miss the live stream.</p>
+<ul>
+<li>Webpage with a description of Adafruit shows <a href="https://www.adafruit.com/shows">https://www.adafruit.com/shows</a></li>
+</ul>
+<p>The shows are great resources and very informative.  For an absolute newbie, some shows may be hard to digest since there is often an assumption that viewers already possess some basic understanding -- although if you attend a live stream, you may ask questions during the show, and Adafruit will likely answer your questions.</p>
+<h1 id="adabox">Adabox</h1>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Before we dive into the Adafruit ecosystem, a <em>Beginner's Recommendation</em>.</p>
+<p><strong>Adabox</strong></p>
+</div>
+<p><a href="https://www.adafruit.com/adabox">Adabox</a> is a discovery subscription service with curated Adafruit products.  The target audience is geared towards beginners and hobbyists.</p>
+<p>I'm skeptical of many subscription services, but in the case of Adabox, I whole-heartedly recommend that beginners (and non-beginners) give it a try.</p>
+<p>Adabox is released on a Quarterly cadence (as much as possible).<br />
+You have the option either to subscribe, or you can gift one or multiple Adabox to yourself (or others).</p>
+<p>Each Adabox is standalone and shipped with all the components and parts needed to construct projects.</p>
+<p>In my opinion, Adabox is for kids ages 12 and up.  Younger kids may need adults to help them.<br />
+The construction of the hardware is usually not that difficult -- it's more on the software/programming side where younger kids may need adult assistance.</p>
+<p>I've been an Adabox subscriber since <a href="https://www.adafruit.com/adabox015/">Adabox015</a>, and I've back purchased <a href="https://www.adafruit.com/adabox007/">Adabox007</a> and <a href="https://www.adafruit.com/adabox014/">Adabox014</a>, as well as bought the equivalent kits for <a href="https://www.adafruit.com/adabox008/">Adabox008</a>, <a href="https://www.adafruit.com/adabox010/">Adabox010</a>, <a href="https://www.adafruit.com/adabox011/">Adabox011</a>, <a href="https://www.adafruit.com/adabox012/">Adabox012</a>, and <a href="https://www.adafruit.com/adabox013/">Adabox013</a>.  </p>
+<p><strong>PROs</strong></p>
+<ul>
+<li>Value of all the equipment and shipping often exceeds the amount you pay for the subscription, and Adabox includes custom extras which are not available in their regular online store.  </li>
+<li>Cool unboxing live stream (recorded and available afterwards on YouTube) <ul>
+<li>Entertaining and goes through the contents of the Adabox</li>
+<li>Demo of one or two projects is shown.  </li>
+<li>If you attend the live stream, you may ask questions. </li>
+</ul>
+</li>
+<li>Adabox is often accompanied with a long list of Learn Guides (projects).  <ul>
+<li>The Learn Guides are accessible to newbies</li>
+</ul>
+</li>
+<li>Ask questions or request support via Adafruit's support forums.</li>
+</ul>
+<p><strong>CONs</strong></p>
+<ul>
+<li>Delivery of the Adabox can be delayed.  The global chip shortage and supply chain delays have made it difficult for Adafruit.  I received the most recent two adaboxes weeks after the official unboxing video (whereas in the past the unboxing videos were timed to coincide with the majority of customers to have already received their Adabox.)</li>
+<li>Occassionally there may be some things mentioned which could be hard for newbies to follow.    (Hence, why I wrote this guide.)</li>
+</ul>
+<h2 id="list-of-adaboxes">List of Adaboxes</h2>
+<table>
+<thead>
+<tr>
+<th align="left">Adabox</th>
+<th>Release Date</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Adabox001</td>
+<td>11/2016</td>
+<td>Welcome to feather - Feather 32u4 Adalogger, Neopixel feather wing, LCD 16x2, Piezo buzzer, TMP36 sensor, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox002</td>
+<td>12/2016</td>
+<td>Making Things Move - Feather Bluetooth LE Mini Robot - Feather 32u4 Bluefruit LE, DC Motor and Stepper FeatherWing, Piezo buzzer, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox003</td>
+<td>5/2017</td>
+<td>The World of IoT - Feather Huzzah with ESP8266 WiFi, Featherwing OLED 128x32, DHT22 sensor, Micro servo, PIR sensor, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox004</td>
+<td>8/2017</td>
+<td>Making Things Dance - Feather Huzzah with ESP8266 WiFi, MusicMaker Featherwing, 3W 4ohm speaker, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox005</td>
+<td>9/2017</td>
+<td>Break for Pi - Raspberry Pi Zero, Adafruit Joy Bonnet, Hammer Headers, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox006</td>
+<td>1/2018</td>
+<td>CircuitPython - Circuit Playground Express, Alligator clips, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox007</td>
+<td>6/2018</td>
+<td>Spy - Gemma M0, lock picks, practice lock, Piezo buzzer, etc  <a href="https://www.adafruit.com/adabox007">https://www.adafruit.com/adabox007</a></td>
+</tr>
+<tr>
+<td align="left">Adabox008</td>
+<td>10/2018</td>
+<td>Octo Crickit MakeRobotFriend - Circuit Playground Express, Adafruit CRICKIT for Circuit Playground Express, etc  <a href="https://www.adafruit.com/adabox008">https://www.adafruit.com/adabox008</a></td>
+</tr>
+<tr>
+<td align="left">Adabox009</td>
+<td>10/2018</td>
+<td>Hallowing - Adafruit Hallowing M0 Express, Micro Servo, PIR sensor, Neopixel LED strip, etc</td>
+</tr>
+<tr>
+<td align="left">Adabox010</td>
+<td>1/2019</td>
+<td>Rainbow Trellis - Adafruit NeoTrellis M4, etc <a href="https://www.adafruit.com/adabox010">https://www.adafruit.com/adabox010</a></td>
+</tr>
+<tr>
+<td align="left">Adabox011</td>
+<td>4/2019</td>
+<td>PyPortal - PyPortal, PyPortal Desktop Enclosure kit  <a href="https://www.adafruit.com/adabox011">https://www.adafruit.com/adabox011</a></td>
+</tr>
+<tr>
+<td align="left">Adabox012</td>
+<td>7/2019</td>
+<td>PyGamer - PyGamer, PyGamer acrylic enclosure kit, etc  <a href="https://www.adafruit.com/adabox012">https://www.adafruit.com/adabox012</a></td>
+</tr>
+<tr>
+<td align="left">Adabox013</td>
+<td>9/2019</td>
+<td>Monster M4sk - The Monster M4sk, etc  <a href="https://www.adafruit.com/adabox013">https://www.adafruit.com/adabox013</a></td>
+</tr>
+<tr>
+<td align="left">Adabox014</td>
+<td>12/2019</td>
+<td>Merry Adaboxmas - Circuit Playground Bluefruit, TFT Gizmo, snow globe, etc  <a href="https://www.adafruit.com/adabox014">https://www.adafruit.com/adabox014</a></td>
+</tr>
+<tr>
+<td align="left">Adabox015</td>
+<td>7/2020</td>
+<td>Come to your Sensors - Adafruit CLUE, Adafruit Bonsai Buckaroo, two Alligator clips, water pump, etc  <a href="https://www.adafruit.com/adabox015">https://www.adafruit.com/adabox015</a></td>
+</tr>
+<tr>
+<td align="left">Adabox016</td>
+<td>10/2020</td>
+<td>MatrixPortal - MatrixPortal M4, 64x32 RGB Matrix, LED Diffusion Acrylic, etc  <a href="https://www.adafruit.com/adabox016">https://www.adafruit.com/adabox016</a></td>
+</tr>
+<tr>
+<td align="left">Adabox017</td>
+<td>12/2020</td>
+<td>Good Fortune Ahead - MagTag, Neopixel strip, Magnetic whiteboard, etc  <a href="https://www.adafruit.com/adabox017">https://www.adafruit.com/adabox017</a></td>
+</tr>
+<tr>
+<td align="left">Adabox018</td>
+<td>5/17/2021</td>
+<td>No place like home - FunHouse, mini PIR sensor, ultrasonic distance sensor, etc  <a href="https://www.adafruit.com/adabox018">https://www.adafruit.com/adabox018</a></td>
+</tr>
+<tr>
+<td align="left">Adabox019</td>
+<td>7/31/2021</td>
+<td>Macropad   <a href="https://www.adafruit.com/adabox019">https://www.adafruit.com/adabox019</a></td>
+</tr>
+<tr>
+<td align="left">Adabox020</td>
+<td>10/27/2021</td>
+<td>LED Glasses  <a href="https://www.adafruit.com/adabox020/">https://www.adafruit.com/adabox020/</a></td>
+</tr>
+</tbody>
+</table>
+<p>https://www.adafruitdaily.com</p>
+<p>Welcome to Adafruit Daily. Choose what categories interest you, and we will send tips your way. Please note we send tips out Monday through Friday and each category corresponds to a specific day of the week. You can unsubscribe at any time.
+Which categories are you interested in?
+Electronics
+Python for Microcontrollers
+Maker Business
+New Products at Adafruit
+3D Printing
+Biohacking
+Wearables/Cosplay
+Internet of Things Monthly
+MakeCode
+EYE on NPI</p>
+<p>Check out the popular Python on Microcontrollers Newsletter here.
+https://www.adafruitdaily.com/category/circuitpython/</p>
+<h1 id="next-steps"><a href="website-structure/">Next Steps</a></h1>
+<div class="text-center">
+<a href="website-structure/" class="btn btn-primary" role="button">Next Steps</a>
+</div></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyleft &copy; 2022 <a href="https://github.com/jliu70">Jeff Liu</a></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

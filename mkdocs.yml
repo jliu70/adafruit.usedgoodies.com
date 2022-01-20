@@ -1,0 +1,41 @@
+site_name: Adafruit For Newbies
+site_url: https://adafruit.usedgoodies.com/
+nav:
+    - Home: index.md
+    - Getting Started: 
+        - Overview: getting-started/index.md
+        - How Website is Organized: getting-started/website-structure.md
+    - Hardware: 
+        - Overview: hardware/index.md
+        - Connectors: hardware/connectors.md
+    - CircuitPython: 
+        - Overview: circuitpython/index.md
+        - Installation: circuitpython/installation.md
+    - Glossary: 
+        - Index: glossary/index.md
+        - Backpack: glossary/backpack.md
+        - Cape: glossary/cape.md
+        - Feather: glossary/feather.md
+        - GPIO: glossary/gpio.md
+        - HAT: glossary/hat.md
+        - Itsy Bitsy: glossary/itsy_bitsy.md
+        - JST: glossary/jst.md
+        - QT Py: glossary/qt_py.md
+        - Qwiic: glossary/qwiic.md
+        - Sheild: glossary/shield.md
+        - Stemma: glossary/stemma_and_stemma_qt.md
+        - Stemma QT: glossary/stemma_and_stemma_qt.md
+
+    - About: about.md
+
+
+
+markdown_extensions:
+    - toc:
+        permalink:
+    - admonition
+    - attr_list
+    - def_list
+
+copyright: Copyleft &copy; 2022 <a href="https://github.com/jliu70">Jeff Liu</a>
+

@@ -173,6 +173,14 @@
             
             <li class="nav-item" data-level="1"><a href="#circuitpython" class="nav-link">CircuitPython</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#what-about-micropython" class="nav-link">What about Micropython?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#circuitpython-documentation" class="nav-link">CircuitPython Documentation</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -181,6 +189,7 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="circuitpython">CircuitPython</h1>
+<p>Python continues to be increasingly used for microcontroller projects.</p>
 <p>The majority of <a href="../hardware/">Adafruit hardware</a> can run either</p>
 <ul>
 <li>
@@ -198,7 +207,18 @@
 <p><em>A Beginner's Recommendation</em>.</p>
 <p><strong>CircuitPython</strong></p>
 </div>
-<p>I recommend <a href="https://circuitpython.org">CircuitPython</a> over Arduino for beginners because <code>python</code> is a more accesible programming language than <code>C++</code> (which is what Arduino uses).  Python syntax is more similar to plain language, and Python gives beginners an easier feedback loop as Python does not need to be compiled in the way that C++ (Arduino) code requires.</p></div>
+<p>I recommend <a href="https://circuitpython.org">CircuitPython</a> over Arduino for beginners because <code>python</code> is a more accesible programming language than <code>C++</code> (which is what Arduino uses).  Python syntax is more similar to plain language, and Python gives beginners an easier feedback loop as Python code does not need to be compiled in the way that C++ (Arduino) code requires.</p>
+<p><a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/what-is-circuitpython">What is CircuitPython?</a></p>
+<p>https://learn.adafruit.com/adafruit-circuit-playground-bluefruit</p>
+<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
+<h2 id="what-about-micropython">What about Micropython?</h2>
+<p>CircuitPython is a fork of Micropython.
+while CircuitPython looks somewhat like MicroPython there are some differences.
+https://github.com/adafruit/circuitpython#differences-from-micropython</p>
+<p>While I’d generally point folks towards MicroPython if they need advanced features like interrupts and threading — or complete access to the RP2040’s Programmable I/O (PIO) in Python — for library support for sensors and other breakouts I would point you to CircuitPython. It’s well supported by our friends at Adafruit.</p>
+<h2 id="circuitpython-documentation">CircuitPython Documentation</h2>
+<p>We are now sponsoring Read the Docs, where all of our documentation is hosted, which comes with a couple of perks. All of our docs are now ad-free. As well, I worked with our web devs to get the new docs.circuitpython.org URL set up. We’re now working to get all the libraries updated to use the new URL. </p>
+<p>http://docs.circuitpython.org/</p></div>
             </div>
         </div>
 

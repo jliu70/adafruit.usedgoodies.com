@@ -17,6 +17,9 @@ Adafruit has almost 2,500 guides, and it can be overwhelming for those just star
 !!! Note 
     While there is no "right" or "wrong" approach to learning electronics, on this website I make some opinionated recommendations geared to the absolute "newbie" – people who are new to both electronics and to the Adafruit ecosystem.  
     
+    You will see these labeled as:
+        *A Beginner's Recommendation*.
+
     Feel free to ignore my recommendations if you are already knowledgable in electronics in general and just wish to get quickly acclimated with the Adafruit lingo.  Often "newbies" just want a clearly defined roadmap, so my recommendations are for those who have no idea where to start and just want to get started somewhere.  I will explain why I make the particular recommendations.   
 
 
@@ -26,7 +29,7 @@ Adafruit has almost 2,500 guides, and it can be overwhelming for those just star
 Let's begin with a general overview of how the [Adafruit website](https://www.adafruit.com) is organized.  
 As of 1/2022, the adafruit.com website has a navigation bar on the top left.
 
-![Screenshot](/images/adafruit-menu-banner-2022-01-05.png)
+![Screenshot](/images/adafruit-menu-banner-2022-01-23.png)
 
 
 * **"Shop"** - the online store where you can peruse product pages, and place online orders.  Specific product pages will often include links to related Learn Guides. 

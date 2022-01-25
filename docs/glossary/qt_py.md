@@ -3,8 +3,6 @@
 
 ### [Back to Index](index.md)
 
-QT Py
+*Related* [Feather](feather.md), [QT Py](qt_py.md)
 
-Related
-Feather
-Itsy Bitsy
+QT Py is tiny.

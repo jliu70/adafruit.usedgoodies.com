@@ -3,9 +3,8 @@
 
 ### [Back to Index](index.md)
 
-Itsy Bitsy
+*Related* [Feather](feather.md), [QT Py](qt_py.md)
 
 
-Related
-Feather
-QT Py
+Itsy Bitsy is a medium sized board
+

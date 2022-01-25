@@ -1,6 +1,6 @@
 # Hardware
 
-The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through the cornicopia of terminology.
+The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.
 
 
 ## First Adafruit Hardware for Beginners
@@ -18,7 +18,7 @@ Among the many Adafruit devices, the [CircuitPlayground Bluefruit](https://learn
 - About the size of a Ritz cracker a
 - Supported by many Adafruit learn guides as well as online tutorials such as [CircuitPython School](https://bit.ly/circuit-python-school)
 
-A placeholder here.
+
 
 
 
@@ -28,6 +28,20 @@ The following should be in a sub-section:
 
 ## Comprehensive list of boards supported by CircuitPython
 As this website focuses on CircuitPython, all the boards currently supported by CircuitPython (Adafruit and other vendors) is available at [CircuitPython.org](https://circuitpython.org/downloads)
+
+There are over 270 boards currently supported by CircuitPython and that list grows everyday.
+The boards are listed in order of number of downloads, and it is interesting to note that the most popular board, as of Jan 2022 -- the Raspberry Pi Pico, is not even manufactured by Adafruit.
+
+
+Choosing a microcontroller for a project can be overwhelming.
+
+Here are some great Adafruit guides on how to choose a microcontroller:
+
+https://learn.adafruit.com/choose-your-circuitpython-board
+
+https://learn.adafruit.com/how-to-choose-a-microcontroller
+
+https://learn.adafruit.com/best-beginner-boards-for-teachers
 
 ## Considerations for Choosing a Board
 ##### Reference: CircuitPython School - Choosing a Board for CircuitPython - A Few Important Considerations-2dEBAN_bd9o.mp4
@@ -43,6 +57,8 @@ Ultimately there are many features to consider when choosing a board
 - Battery and Pass-thru chargning
 - Header pins
 - Cabling
+- Price 
+- Power
 
 
 ## Chipsets

@@ -2,9 +2,9 @@
 
 This website has three main sections, **Hardware**, **CircuitPython**, and **Glossary**
 
-For beginners, the Hardware and CircuitPython sections offer an opinionated roadmap/walkthrough of the adafruit ecosystem.
+For beginners, the Hardware and CircuitPython sections offer an opinionated roadmap/walkthrough of the Adafruit ecosystem.
 
-For non-beginners, to quickly look up the definition for a specific term, feel free to skip to the Glossary.
+For more experienced people or to quickly look up the definition of a specific term, feel free to jump to the Glossary.
 
 
 ## Hardware
@@ -31,7 +31,7 @@ This website will focus on [CircuitPython](../../circuitpython/) which is a vers
 
 ## Glossary 
 
-To quickly look up the definition for a specific term, feel free to skip to the Glossary
+Definitions for various terms, listed in alphabetical order.
 
 <div>
 <a href="../../glossary/" class="btn btn-primary" role="button">Glossary - Index</a>

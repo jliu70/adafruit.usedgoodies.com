@@ -64,8 +64,9 @@ Ultimately there are many features to consider when choosing a board
 ## Chipsets
 
 The microcontrollers are "mini-computers".
-The chips that they use are 
+Most Adafruit devices use one of the following chipsets: 
     SAMD21
+    SAMD51
     ESP32-S2
     ESP32-S3
     NRF52840

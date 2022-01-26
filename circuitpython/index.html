@@ -173,6 +173,14 @@
             
             <li class="nav-item" data-level="1"><a href="#circuitpython" class="nav-link">CircuitPython</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#what-is-circuitpython" class="nav-link">What is CircuitPython?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#makecode" class="nav-link">MakeCode</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
             <li class="nav-item" data-level="2"><a href="#what-about-micropython" class="nav-link">What about Micropython?</a>
               <ul class="nav flex-column">
               </ul>
@@ -189,7 +197,6 @@
                     <div class="col-md-9" role="main">
 
 <h1 id="circuitpython">CircuitPython</h1>
-<p>Python continues to be increasingly used for microcontroller projects.</p>
 <p>The majority of <a href="../hardware/">Adafruit hardware</a> can run either</p>
 <ul>
 <li>
@@ -201,24 +208,60 @@
 </li>
 </ul>
 <p>Some <a href="../hardware/">Adafruit hardware</a> is also compatible with <a href="https://makecode.org">MakeCode</a>.</p>
-<p>This website will focus on CircuitPython which is a version of python for microcontrollers recommended for beginners who are just getting started.  <a href="https://www.adafruit.com">Adafruit</a> is the principle backer for <a href="https://circuitpython.org">CircuitPython</a>.  </p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><em>A Beginner's Recommendation</em>.</p>
 <p><strong>CircuitPython</strong></p>
 </div>
-<p>I recommend <a href="https://circuitpython.org">CircuitPython</a> over Arduino for beginners because <code>python</code> is a more accesible programming language than <code>C++</code> (which is what Arduino uses).  Python syntax is more similar to plain language, and Python gives beginners an easier feedback loop as Python code does not need to be compiled in the way that C++ (Arduino) code requires.</p>
-<p><a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/what-is-circuitpython">What is CircuitPython?</a></p>
-<p>https://learn.adafruit.com/adafruit-circuit-playground-bluefruit</p>
-<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
+<h2 id="what-is-circuitpython">What is CircuitPython?</h2>
+<p>This website focuses on CircuitPython which is a version of python for microcontrollers.  <a href="https://www.adafruit.com">Adafruit</a> is the principle backer for <a href="https://circuitpython.org">CircuitPython</a>.  </p>
+<p>I recommend <a href="https://circuitpython.org">CircuitPython</a> over Arduino for beginners because:</p>
+<ul>
+<li>Python is a more accesible programming language than <code>C++</code> (which is what Arduino uses). <ul>
+<li>Python syntax is more similar to plain language</li>
+</ul>
+</li>
+<li>Python gives beginners an easier and quicker feedback loop <ul>
+<li>Python code does not need to be compiled in the way that C++ (Arduino) code requirees.<ul>
+<li>With CircuitPython, the code is stored and run directly on the microcontroller, aka "click save and your code starts running" </li>
+</ul>
+</li>
+<li>Arduino code requires the traditional method of:<ul>
+<li>Compiling code on an external device (e.g., your laptop)</li>
+<li>Downloading the compiled binary to the microcontroller through the Arduino IDE</li>
+<li>Debugging the code</li>
+<li>Watching the output</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Because of these and other reasons, Python continues to be increasingly used for microcontroller projects.</p>
+<h2 id="makecode">MakeCode</h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Great for younger students, <a href="https://makecode.org">MakeCode</a> is a blocked-based programming language which is similar to <a href="https://scratch.mit.edu">Scratch</a>.  </p>
+</div>
+<p>Block-based programming, such as <a href="https://makecode.org">MakeCode</a> or <a href="https://scratch.mit.edu">Scratch</a>, is great for younger beginners.  Using drag-and-drop blocks avoids common syntax errors like typos or formatting issues, which can be source of frustration for new programmers.   However, the power and flexiblity of block-based programs is limited.  </p>
+<p>Hence for older students, or those students already experienced with <a href="https://scratch.mit.edu">Scratch</a> or <a href="https://makecode.org">MakeCode</a>, I recommend jumping straight into python.</p>
+<p>For those looking to ease the transition from block-based programming to python, <a href="https://edublocks.org">EduBlocks</a> is an interesting hybrid which offers python in a block-based format.</p>
 <h2 id="what-about-micropython">What about Micropython?</h2>
-<p>CircuitPython is a fork of Micropython.
-while CircuitPython looks somewhat like MicroPython there are some differences.
-https://github.com/adafruit/circuitpython#differences-from-micropython</p>
+<p>CircuitPython is a fork of Micropython.  While CircuitPython looks somewhat like MicroPython there are some <a href="https://github.com/adafruit/circuitpython#differences-from-micropython">differences</a>.</p>
 <p>While I’d generally point folks towards MicroPython if they need advanced features like interrupts and threading — or complete access to the RP2040’s Programmable I/O (PIO) in Python — for library support for sensors and other breakouts I would point you to CircuitPython. It’s well supported by our friends at Adafruit.</p>
 <h2 id="circuitpython-documentation">CircuitPython Documentation</h2>
 <p>We are now sponsoring Read the Docs, where all of our documentation is hosted, which comes with a couple of perks. All of our docs are now ad-free. As well, I worked with our web devs to get the new docs.circuitpython.org URL set up. We’re now working to get all the libraries updated to use the new URL. </p>
-<p>http://docs.circuitpython.org/</p></div>
+<p>http://docs.circuitpython.org/</p>
+<p>Community
+https://learn.adafruit.com/welcome-to-the-community</p>
+<p><a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/what-is-circuitpython">What is CircuitPython?</a></p>
+<p>https://learn.adafruit.com/adafruit-circuit-playground-bluefruit</p>
+<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
+<p><strong>Additional References</strong></p>
+<ul>
+<li><a href="https://arduino.cc">Arduino</a> </li>
+<li><a href="https://makecode.org">MakeCode</a> </li>
+<li><a href="https://scratch.mit.edu">Scratch</a></li>
+</ul></div>
             </div>
         </div>
 

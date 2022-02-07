@@ -1,38 +1,7 @@
 # About
 
-## Troiae his coepere ferebat hasta
 
-Lorem markdownum placerent ipse nubes, editus pronos aethera Ilithyiam **et**
-dignus, procellamnos. Verba sententia Erigdupum quidem. Sui ictu faces solidoque
-moenia dolor furialibus stirpe artibus praesens! Quoque tune animos bos haec
-humum incumbensque rota dum. Medium flectitur in amicius ingeminat ullis grates
-edidit.
+This guide is for people new to Adafruit and to electronics.  The focus is on the Adafruit ecosystem -- to provide a roadmap for people new to the Adafruit ecosystem.  We will review Adafruit lingo and branding.  This website does not cover electronics in general --  Along the way some electronics will be discussed, but this website will not cover topics in depth.  As much as possible, links to additional resources or references will be provided.
 
-    computerFlops = -1;
-    internicBookmark /= 2;
-    networking_cybercrime(artificial * netbios_express / -1,
-            server_minimize_aiff);
-
-Crura tres aequora **oramus vacuus secum** Lycaona erile. Natam secum, miserere
-*sollertia* quae. Et hoc pignus fata; erat ut cingentibus locorum
-[nostra](http://www.non.com/illotyranni.html).
-
-## Sub simulaverat sui Bacche retroque effugies longa
-
-Pugnem alienae comites. Tabellas albenti sanguine, hi
-[inter](http://inaccipit.com/abit-et.html), femina tanta tua Danai ad festum,
-aberant: fores rami. Nec caput viam actis herbis solvit corpore iubet, patrem
-intus mihi locum.
-
-Circes quae egi acceptaque quidem abest orbis dicunt commenta tenax me hunc
-bellique pudorem Dianae provolvi aestu! Faciunt in fine tegi. Sit tamen, mihi
-ipsosque est corpore, in illa et, si ore dare in Cypron. Lycormas quid.
-
-1. Ales vasto aurea fides inopem Phineus carpsere
-2. Femina redeuntis agisque referuntur monte
-3. Visa obstat undae meque nescit an tempusque
-4. Sumpto se illud artes venae
-
-Diversorum caeli inattenuata perque siccis poterit scelus, Rhamnusidis fuit
-nactus. Pulsant est existit apertas **pondera**, sed stratum preces certamine
-lenita temptemus atria.
+!!! note
+    I am not affiliated with Adafruit in any way, and I am not being paid by Adafruit.  I'm just a huge fan of Adafruit.  I wrote this guide because I haven't seen anything on Adafruit similar to this.

@@ -1,5 +1,12 @@
 site_name: Adafruit For Newbies
 site_url: https://adafruit.usedgoodies.com/
+
+theme:
+    name: mkdocs
+    locale: en
+    highlightjs: true
+    hljs_style: agate
+
 nav:
     - Home: index.md
     - Getting Started: 
@@ -7,7 +14,7 @@ nav:
         - How Website is Organized: getting-started/website-structure.md
     - Hardware: 
         - Overview: hardware/index.md
-        - Connectors: hardware/connectors.md
+        - Choosing a Board: hardware/choosing_a_board.md
     - CircuitPython: 
         - Overview: circuitpython/index.md
         - Installation: circuitpython/installation.md
@@ -15,20 +22,30 @@ nav:
         - Index: glossary/index.md
         - Backpack: glossary/backpack.md
         - Cape: glossary/cape.md
+        - Circuit Playground: glossary/circuit_playground.md
+        - Clue: glossary/clue.md
+        - Connectors: glossary/connectors.md
+        - Crickit: glossary/crickit.md
         - Feather: glossary/feather.md
+        - FeatherWing: glossary/feather#featherwing
+        - Glider: glossary/glider.md
         - GPIO: glossary/gpio.md
+        - Grove: glossary/connectors#grove
         - HAT: glossary/hat.md
+        - I2C: glossary/i2c.md
         - Itsy Bitsy: glossary/itsy_bitsy.md
-        - JST: glossary/jst.md
+        - JST: glossary/connectors#jst
+        - Metro: glossary/metro.md
+        - Neopixel: glossary/neopixel.md
+        - PyLeap: glossary/pyleap.md
         - QT Py: glossary/qt_py.md
-        - Qwiic: glossary/qwiic.md
+        - Qwiic: glossary/connectors#qwiic
         - Sheild: glossary/shield.md
-        - Stemma: glossary/stemma_and_stemma_qt.md
-        - Stemma QT: glossary/stemma_and_stemma_qt.md
-
+        - SPI: glossary/spi.md
+        - Stemma: glossary/connectors#stemma
+        - Stemma QT: glossary/connectors#stemma-qt
+        - Teensy: glossary/teensy.md
     - About: about.md
-
-
 
 markdown_extensions:
     - toc:

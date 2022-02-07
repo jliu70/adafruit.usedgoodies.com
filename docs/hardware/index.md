@@ -3,23 +3,28 @@
 The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.
 
 
-## First Adafruit Hardware for Beginners
+## Recommended: First Adafruit Hardware for Beginners
 
 !!! note
     *A Beginner's Recommendation*.
 
     **CircuitPlayground Bluefruit**
 
-Among the many Adafruit devices, the [CircuitPlayground Bluefruit](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit) is a more accesible to beginners:
+Among the many Adafruit devices, the [CircuitPlayground Bluefruit](https://www.adafruit.com/product/4333) is a more accesible to beginners:
 
 - Runs [CircuitPython](https://circuitpython.org)
 - Alligator clips instead of soldering
-- Loaded with features: tons of sensors, accelerometers, neopixels, speaker, etc
-- About the size of a Ritz cracker a
-- Supported by many Adafruit learn guides as well as online tutorials such as [CircuitPython School](https://bit.ly/circuit-python-school)
+- Loaded with features: tons of sensors, accelerometer, neopixels, speaker, etc
+- About the size of a Ritz cracker
+- Supported by many Adafruit learn guides as well as third-party online tutorials such as [CircuitPython School](https://www.youtube.com/watch?v=eU1e6xPvZEU&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2)
 
 
+[Bluefruit School](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPRm9MhIOvnfNLe7fWYPx6ak)
 
+[Learn Guide: CircuitPlayground Bluefruit](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
+
+![Bluefruit Screenshot](https://cdn-learn.adafruit.com/assets/assets/000/080/460/original/adafruit_products_CPB_labeled.jpg?1567626680)
+Source: [https://learn.adafruit.com/assets/80460](https://learn.adafruit.com/assets/80460)
 
 
 ## Microcontrollers
@@ -73,6 +78,10 @@ Most Adafruit devices use one of the following chipsets:
     RP2040
 
 
+https://github.com/adafruit/PrettyPins
+CSV files for Adafruit pin out diagrams - only needed to be done once per chip
+
+
 
 https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/
 
@@ -99,39 +108,16 @@ https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers
 
 
 
-!!! warning
-    Using absolute paths with links is not officially supported. Relative paths
-    are adjusted by MkDocs to ensure they are always relative to the page. Absolute
-    paths are not modified at all. This means that your links using absolute paths
-    might work fine in your local environment but they might break once you deploy
-    them to your production server.
-
-## GPIO
-General Purpose Input/Output 
-#raspberrypi #STEM  Website reference guide to the GPIO pins:
-https://pinout.xyz
-
-
 # Connectors
 
-[Go to Connectors](connectors)
+[Go to Connectors](../glossary/connectors)
 
 <div>
-<a href="connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
+<a href="../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
 </div>
 
 
-JST 
 
-Shields, FeatherWings, HATs, Capes… 
-
-Shields
-Example: Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface  https://www.adafruit.com/product/1411
-
-
-FeatherWings
-Example:  NeoPixel FeatherWing for all Feather Boards https://www.adafruit.com/product/2945
-Plugin add-on boards that provide additional features.  E.g., running motors, adding sensors, include displays, add bluetooth or WiFi capabliities.
 
 Feather Format is an Adafruit standard format for microcontrollers (Large, comparatively for microcontrollers.  It's still pretty small compared to a Raspberry Pi or other types of SBCs) 
 Alot of feather boards.  All the same size and mostly use the same standards for pins and connections.  NOTE: not all feathers run CircuitPython.
@@ -142,20 +128,12 @@ QT Py (Tiny)
 
 
 
-HATs
-Example:  Raspberry Pi Build HAT for Lego
-https://blog.adafruit.com/2021/11/12/the-raspberry-pi-build-hat-and-lego-components-at-raspberry_pis-coderdojo-piday-raspberrypi/
-
-
-Capes
-Example: 4.3" LCD Capacitive Touchscreen Display Cape for BeagleBone  https://www.adafruit.com/product/3396
-
-
 BFF 
 BFF is the placeholder name for Adafruit expansion boards for QT Py boards
 https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
 https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/
 
 
-Stemma 
-Stemma QT 
+STEMMA 
+
+STEMMA QT 

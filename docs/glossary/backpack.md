@@ -7,7 +7,7 @@ Backpack
 LED backpacks for 7 Segment or alphanumeric displays
 
 
-As of 1/19/2022 a few of these have been updated with [Stemma QT](stemma_and_stemma_qt.md) to have easy setup without the need for soldering.
+As of 1/19/2022 a few of these have been updated with [Stemma QT](connectors.md#stemma-qt) to have easy setup without the need for soldering.
 
 
 Example products

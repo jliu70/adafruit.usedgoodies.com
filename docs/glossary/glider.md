@@ -5,6 +5,7 @@
 
 Glider
 
-Related
-PyLeap
-Circuit Playground Bluefruit
+
+*Related* [Pyleap](pyleap.md), [Circuit Pyaground Bluefruit](circuit_playground.md)
+
+

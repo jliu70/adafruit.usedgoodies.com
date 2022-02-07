@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://adafruit.usedgoodies.com/glossary/connectors/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Connectors - Adafruit For Newbies</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/agate.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">Adafruit For Newbies</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Getting Started <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../getting-started/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../getting-started/website-structure/" class="dropdown-item">How Website is Organized</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Hardware <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../hardware/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../hardware/choosing_a_board/" class="dropdown-item">Choosing a Board</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">CircuitPython <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../circuitpython/" class="dropdown-item">Overview</a>
+</li>
+                                    
+<li>
+    <a href="../../circuitpython/installation/" class="dropdown-item">Installation</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Glossary <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../" class="dropdown-item">Index</a>
+</li>
+                                    
+<li>
+    <a href="../backpack/" class="dropdown-item">Backpack</a>
+</li>
+                                    
+<li>
+    <a href="../cape/" class="dropdown-item">Cape</a>
+</li>
+                                    
+<li>
+    <a href="../circuit_playground/" class="dropdown-item">Circuit Playground</a>
+</li>
+                                    
+<li>
+    <a href="../clue/" class="dropdown-item">Clue</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Connectors</a>
+</li>
+                                    
+<li>
+    <a href="../crickit/" class="dropdown-item">Crickit</a>
+</li>
+                                    
+<li>
+    <a href="../feather/" class="dropdown-item">Feather</a>
+</li>
+                                    
+<li>
+    <a href="../feather#featherwing" class="dropdown-item">FeatherWing</a>
+</li>
+                                    
+<li>
+    <a href="../glider/" class="dropdown-item">Glider</a>
+</li>
+                                    
+<li>
+    <a href="../gpio/" class="dropdown-item">GPIO</a>
+</li>
+                                    
+<li>
+    <a href="../connectors#grove" class="dropdown-item">Grove</a>
+</li>
+                                    
+<li>
+    <a href="../hat/" class="dropdown-item">HAT</a>
+</li>
+                                    
+<li>
+    <a href="../i2c/" class="dropdown-item">I2C</a>
+</li>
+                                    
+<li>
+    <a href="../itsy_bitsy/" class="dropdown-item">Itsy Bitsy</a>
+</li>
+                                    
+<li>
+    <a href="../connectors#jst" class="dropdown-item">JST</a>
+</li>
+                                    
+<li>
+    <a href="../metro/" class="dropdown-item">Metro</a>
+</li>
+                                    
+<li>
+    <a href="../neopixel/" class="dropdown-item">Neopixel</a>
+</li>
+                                    
+<li>
+    <a href="../pyleap/" class="dropdown-item">PyLeap</a>
+</li>
+                                    
+<li>
+    <a href="../qt_py/" class="dropdown-item">QT Py</a>
+</li>
+                                    
+<li>
+    <a href="../connectors#qwiic" class="dropdown-item">Qwiic</a>
+</li>
+                                    
+<li>
+    <a href="../shield/" class="dropdown-item">Sheild</a>
+</li>
+                                    
+<li>
+    <a href="../spi/" class="dropdown-item">SPI</a>
+</li>
+                                    
+<li>
+    <a href="../connectors#stemma" class="dropdown-item">Stemma</a>
+</li>
+                                    
+<li>
+    <a href="../connectors#stemma-qt" class="dropdown-item">Stemma QT</a>
+</li>
+                                    
+<li>
+    <a href="../teensy/" class="dropdown-item">Teensy</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="navitem">
+                                <a href="../../about/" class="nav-link">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../clue/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../crickit/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#connectors" class="nav-link">Connectors</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#grove" class="nav-link">Grove</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#jst" class="nav-link">JST</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#qwiic" class="nav-link">QWIIC</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#stemma" class="nav-link">STEMMA</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#stemma-qt" class="nav-link">STEMMA QT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#stemma-and-stemma-qt" class="nav-link">STEMMA and STEMMA QT</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#what-is-the-difference-between-stemma-and-stemma-qt" class="nav-link">What is the difference between Stemma and Stemma QT</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#connector-comparison" class="nav-link">Connector Comparison</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="connectors">Connectors</h1>
+<h3 id="back-to-index"><a href="../">Back to Index</a></h3>
+<p><em>Related</em> <a href="../i2c/">I2C</a>, <a href="../spi/">SPI</a></p>
+<p>Connectors</p>
+<h2 id="grove">Grove</h2>
+<p>https://www.seeedstudio.com/Grove-Qwiic-Hub-p-4531.html
+    Different from our Grove system, Qwiic is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with Qwiic, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - Qwiic Hub, which enables you easily connect the I2C devices with Grove/Qwiic/STEMMA QT interface, get the best use of your devices/controller of different interfaces.</p>
+<p><em>Related</em> <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">Stemma</a>, <a href="./#stemma-qt">Stemma QT</a>, <a href="./">What is the difference between Stemma and Stemma QT</a></p>
+<h2 id="jst">JST</h2>
+<p>https://en.wikipedia.org/wiki/JST_connector
+    JST Series  "SH" 1.00 mm pin-to-pin pitch     "PH"  2.00mm pin-to-pin pitch
+https://www.linkedin.com/company/jst-sales-america-inc<br />
+    J.S.T. = Japanese Solderless Terminals As our company name implies, Solderless Terminal, has real significance. When JST was established in 1957, we were Japan's first manufacturer and distributor of Solderless Terminals.
+The Great Search: JST Connectors SH and PH  https://www.youtube.com/watch?v=s5XYd0Z0HFw  1/5/2021
+    1:14 JST PH great for power - Sparkfun originally started LiPo Battery connectors and it became a Maker standard. 
+    2:25 Stemma QT - JST SH  - Sparkfun also originated Qwiic for breakout boards
+    Also a brief intro to i2c (i2c has become the standard for sensors - rarely see SPI over sensors anymore) https://youtu.be/s5XYd0Z0HFw?t=169
+Grove 10th Anniversary Documentary 12/31/2020  https://www.youtube.com/watch?v=r-W0XYhVdTk
+NOTE: so STEMMA QT is different to STEMMA (see CircuitPython School video) -   STEMMA QT is equivalent to Sparkfun Qwiic.    </p>
+<p><em>Related</em> <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">Stemma</a>, <a href="./#stemma-qt">Stemma QT</a>, <a href="./">What is the difference between Stemma and Stemma QT</a></p>
+<h2 id="qwiic">QWIIC</h2>
+<p>https://www.seeedstudio.com/Grove-Qwiic-Hub-p-4531.html
+    Different from our Grove system, Qwiic is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with Qwiic, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - Qwiic Hub, which enables you easily connect the I2C devices with Grove/Qwiic/STEMMA QT interface, get the best use of your devices/controller of different interfaces.</p>
+<p><em>Related</em> <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">Stemma</a>, <a href="./#stemma-qt">Stemma QT</a>, <a href="./">What is the difference between Stemma and Stemma QT</a></p>
+<h2 id="stemma">STEMMA</h2>
+<p>https://www.adafruit.com/category/1005</p>
+<p>STEMMA is a plug-and-play board and sensor system that lets you quickly plug together various devices and accessories, without any soldering! STEMMA uses 3-pin cables for simple analog and digital devices, like relays and buttons. For more complex sensors and displays, we use a 4-wire I2C connection. For larger boards and devices we use a Grove-compatible connector, for smaller ones we use a Qwiic-compatible connector called STEMMA QT.</p>
+<p>As all STEMMA sensors have level shifting and voltage regulation, you can use them safely with any 3 to 5V power and logic device - from microcontrollers like Arduino-compatibles, to full Linux single board computers like the Raspberry Pi. We even have USB to I2C adapters that let you connect STEMMA devices directly to a computer without any microcontroller programming required! Then, use our Arduino or CircuitPython/Python libraries and examples to easily get your electronics project working on any platform with STEMMA and STEMMA QT.</p>
+<p>As all STEMMA sensors have level shifting and voltage regulation, you can use them safely with any 3 to 5V power and logic device - from microcontrollers like Arduino-compatibles, to full Linux single board computers like the Raspberry Pi. We even have USB to I2C adapters that let you connect STEMMA devices directly to a computer without any microcontroller programming required! Then, use our Arduino or CircuitPython/Python libraries and examples to easily get your electronics project working on any platform with STEMMA and STEMMA QT.</p>
+<p><em>Related</em> <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">Stemma</a>, <a href="./#stemma-qt">Stemma QT</a>, <a href="./">What is the difference between Stemma and Stemma QT</a></p>
+<h2 id="stemma-qt">STEMMA QT</h2>
+<p>https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
+    What is STEMMA QT?
+    We like the JST PH 2.0mm pitch cables because they are cross-compatible with Grove/Gravity. But they're a bit large for smaller breakout boards and wearables. So, for smaller I2C devices, we'll use the JST SH that SparkFun Qwiic uses, so that Qwiic &amp; STEMMA QT sensors are cross-compatible!<br />
+    https://www.youtube.com/watch?v=6GXRRuFuFy0</p>
+<p>CircuitPython School - Choosing a Board for CircuitPython - A Few Important Considerations-2dEBAN_bd9o.mp4
+Minute 6:15 Stemma-QT is discussed
+Minute 8:49 Stemma standard is discussed - not plug-compatible with Stemma-QT</p>
+<p>STEMMA - JST PH 3 and 4 pin connectors (2.0mm pitch connectors)
+ 4 pins - I2C
+ 3 pins - PWM/Analog/Digital
+ Cross-compatible with Grove/Gravity</p>
+<p>STEMMA-QT - JST SH (1.0mm pitch connectors)
+ 4 pins - I2C (when the larger JST PH connectors won't fit on a small sensor board)
+ Cross-compatible with SparkFun Qwiic</p>
+<p>From the video description <code>https://www.youtube.com/watch?v=_Cu7UOcGL14</code>
+ STEMMA started in 2014, intended to be compatible with Grove (cause Grove is all that existed at the time - since 2010)
+ QWIIC started in 2017, STEMMA-QT added so that could use the smaller connectors.
+ In addition - on the comparison page it states that Grove is a proprietary 4 pin 2.0mm pitch connector.
+ STEMMA attempts to be as cross-compatible as possible with both Grove and Gravity (compatible connectors &amp; 3-5V power/logic). STEMMA QT is cross-compatible with Qwiic - STEMMA QT connector/cable is same as Qwiic. You can use STEMMA QT devices with Qwiic devices/controllers.
+ There is also a table which outlines the compatability matrix.  https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison</p>
+<p>Minute 4:00 - Arduino Nano RP2040 Connect Pros and Cons listed
+Minute 10:30 - Feather RP2040 Pros and Cons listed
+Minute 11:19 - QT Py RP2040 Pros and Cons listed
+Minute 12:19 Microcontrollers vs "Computers"</p>
+<p>CircuitPython School - Adding STEMMA QT_Qwiic to an Arduino RP2040 + Using a Temperature Sensor-IX3VvSU3bCY.mp4
+Minute 0:57  Stemma QT recap
+Minute 1:42 shows some boards which have STEMMA-QT ports</p>
+<ul>
+<li>[ ] Awesome list for Stemma QT:  https://github.com/adafruit/awesome-stemma</li>
+</ul>
+<p><em>Related</em> <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">Stemma</a>, <a href="./#stemma-qt">Stemma QT</a>, <a href="./">What is the difference between Stemma and Stemma QT</a></p>
+<h2 id="stemma-and-stemma-qt">STEMMA and STEMMA QT</h2>
+<ul>
+<li>[ ] Explanation of STEMMA and STEMMA QT https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma  Also explains the differences to Grove and Qwiic  <code>https://www.youtube.com/watch?v=_Cu7UOcGL14</code>  7/28/2019</li>
+</ul>
+<p>https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt
+    What is STEMMA QT?
+    We like the JST PH 2.0mm pitch cables because they are cross-compatible with Grove/Gravity. But they're a bit large for smaller breakout boards and wearables. So, for smaller I2C devices, we'll use the JST SH that SparkFun Qwiic uses, so that Qwiic &amp; STEMMA QT sensors are cross-compatible!<br />
+    https://www.youtube.com/watch?v=6GXRRuFuFy0</p>
+<p>https://www.seeedstudio.com/Grove-Qwiic-Hub-p-4531.html
+    Different from our Grove system, Qwiic is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with Qwiic, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - Qwiic Hub, which enables you easily connect the I2C devices with Grove/Qwiic/STEMMA QT interface, get the best use of your devices/controller of different interfaces.</p>
+<h1 id="what-is-the-difference-between-stemma-and-stemma-qt">What is the difference between Stemma and Stemma QT</h1>
+<p>Stemma, Qwiic and Grove Connectors: Which is Right for You?
+https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors  4/24/2021
+What are Stemma and Stemma QT?
+Adafruit’s Stemma connector arrived in 2018 and essentially it is three or four pin JST PH with 2.00 mm pitch, a connector which is keyed so that it cannot be inserted incorrectly. Stemma is seen on larger boards such as PyPortal which has plenty of space for multiple three and four pin connectors.
+There are two forms of Stemma connectors, a three or four pin connector. The three pin connector is used for Pulse Width Modulation, Analog and Digital IO. Using this connector we can control Neopixels, read analog sensors and use digital IO devices such as LEDs and buttons. The four-pin connector is for I2C (Inter-Integrated Circuit) components, enabling the use of multiple sensors / devices on a single bus thanks to devices having an address which can be read from / written to.
+Stemma is a great connector, but for smaller boards, such as Adafruit’s QT Py RP2040 we need something smaller and that is where Stemma QT (‘cutie’) comes in. Stemma QT is a smaller version of the four pin Stemma format, roughly half the size of Stemma, with a 1.0 mm pitch. Stemma QT is only for use with I2C components. Analog, PWM and digital IO connections are made via the traditional GPIO.
+The pin order for QT is designed to match the pin order for SparkFun’s Qwiic enabling the use of Qwiic add-ons with Stemma QT boards and for the reverse to also be true.
+Examples of Stemma QT boards are Adafruit’s MPR121 capacitive touch sensor, SGP40 air quality sensor, aBME680 temperature / humidity / pressure sensor and AMG8833 IR thermal camera.</p>
+<p>What is Qwiic?
+SparkFun’s Qwiic Connect System was released in 2017 and is for use with I2C components. It is compatible with Adafruit’s Stemma and Stemma QT as Qwiic uses the same pin ordering. Qwicc, like Stemma, uses the I2C protocol and enables components to be daisy chained together.
+Qwiic connectors can be found on many of SparkFun’s boards such as the MicroMod ATP carrier board which uses an M.2 slot, the MicroMod standard, for interchangeable processor boards such as the ESP32, Artemis and the new RP2040. There are also adapters for using Qwiic components on the Raspberry Pi via a HAT and pHAT and for the Arduino range of boards.
+With SparkFun’s Qwiic connector we can easily connect sensors such as the HC-SR04 ultrasonic sensor, soil moisture sensor and even a NEO-M9N GPS breakout.</p>
+<p>What is Seeed Studio’s Grove Connector?
+Seeed Studio’s Grove connector is a proprietary connector for its range of boards and boards made in partnership with Arduino. The Grove connector is a 4-pin cable which can be used with analog, PWM, digital IO and I2C.</p>
+<p>Grove is compatible with Stemma components, but only for I2C devices as analog, PWM and digital IO are not compatible. If you are unsure, just take a look at the component. If it has SDA / SCL pins, then it is an I2C device.</p>
+<p>If you have never used Grove connections before, then the Grove Beginner Kit is worth your investment. In the kit we get an OLED screen, DHT11 temperature sensor, microphone, light sensor and a bonus Arduino compatible board.</p>
+<h2 id="connector-comparison">Connector Comparison</h2>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Connector</th>
+<th>Voltage / Logic</th>
+<th>Protocols</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stemma</td>
+<td>JST PH 3 / 4 Pin 2.0mm pin pitch</td>
+<td>3-5V DC</td>
+<td>4 Pin I2C or 3 Pin Analog / Digital / PWM</td>
+</tr>
+<tr>
+<td>Stemma QT</td>
+<td>JST SH 4 pin 1.0mm pin pitch</td>
+<td>3-5V DC</td>
+<td>I2C</td>
+</tr>
+<tr>
+<td>Qwiic</td>
+<td>JST SH 4 pin 1.0mm pin pitch</td>
+<td>3V DC</td>
+<td>I2C</td>
+</tr>
+<tr>
+<td>Grove</td>
+<td>Proprietary 4 pin 2.0mm pin pitch, Compatible with Stemma I2C only</td>
+<td>3-5V DC</td>
+<td>4 Pin I2C / Analog / Digital / PWM</td>
+</tr>
+</tbody>
+</table>
+<p>Which Connector is Right For You?
+The answer is based on what boards you already have and what you want to achieve. If you have Adafruit’s boards, then you will most likely have some form of Stemma / Stemma QT connector and so the entire range of add-ons is available to you. You will also have access to SparkFun’s Qwiic range of add ons which opens up a plethora of options for your projects. This is also true if you have any of SparkFun’s boards with Qwiic connectors. </p>
+<p>Seeed’s Grove connectors work with Arduino, Raspberry Pi and now the Raspberry Pi Pico. So buying one set of Grove components is good value for those that wish to use them across multiple platforms.</p>
+<p>Ultimately the choice is yours. What projects you wish to build will dictate the choices that you make. But no matter what choice you make, all of these connectors make electronics a breeze and give you the confidence to learn new skills without worrying about your wiring.</p></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyleft &copy; 2022 <a href="https://github.com/jliu70">Jeff Liu</a></p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

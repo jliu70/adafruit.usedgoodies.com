@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        <link rel="canonical" href="https://adafruit.usedgoodies.com/glossary/shield/">
+        <link rel="canonical" href="https://adafruit.usedgoodies.com/glossary/i2c/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Sheild - Adafruit For Newbies</title>
+        <title>I2C - Adafruit For Newbies</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -132,7 +132,7 @@
 </li>
                                     
 <li>
-    <a href="../i2c/" class="dropdown-item">I2C</a>
+    <a href="./" class="dropdown-item active">I2C</a>
 </li>
                                     
 <li>
@@ -164,7 +164,7 @@
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">Sheild</a>
+    <a href="../shield/" class="dropdown-item">Sheild</a>
 </li>
                                     
 <li>
@@ -196,12 +196,12 @@
                             </a>
                         </li>
                             <li class="nav-item">
-                                <a rel="prev" href="../qt_py/" class="nav-link">
+                                <a rel="prev" href="../hat/" class="nav-link">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="../spi/" class="nav-link">
+                                <a rel="next" href="../itsy_bitsy/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -223,7 +223,7 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#shield" class="nav-link">Shield</a>
+            <li class="nav-item" data-level="1"><a href="#i2c" class="nav-link">I2C</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -232,11 +232,15 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="shield">Shield</h1>
+<h1 id="i2c">I2C</h1>
 <h3 id="back-to-index"><a href="../">Back to Index</a></h3>
-<p><em>Related</em> <a href="../hat/">HAT</a></p>
-<p>Shield</p>
-<p>Example: Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface  https://www.adafruit.com/product/1411</p></div>
+<p><em>Related</em> <a href="../spi/">SPI</a>, <a href="../connectors/#qwiic">QWIIC</a>, <a href="../connectors/#stemma">STEMMA</a>, <a href="../connectors/#stemma-qt">STEMMA QT</a>, <a href="../connectors/#what-is-the-difference-between-stemma-and-stemma-qt">What is the difference between Stemma and Stemma QT</a></p>
+<p>I2C</p>
+<p>https://blog.adafruit.com/2022/02/03/luxuriously-long-stemma-qt-cable-samples/</p>
+<div class="admonition quote">
+<p class="admonition-title">Quote</p>
+<p>I2C was never meant to go 200, 300 or 400mm but we laugh in the face of death thanks to these samples we got of some looooooooong stemma qt cables. each cable has two JST SH connectors on either end and a PVC sheathed center. we were inspired by this tweet https://twitter.com/lovyan03/status/1480867328783163396 about I2C wire interleaving with power in order to avoid cross-talk for long cables (I2C is not differential so you definitely do not want to use twisted wires!) if you look closely, the cable is flat and has the red power wire between SDA and SCL instead of having them next to each other. we’re just trying it out here with our fancy new ESP32 Feather V2 which has an onboard STEMMA QT connector </p>
+</div></div>
             </div>
         </div>
 

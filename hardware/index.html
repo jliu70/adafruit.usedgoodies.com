@@ -12,7 +12,7 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/github.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/styles/agate.min.css">
 
         <script src="../js/jquery-1.10.2.min.js" defer></script>
         <script src="../js/bootstrap.min.js" defer></script>
@@ -58,7 +58,7 @@
 </li>
                                     
 <li>
-    <a href="connectors/" class="dropdown-item">Connectors</a>
+    <a href="choosing_a_board/" class="dropdown-item">Choosing a Board</a>
 </li>
                                 </ul>
                             </li>
@@ -92,7 +92,31 @@
 </li>
                                     
 <li>
+    <a href="../glossary/circuit_playground/" class="dropdown-item">Circuit Playground</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/clue/" class="dropdown-item">Clue</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/connectors/" class="dropdown-item">Connectors</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/crickit/" class="dropdown-item">Crickit</a>
+</li>
+                                    
+<li>
     <a href="../glossary/feather/" class="dropdown-item">Feather</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/feather#featherwing" class="dropdown-item">FeatherWing</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/glider/" class="dropdown-item">Glider</a>
 </li>
                                     
 <li>
@@ -100,7 +124,15 @@
 </li>
                                     
 <li>
+    <a href="../glossary/connectors#grove" class="dropdown-item">Grove</a>
+</li>
+                                    
+<li>
     <a href="../glossary/hat/" class="dropdown-item">HAT</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/i2c/" class="dropdown-item">I2C</a>
 </li>
                                     
 <li>
@@ -108,7 +140,19 @@
 </li>
                                     
 <li>
-    <a href="../glossary/jst/" class="dropdown-item">JST</a>
+    <a href="../glossary/connectors#jst" class="dropdown-item">JST</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/metro/" class="dropdown-item">Metro</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/neopixel/" class="dropdown-item">Neopixel</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/pyleap/" class="dropdown-item">PyLeap</a>
 </li>
                                     
 <li>
@@ -116,7 +160,7 @@
 </li>
                                     
 <li>
-    <a href="../glossary/qwiic/" class="dropdown-item">Qwiic</a>
+    <a href="../glossary/connectors#qwiic" class="dropdown-item">Qwiic</a>
 </li>
                                     
 <li>
@@ -124,11 +168,19 @@
 </li>
                                     
 <li>
-    <a href="../glossary/stemma_and_stemma_qt/" class="dropdown-item">Stemma</a>
+    <a href="../glossary/spi/" class="dropdown-item">SPI</a>
 </li>
                                     
 <li>
-    <a href="../glossary/stemma_and_stemma_qt/" class="dropdown-item">Stemma QT</a>
+    <a href="../glossary/connectors#stemma" class="dropdown-item">Stemma</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/connectors#stemma-qt" class="dropdown-item">Stemma QT</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/teensy/" class="dropdown-item">Teensy</a>
 </li>
                                 </ul>
                             </li>
@@ -149,7 +201,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a rel="next" href="connectors/" class="nav-link">
+                                <a rel="next" href="choosing_a_board/" class="nav-link">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -173,7 +225,7 @@
             
             <li class="nav-item" data-level="1"><a href="#hardware" class="nav-link">Hardware</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#first-adafruit-hardware-for-beginners" class="nav-link">First Adafruit Hardware for Beginners</a>
+            <li class="nav-item" data-level="2"><a href="#recommended-first-adafruit-hardware-for-beginners" class="nav-link">Recommended: First Adafruit Hardware for Beginners</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -197,15 +249,6 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#gpio" class="nav-link">GPIO</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item" data-level="1"><a href="#raspberrypi-stem-website-reference-guide-to-the-gpio-pins" class="nav-link">raspberrypi #STEM  Website reference guide to the GPIO pins:</a>
-              <ul class="nav flex-column">
               </ul>
             </li>
             
@@ -220,20 +263,24 @@
 
 <h1 id="hardware">Hardware</h1>
 <p>The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.</p>
-<h2 id="first-adafruit-hardware-for-beginners">First Adafruit Hardware for Beginners</h2>
+<h2 id="recommended-first-adafruit-hardware-for-beginners">Recommended: First Adafruit Hardware for Beginners</h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><em>A Beginner's Recommendation</em>.</p>
 <p><strong>CircuitPlayground Bluefruit</strong></p>
 </div>
-<p>Among the many Adafruit devices, the <a href="https://learn.adafruit.com/adafruit-circuit-playground-bluefruit">CircuitPlayground Bluefruit</a> is a more accesible to beginners:</p>
+<p>Among the many Adafruit devices, the <a href="https://www.adafruit.com/product/4333">CircuitPlayground Bluefruit</a> is a more accesible to beginners:</p>
 <ul>
 <li>Runs <a href="https://circuitpython.org">CircuitPython</a></li>
 <li>Alligator clips instead of soldering</li>
-<li>Loaded with features: tons of sensors, accelerometers, neopixels, speaker, etc</li>
-<li>About the size of a Ritz cracker a</li>
-<li>Supported by many Adafruit learn guides as well as online tutorials such as <a href="https://bit.ly/circuit-python-school">CircuitPython School</a></li>
+<li>Loaded with features: tons of sensors, accelerometer, neopixels, speaker, etc</li>
+<li>About the size of a Ritz cracker</li>
+<li>Supported by many Adafruit learn guides as well as third-party online tutorials such as <a href="https://www.youtube.com/watch?v=eU1e6xPvZEU&amp;list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2">CircuitPython School</a></li>
 </ul>
+<p><a href="https://www.youtube.com/playlist?list=PL9VJ9OpT-IPRm9MhIOvnfNLe7fWYPx6ak">Bluefruit School</a></p>
+<p><a href="https://learn.adafruit.com/adafruit-circuit-playground-bluefruit">Learn Guide: CircuitPlayground Bluefruit</a></p>
+<p><img alt="Bluefruit Screenshot" src="https://cdn-learn.adafruit.com/assets/assets/000/080/460/original/adafruit_products_CPB_labeled.jpg?1567626680" />
+Source: <a href="https://learn.adafruit.com/assets/80460">https://learn.adafruit.com/assets/80460</a></p>
 <h2 id="microcontrollers">Microcontrollers</h2>
 <p>The following should be in a sub-section:</p>
 <h2 id="comprehensive-list-of-boards-supported-by-circuitpython">Comprehensive list of boards supported by CircuitPython</h2>
@@ -269,6 +316,8 @@ Most Adafruit devices use one of the following chipsets:
     ESP32-S3
     NRF52840
     RP2040</p>
+<p>https://github.com/adafruit/PrettyPins
+CSV files for Adafruit pin out diagrams - only needed to be done once per chip</p>
 <p>https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/</p>
 <p>Now we’ve got the QT Py SAMD21, RP2040 and ESP32-S2 designed and fabricated, we’re going to follow up with an NRF52840 version! We’ve been using the Nordict nRF series for a loooooong time (anyone else remember the nRF8001? it was like the AT90S2313 of bluetooth le for us). nRF52840 is the first one with native USB – and its plenty fast as a Cortex M4 at 64MHz and 256K of RAM. we already did a module-less route of this chip on the Circuit Playground Bluefruit so we know the schem capture is right.</p>
 <p>QT Py ESP32-S3 is also next https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/
@@ -280,46 +329,22 @@ The Feather ESP32 is a classic Adafruit board, used in thousands and thousands o
 <h2 id="rp2040">RP2040</h2>
 <p>https://www.cytron.io/index.php?route=product/product&amp;product_id=44150&amp;r=1
 https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Using absolute paths with links is not officially supported. Relative paths
-are adjusted by MkDocs to ensure they are always relative to the page. Absolute
-paths are not modified at all. This means that your links using absolute paths
-might work fine in your local environment but they might break once you deploy
-them to your production server.</p>
-</div>
-<h2 id="gpio">GPIO</h2>
-<p>General Purpose Input/Output </p>
-<h1 id="raspberrypi-stem-website-reference-guide-to-the-gpio-pins">raspberrypi #STEM  Website reference guide to the GPIO pins:</h1>
-<p>https://pinout.xyz</p>
 <h1 id="connectors">Connectors</h1>
-<p><a href="connectors">Go to Connectors</a></p>
+<p><a href="../glossary/connectors">Go to Connectors</a></p>
 <div>
-<a href="connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
+<a href="../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
 </div>
 
-<p>JST </p>
-<p>Shields, FeatherWings, HATs, Capes… </p>
-<p>Shields
-Example: Adafruit 16-Channel 12-bit PWM/Servo Shield - I2C interface  https://www.adafruit.com/product/1411</p>
-<p>FeatherWings
-Example:  NeoPixel FeatherWing for all Feather Boards https://www.adafruit.com/product/2945
-Plugin add-on boards that provide additional features.  E.g., running motors, adding sensors, include displays, add bluetooth or WiFi capabliities.</p>
 <p>Feather Format is an Adafruit standard format for microcontrollers (Large, comparatively for microcontrollers.  It's still pretty small compared to a Raspberry Pi or other types of SBCs) 
 Alot of feather boards.  All the same size and mostly use the same standards for pins and connections.  NOTE: not all feathers run CircuitPython.</p>
 <p>ItsyBitsy (Small)</p>
 <p>QT Py (Tiny)</p>
-<p>HATs
-Example:  Raspberry Pi Build HAT for Lego
-https://blog.adafruit.com/2021/11/12/the-raspberry-pi-build-hat-and-lego-components-at-raspberry_pis-coderdojo-piday-raspberrypi/</p>
-<p>Capes
-Example: 4.3" LCD Capacitive Touchscreen Display Cape for BeagleBone  https://www.adafruit.com/product/3396</p>
 <p>BFF 
 BFF is the placeholder name for Adafruit expansion boards for QT Py boards
 https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
 https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/</p>
-<p>Stemma 
-Stemma QT </p></div>
+<p>STEMMA </p>
+<p>STEMMA QT </p></div>
             </div>
         </div>
 

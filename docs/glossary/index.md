@@ -26,5 +26,5 @@
 - [Qwiic](connectors.md#qwiic)
 - [Sheild](shield.md)
 - [SPI](spi.md)
-- [Stemma](connectors.md#stemma)
-- [Stemma QT](connectors.md#stemma-qt) 
+- [STEMMA](connectors.md#stemma)
+- [STEMMA QT](connectors.md#stemma-qt) 

@@ -4,12 +4,12 @@
 This guide is for people new to Adafruit and to electronics.  The focus is on the Adafruit ecosystem -- to provide a roadmap for people new to the Adafruit ecosystem.  We will review Adafruit lingo and branding.  This website does not cover electronics in general --  Along the way some electronics will be discussed, but this website will not cover topics in depth.  As much as possible, links to additional resources or references will be provided.
 
 
-Adafruit is an open-source hardware company which designs custom hardware and components.  Located in New York City, Adafruit was founded by Limor Fried (aka "Lady Ada") in 2005.  All designs and guides are openly shared. 
+Adafruit is an [open-source hardware company](https://blog.adafruit.com/2022/02/07/500-adafruit-projects-have-been-certified-as-open-source-by-oshwa/) which designs custom hardware and components.  Located in New York City, Adafruit was founded by Limor Fried (aka "Lady Ada") in 2005.  All designs and guides are openly shared. 
 
 Adafruit also provides [Learn Guides](https://learn.adafruit.com) which uses the hardware to do cool stuff.
 Adafruit has almost 2,500 guides, and it can be overwhelming for those just starting out ("newbies"). 
 
- 
+
 
 
 

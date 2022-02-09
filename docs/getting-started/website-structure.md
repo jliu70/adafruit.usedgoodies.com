@@ -9,7 +9,7 @@ For more experienced people or to quickly look up the definition of a specific t
 
 ## Hardware
 
-Adafruit is an open-source hardware company which designs custom hardware and components.  
+Adafruit is an [open-source hardware company](https://blog.adafruit.com/2022/02/07/500-adafruit-projects-have-been-certified-as-open-source-by-oshwa/) which designs custom hardware and components.  
 
 The Hardware section will explore Adafruit lingo and branding.
 

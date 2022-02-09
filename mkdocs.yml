@@ -20,6 +20,7 @@ nav:
         - Installation: circuitpython/installation.md
     - Glossary: 
         - Index: glossary/index.md
+        - Adafruit IO: glossary/adafruit_io.md
         - Backpack: glossary/backpack.md
         - Cape: glossary/cape.md
         - Circuit Playground: glossary/circuit_playground.md
@@ -33,11 +34,14 @@ nav:
         - Grove: glossary/connectors#grove
         - HAT: glossary/hat.md
         - I2C: glossary/i2c.md
+        - IOT: glossary/iot.md
         - Itsy Bitsy: glossary/itsy_bitsy.md
         - JST: glossary/connectors#jst
         - Metro: glossary/metro.md
+        - Microcontroller: glossary/microcontroller.md
         - Neopixel: glossary/neopixel.md
         - PyLeap: glossary/pyleap.md
+        - PWM: glossary/pwm.md
         - QT Py: glossary/qt_py.md
         - Qwiic: glossary/connectors#qwiic
         - Sheild: glossary/shield.md
@@ -45,6 +49,7 @@ nav:
         - Stemma: glossary/connectors#stemma
         - Stemma QT: glossary/connectors#stemma-qt
         - Teensy: glossary/teensy.md
+        - WipperSnapper: glossary/wippersnapper.md
     - About: about.md
 
 markdown_extensions:

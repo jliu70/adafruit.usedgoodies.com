@@ -2,7 +2,9 @@
 
 - [Adafruit Feather aka *Feather*](feather.md)
 - [Adafruit Featherwing aka *Featherwing*](feather.md#featherwing)
+- [Adafruit IO](adafruit_io.md)
 - [Backpack](backpack.md)
+- [BFF](qt_py.md#bff)
 - [Cape](cape.md)
 - [CircuitPython](../circuitpython/index.md)
 - [Circuit Pyaground](circuit_playground.md)
@@ -19,6 +21,7 @@
 - [JST PH - see *JST*](connectors.md#jst)
 - [JST SH - see *JST*](connectors.md#jst)
 - [Metro](metro.md)
+- [Microcontroller](microcontroller.md)
 - [NeoPixel](neopixel.md)
 - [PyLeap](pyleap.md)
 - [Teensy](teensy.md)

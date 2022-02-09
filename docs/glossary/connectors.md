@@ -7,9 +7,9 @@
 
 
 It used to be that in order to connect sensors or components you had to use a breadboard or do soldering.
-However, in the past decade companies have begun to offer *connectors* which let you easily connect / disconnect components to your project without the need to use a breadboard or do soldering.
+However in the past decade companies have begun to offer *connectors* which let you easily connect / disconnect components to your project without using a breadboard or soldering.
 
-The benefit is that it makes it much more accessible for beginners.  And even for experienced people it is much easier and quicker to prototype and build interesting projects.  
+A major benefit is that these connectors makes it much more accessible for beginners.  And experienced people can benefit as well since it becomes much easier and quicker to prototype and build interesting projects.  
 
 Here we describe some of the more popular connectors that are in use today.
 

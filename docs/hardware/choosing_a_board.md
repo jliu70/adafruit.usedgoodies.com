@@ -5,6 +5,35 @@
 *Related* [Grove](../glossary/connectors.md#grove), [JST](../glossary/connectors.md#jst), [QWIIC](../glossary/connectors.md#qwiic), [Stemma](../glossary/connectors.md#stemma), [Stemma QT](../glossary/connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](../glossary/connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
+
+## Choosing a microcontroller for a project can be overwhelming.
+
+Here are some great Adafruit guides on how to choose a microcontroller:
+
+https://learn.adafruit.com/choose-your-circuitpython-board
+
+https://learn.adafruit.com/how-to-choose-a-microcontroller
+
+https://learn.adafruit.com/best-beginner-boards-for-teachers
+
+### Considerations for Choosing a Board
+##### Reference: CircuitPython School - Choosing a Board for CircuitPython - A Few Important Considerations-2dEBAN_bd9o.mp4
+
+Ultimately there are many features to consider when choosing a board
+- Wireless 
+    - WiFi 
+        and
+    - Bluetooth
+- STEMMA QT
+- Expansion
+- Size
+- Battery and Pass-thru chargning
+- Header pins
+- Cabling
+- Price 
+- Power
+
+
 CircuitPython School - Choosing a Board for CircuitPython - A Few Important Considerations-2dEBAN_bd9o.mp4
 Minute 6:15 Stemma-QT is discussed
 Minute 8:49 Stemma standard is discussed - not plug-compatible with Stemma-QT
@@ -37,3 +66,19 @@ Minute 0:57  Stemma QT recap
 Minute 1:42 shows some boards which have STEMMA-QT ports
 
  
+
+# Connectors
+
+[Go to Connectors](../glossary/connectors)
+
+<div>
+<a href="../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
+</div>
+
+
+
+STEMMA 
+
+STEMMA QT 
+
+

@@ -7,7 +7,7 @@
 
 
 Circuit Playground 
-### There three versions of the Circuit Playground
+### Three versions of the Circuit Playground
 
 | Device                                                                | Microcontroller        | Code                                | RAM                                       | Cost   |
 | --------------------------------------------------------------------- | ---------------------- | ----------------------------------- | ----------------------------------------- | ------ |
@@ -15,7 +15,7 @@ Circuit Playground
 | [Circuit Playground Express](https://www.adafruit.com/product/3333)   | ATSAMD21 ARM Cortex M0 | Arduino, CircuitPython, or MakeCode | 2 MB of SPI Flash storage                 | $24.95 |
 | [Circuit Playground Bluefruit](https://www.adafruit.com/product/4333) | nRF52840 Cortex M4     | Arduino, CircuitPython, or MakeCode | 2 MB of SPI Flash storage                 | $24.95 |
 
-NOTE: because the Circuit Playground Classic only has 32KB of storage, it is unable to run CircuitPython.
+NOTE: *because the Circuit Playground Classic only has 32KB of storage, it is unable to run CircuitPython.*
 
 
 ## Circuit Playground Bluefruit

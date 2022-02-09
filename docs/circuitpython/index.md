@@ -8,7 +8,7 @@ The majority of [Adafruit hardware](../hardware/index.md) can run either
 
 - [CircuitPython](https://circuitpython.org)  
 
-Some [Adafruit hardware](../hardware/index.md) is also compatible with [MakeCode](https://makecode.org).
+- Some [Adafruit hardware](../hardware/index.md) is also compatible with [MakeCode](https://makecode.org).
 
 !!! note
     *A Beginner's Recommendation*.
@@ -69,8 +69,10 @@ https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
 
 Adafruit has a great walkthrough on how to [get started with CircuitPython with Raspberry Pi Pico](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
 
-**Additional References**
+
+## Additional References
 
 - [Arduino](https://arduino.cc) 
+- [CircuitPython](https://circuitpython.org)
 - [MakeCode](https://makecode.org) 
 - [Scratch](https://scratch.mit.edu)

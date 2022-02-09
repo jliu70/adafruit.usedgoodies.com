@@ -84,6 +84,10 @@
 </li>
                                     
 <li>
+    <a href="../glossary/adafruit_io/" class="dropdown-item">Adafruit IO</a>
+</li>
+                                    
+<li>
     <a href="../glossary/backpack/" class="dropdown-item">Backpack</a>
 </li>
                                     
@@ -136,6 +140,10 @@
 </li>
                                     
 <li>
+    <a href="../glossary/iot/" class="dropdown-item">IOT</a>
+</li>
+                                    
+<li>
     <a href="../glossary/itsy_bitsy/" class="dropdown-item">Itsy Bitsy</a>
 </li>
                                     
@@ -148,11 +156,19 @@
 </li>
                                     
 <li>
+    <a href="../glossary/microcontroller/" class="dropdown-item">Microcontroller</a>
+</li>
+                                    
+<li>
     <a href="../glossary/neopixel/" class="dropdown-item">Neopixel</a>
 </li>
                                     
 <li>
     <a href="../glossary/pyleap/" class="dropdown-item">PyLeap</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/pwm/" class="dropdown-item">PWM</a>
 </li>
                                     
 <li>
@@ -181,6 +197,10 @@
                                     
 <li>
     <a href="../glossary/teensy/" class="dropdown-item">Teensy</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/wippersnapper/" class="dropdown-item">WipperSnapper</a>
 </li>
                                 </ul>
                             </li>
@@ -229,26 +249,18 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#comprehensive-list-of-boards-supported-by-circuitpython" class="nav-link">Comprehensive list of boards supported by CircuitPython</a>
+            <li class="nav-item" data-level="2"><a href="#recommended-first-adafruit-hardware-for-beginners" class="nav-link">Recommended: First Adafruit Hardware for Beginners</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#considerations-for-choosing-a-board" class="nav-link">Considerations for Choosing a Board</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#chipsets" class="nav-link">Chipsets</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#rp2040" class="nav-link">RP2040</a>
+            <li class="nav-item" data-level="2"><a href="#comprehensive-list-of-hardware-supported-by-circuitpython" class="nav-link">Comprehensive list of hardware supported by CircuitPython</a>
               <ul class="nav flex-column">
               </ul>
             </li>
               </ul>
             </li>
             
-            <li class="nav-item" data-level="1"><a href="#connectors" class="nav-link">Connectors</a>
+            <li class="nav-item" data-level="1"><a href="#choosing-a-board" class="nav-link">Choosing a Board</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -259,77 +271,52 @@
 
 <h1 id="hardware">Hardware</h1>
 <p>The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.</p>
-<h3 id="recommended-first-adafruit-hardware-for-beginners">Recommended: First Adafruit Hardware for Beginners</h3>
+<h2 id="microcontrollers">Microcontrollers</h2>
+<p>Adafruit manufactures and sells their own microcontrollers </p>
+<ul>
+<li>Microcontrollers are single purpose computers <ul>
+<li>limited storage and memory</li>
+<li>limited processing power</li>
+</ul>
+</li>
+</ul>
+<p>Microcontrollers vs General Purpose Computer</p>
+<ul>
+<li>Use of Microcontrollers is fine for most cases</li>
+<li>When you need more computational power, you may want to use a Raspberry Pi<ul>
+<li>For example, if you wish to have a web dashboard to interface with, then you will need to use a Raspberry Pi</li>
+</ul>
+</li>
+</ul>
+<p>For more info, see the <strong>Glossary</strong> page for <a href="../glossary/microcontroller/">Microcontroller</a></p>
+<h2 id="recommended-first-adafruit-hardware-for-beginners">Recommended: First Adafruit Hardware for Beginners</h2>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><em>A Beginner's Recommendation</em>.</p>
 <p><strong><a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a></strong></p>
 </div>
-<p>Among the many Adafruit devices, the <a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a> is a more accesible to beginners:</p>
-<h2 id="microcontrollers">Microcontrollers</h2>
-<p>The following should be in a sub-section:</p>
-<h2 id="comprehensive-list-of-boards-supported-by-circuitpython">Comprehensive list of boards supported by CircuitPython</h2>
-<p>As this website focuses on CircuitPython, all the boards currently supported by CircuitPython (Adafruit and other vendors) is available at <a href="https://circuitpython.org/downloads">CircuitPython.org</a></p>
-<p>There are over 270 boards currently supported by CircuitPython and that list grows everyday.
-The boards are listed in order of number of downloads, and it is interesting to note that the most popular board, as of Jan 2022 -- the Raspberry Pi Pico, is not even manufactured by Adafruit.</p>
-<p>Choosing a microcontroller for a project can be overwhelming.</p>
-<p>Here are some great Adafruit guides on how to choose a microcontroller:</p>
-<p>https://learn.adafruit.com/choose-your-circuitpython-board</p>
-<p>https://learn.adafruit.com/how-to-choose-a-microcontroller</p>
-<p>https://learn.adafruit.com/best-beginner-boards-for-teachers</p>
-<h2 id="considerations-for-choosing-a-board">Considerations for Choosing a Board</h2>
-<h5 id="reference-circuitpython-school-choosing-a-board-for-circuitpython-a-few-important-considerations-2deban_bd9omp4">Reference: CircuitPython School - Choosing a Board for CircuitPython - A Few Important Considerations-2dEBAN_bd9o.mp4</h5>
-<p>Ultimately there are many features to consider when choosing a board
-- Wireless 
-    - WiFi 
-        and
-    - Bluetooth
-- STEMMA QT
-- Expansion
-- Size
-- Battery and Pass-thru chargning
-- Header pins
-- Cabling
-- Price 
-- Power</p>
-<h2 id="chipsets">Chipsets</h2>
-<p>The microcontrollers are "mini-computers".
-Most Adafruit devices use one of the following chipsets: 
-    SAMD21
-    SAMD51
-    ESP32-S2
-    ESP32-S3
-    NRF52840
-    RP2040</p>
-<p>https://github.com/adafruit/PrettyPins
-CSV files for Adafruit pin out diagrams - only needed to be done once per chip</p>
-<p>https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/</p>
-<p>Now we’ve got the QT Py SAMD21, RP2040 and ESP32-S2 designed and fabricated, we’re going to follow up with an NRF52840 version! We’ve been using the Nordict nRF series for a loooooong time (anyone else remember the nRF8001? it was like the AT90S2313 of bluetooth le for us). nRF52840 is the first one with native USB – and its plenty fast as a Cortex M4 at 64MHz and 256K of RAM. we already did a module-less route of this chip on the Circuit Playground Bluefruit so we know the schem capture is right.</p>
-<p>QT Py ESP32-S3 is also next https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/
-this is a swap-out of the ESP32-S2 QT Py for the new ESP32-S3 chip. The S3 is really a nice piece of kit – dual core is back and it also re-adds BLE. It’s basically an ESP32 with native USB, we’re looking forward to it! note that the S3 chip looks a lot like the S2 but the chip pinout is NOT the same, the reset, and some power pins have moved. and some gpio shifted down one. also, looks like the dual DAC was removed. anyways, just watch out don’t think you can use the exact same layout. we had to shift a few parts but it all still looks like it fits! top part is identical to the S2 QT Py, and the bottom only shifted a few passives around. we’ll get some 4 layer prototypes on order. </p>
-<p>Desk of Lady Ada https://www.youtube.com/watch?v=xC7oodxTWgE  1/9/2022 
-This weekend we cranked through 3.5 QT Py designs (we didnt finish routing one, its a toughie!) - we already make SAMD21, RP2040 and ESP32-S2 and we wanted to add some more chips to the mix: ESP32-S3 (dual core version of the S2), ESP32 Pico (OG ESP with built in flash/psram), ESP32-C3 (Risc-V wifi!) and nRF52840 (BLE wonder-chip from Nordic). the last one is what we didn't get to finish routing because its a particularly tough one. The other 3 worked out fine with a 4 layer PCB. We also designed a few 'BFF' boards - that fit onto a QT Py like a shield. </p>
-<p>https://blog.adafruit.com/2022/01/15/feather-huzzah-esp32-v2/
-The Feather ESP32 is a classic Adafruit board, used in thousands and thousands of projects. And we love it so…but with the CP2104 going EOL and requiring us to do a light re-spin for the CP2102N revision, we thought maybe we’d do a gut renovation. With the new ESP32 PICO module, we save a ton of space AND have 8 MB Flash / 2MB PSRAM instead of the WROOM’s 4 MB Flash &amp; no PSRAM. the PICO is also much smaller, so we have room to upgrade the USB micro B to Type C, add a NeoPixel, STEMMA QT with separate LDO, and even a user button on the very last unused input pin. However, we did have to shuffle a few pins around. the named pins got some changes, so for example, RX and TX used to be 16 and 17 respectively – but those pins are used internally on the PICO module so they’re no longer available. on the V2 feather they’re now 8 and 9. all of the analog pins and the numbered pins are the same, just SPI/I2C/UART named pins are different. that should make code be ‘drop in replacement’ as long as the named pins/ports are used instead of the underlying io pad names. since code needs to be recompiled for the variant, this would be a fully new product ID. however, i think for the bump in capabilities and capacity it is worth an upgrade! Coming soon!</p>
-<h2 id="rp2040">RP2040</h2>
-<p>https://www.cytron.io/index.php?route=product/product&amp;product_id=44150&amp;r=1
-https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers</p>
-<h1 id="connectors">Connectors</h1>
-<p><a href="../glossary/connectors">Go to Connectors</a></p>
-<div>
-<a href="../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
-</div>
-
-<p>Feather Format is an Adafruit standard format for microcontrollers (Large, comparatively for microcontrollers.  It's still pretty small compared to a Raspberry Pi or other types of SBCs) 
-Alot of feather boards.  All the same size and mostly use the same standards for pins and connections.  NOTE: not all feathers run CircuitPython.</p>
+<p>Among the many Adafruit devices, the <a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a> is more accesible to beginners.  It is a great piece of hardware to start with.</p>
+<p>For more info, see the <strong>Glossary</strong> page for <a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a></p>
+<h2 id="comprehensive-list-of-hardware-supported-by-circuitpython">Comprehensive list of hardware supported by CircuitPython</h2>
+<p>List of all the hardware currently supported by CircuitPython (Adafruit and other vendors) is available at the <a href="https://circuitpython.org/downloads">CircuitPython Downloads Page</a>.</p>
+<p>As of Feb 2022 </p>
+<ul>
+<li>There are over 270 boards supported by CircuitPython and that list grows everyday.<ul>
+<li>The list is sorted by number of downloads.  <ul>
+<li>The most popular board -- the Raspberry Pi Pico -- is not manufactured by Adafruit.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Adafruit Feather</p>
 <p>ItsyBitsy (Small)</p>
 <p>QT Py (Tiny)</p>
-<p>BFF 
-BFF is the placeholder name for Adafruit expansion boards for QT Py boards
-https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
-https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/</p>
-<p>STEMMA </p>
-<p>STEMMA QT </p></div>
+<h1 id="choosing-a-board">Choosing a Board</h1>
+<p><a href="choosing_a_board/">Go to Choosing a Board</a></p>
+<div>
+<a href="./choosing_a_board/" class="btn btn-primary" role="button">Go to Choosing a Board</a>
+</div></div>
             </div>
         </div>
 

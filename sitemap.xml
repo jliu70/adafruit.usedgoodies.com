@@ -36,6 +36,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://adafruit.usedgoodies.com/glossary/adafruit_io/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://adafruit.usedgoodies.com/glossary/backpack/</loc>
          <lastmod>2022-02-09</lastmod>
          <changefreq>daily</changefreq>
@@ -102,6 +107,11 @@
     </url>
     <url>
          <loc>https://adafruit.usedgoodies.com/glossary/metro/</loc>
+         <lastmod>2022-02-09</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://adafruit.usedgoodies.com/glossary/microcontroller/</loc>
          <lastmod>2022-02-09</lastmod>
          <changefreq>daily</changefreq>
     </url>

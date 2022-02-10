@@ -21,7 +21,7 @@
     </head>
 
     <body>
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
                 <a class="navbar-brand" href="..">Adafruit For Newbies</a>
                 <!-- Expander button -->
@@ -324,6 +324,14 @@
 <p>Hence for older students, or those students already experienced with <a href="https://scratch.mit.edu">Scratch</a> or <a href="https://makecode.org">MakeCode</a>, I recommend jumping straight into python.</p>
 <p>For those looking to ease the transition from block-based programming to python, <a href="https://edublocks.org">EduBlocks</a> is an interesting hybrid which offers python in a block-based format.</p>
 <h2 id="what-about-micropython">What about Micropython?</h2>
+<p><a href="https://micropython.org">MicroPython</a> is an open source Python programming language interpretor that runs on small embedded development boards, aka <a href="../glossary/microcontroller/">microcontrollers</a>.</p>
+<ul>
+<li>Lean and efficient implementation of Python 3 <ul>
+<li>Includes a small subset of Python standard library</li>
+</ul>
+</li>
+<li>Optimized to run on microcontrollers</li>
+</ul>
 <p>CircuitPython is a fork of Micropython.  While CircuitPython looks somewhat like MicroPython there are some <a href="https://github.com/adafruit/circuitpython#differences-from-micropython">differences</a>.</p>
 <p>While I’d generally point folks towards MicroPython if they need advanced features like interrupts and threading — or complete access to the RP2040’s Programmable I/O (PIO) in Python — for library support for sensors and other breakouts I would point you to CircuitPython. It’s well supported by our friends at Adafruit.</p>
 <h2 id="circuitpython-documentation">CircuitPython Documentation</h2>

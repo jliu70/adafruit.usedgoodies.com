@@ -3,7 +3,7 @@
 
 ### [Back to Index](index.md)
 
-*Related* [I2C](i2c.md), [SPI](spi.md)
+*Related* [I2C](i2c.md), [SPI](spi.md), [GPIO](gpio.md)
 
 
 It used to be that in order to connect sensors or components you had to use a breadboard or do soldering.

@@ -49,12 +49,20 @@ For those looking to ease the transition from block-based programming to python,
 
 
 ## What about Micropython?
+
+[MicroPython](https://micropython.org) is an open source Python programming language interpretor that runs on small embedded development boards, aka [microcontrollers](../glossary/microcontroller.md).
+
+- Lean and efficient implementation of Python 3 
+    - Includes a small subset of Python standard library
+- Optimized to run on microcontrollers
+
 CircuitPython is a fork of Micropython.  While CircuitPython looks somewhat like MicroPython there are some [differences](https://github.com/adafruit/circuitpython#differences-from-micropython).
 
 While I’d generally point folks towards MicroPython if they need advanced features like interrupts and threading — or complete access to the RP2040’s Programmable I/O (PIO) in Python — for library support for sensors and other breakouts I would point you to CircuitPython. It’s well supported by our friends at Adafruit.
 
 
 ## CircuitPython Documentation 
+
 We are now sponsoring Read the Docs, where all of our documentation is hosted, which comes with a couple of perks. All of our docs are now ad-free. As well, I worked with our web devs to get the new docs.circuitpython.org URL set up. We’re now working to get all the libraries updated to use the new URL. 
 
 http://docs.circuitpython.org/

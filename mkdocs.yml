@@ -6,6 +6,7 @@ theme:
     locale: en
     highlightjs: true
     hljs_style: agate
+    nav_style: dark
 
 nav:
     - Home: index.md

@@ -5,7 +5,6 @@
 *Related* [Grove](../glossary/connectors.md#grove), [JST](../glossary/connectors.md#jst), [QWIIC](../glossary/connectors.md#qwiic), [Stemma](../glossary/connectors.md#stemma), [Stemma QT](../glossary/connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](../glossary/connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
-
 ## Choosing a microcontroller for a project can be overwhelming.
 
 Here are some great Adafruit guides on how to choose a microcontroller:
@@ -65,20 +64,17 @@ CircuitPython School - Adding STEMMA QT_Qwiic to an Arduino RP2040 + Using a Tem
 Minute 0:57  Stemma QT recap
 Minute 1:42 shows some boards which have STEMMA-QT ports
 
- 
+
 
 # Connectors
 
-[Go to Connectors](../glossary/connectors)
+Explore what is STEMMA or STEMMA QT
+
+[Go to Connectors](../../glossary/connectors)
 
 <div>
-<a href="../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
+<a href="../../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
 </div>
 
-
-
-STEMMA 
-
-STEMMA QT 
 
 

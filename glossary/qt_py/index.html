@@ -258,9 +258,9 @@
 
 <h1 id="qt-py">QT Py</h1>
 <h3 id="back-to-index"><a href="../">Back to Index</a></h3>
-<p><em>Related</em> <a href="../feather/">Feather</a>, <a href="./">QT Py</a></p>
+<p><em>Related</em> <a href="../feather/">Feather</a>, <a href="../itsy_bitsy/">Itsy Bitsy</a></p>
 <p>QT Py is tiny.</p>
-<h3 id="three-versions-of-the-qt-py">Three versions of the QT Py</h3>
+<h3 id="three-versions-of-qt-py">Three versions of QT Py</h3>
 <table>
 <thead>
 <tr>
@@ -273,30 +273,61 @@
 </thead>
 <tbody>
 <tr>
-<td><a href="https://www.adafruit.com/product/3000">Circuit Playground Classic</a></td>
-<td>ATmega32u4</td>
-<td>Arduino only</td>
-<td>32KB of In-System Self-Programmable Flash</td>
-<td>$19.95</td>
-</tr>
-<tr>
-<td><a href="https://www.adafruit.com/product/3333">Circuit Playground Express</a></td>
+<td><a href="https://www.adafruit.com/product/4600">QT Py SAMD21</a></td>
 <td>ATSAMD21 ARM Cortex M0</td>
 <td>Arduino, CircuitPython, or MakeCode</td>
-<td>2 MB of SPI Flash storage</td>
-<td>$24.95</td>
+<td>256 KB of SPI Flash storage</td>
+<td>$7.50</td>
 </tr>
 <tr>
-<td><a href="https://www.adafruit.com/product/4333">Circuit Playground Bluefruit</a></td>
-<td>nRF52840 Cortex M4</td>
+<td><a href="https://www.adafruit.com/product/5325">QT Py ESP32-S2</a></td>
+<td>ESP32-S2</td>
 <td>Arduino, CircuitPython, or MakeCode</td>
-<td>2 MB of SPI Flash storage</td>
-<td>$24.95</td>
+<td>4 MB of SPI Flash storage</td>
+<td>$12.50</td>
+</tr>
+<tr>
+<td><a href="https://www.adafruit.com/product/4900">QT Py RP2040</a></td>
+<td>RP2040</td>
+<td>Arduino, CircuitPython, or MakeCode</td>
+<td>8MB of SPI Flash</td>
+<td>$9.95</td>
 </tr>
 </tbody>
 </table>
+<h4 id="additional-versions-of-the-qt-py-on-the-way">Additional versions of the QT Py on the way</h4>
+<table>
+<thead>
+<tr>
+<th>Device</th>
+<th>Microcontroller</th>
+<th>Code</th>
+<th>RAM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/">QT Py ESP32-S3</a></td>
+<td>ESP32-S3</td>
+<td>Arduino, CircuitPython, or MakeCode</td>
+<td>4 MB of SPI Flash storage</td>
+</tr>
+<tr>
+<td><a href="https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/">QT Py nRF52840</a></td>
+<td>nRF52840</td>
+<td>Arduino, CircuitPython, or MakeCode</td>
+<td>256 KB of SPI Flash storage</td>
+</tr>
+</tbody>
+</table>
+<p>https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/</p>
+<p>Now we’ve got the QT Py SAMD21, RP2040 and ESP32-S2 designed and fabricated, we’re going to follow up with an NRF52840 version! We’ve been using the Nordict nRF series for a loooooong time (anyone else remember the nRF8001? it was like the AT90S2313 of bluetooth le for us). nRF52840 is the first one with native USB – and its plenty fast as a Cortex M4 at 64MHz and 256K of RAM. we already did a module-less route of this chip on the Circuit Playground Bluefruit so we know the schem capture is right.</p>
+<p>QT Py ESP32-S3 is also next https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/
+this is a swap-out of the ESP32-S2 QT Py for the new ESP32-S3 chip. The S3 is really a nice piece of kit – dual core is back and it also re-adds BLE. It’s basically an ESP32 with native USB, we’re looking forward to it! note that the S3 chip looks a lot like the S2 but the chip pinout is NOT the same, the reset, and some power pins have moved. and some gpio shifted down one. also, looks like the dual DAC was removed. anyways, just watch out don’t think you can use the exact same layout. we had to shift a few parts but it all still looks like it fits! top part is identical to the S2 QT Py, and the bottom only shifted a few passives around. we’ll get some 4 layer prototypes on order. </p>
+<p>Desk of Lady Ada https://www.youtube.com/watch?v=xC7oodxTWgE  1/9/2022 
+This weekend we cranked through 3.5 QT Py designs (we didnt finish routing one, its a toughie!) - we already make SAMD21, RP2040 and ESP32-S2 and we wanted to add some more chips to the mix: ESP32-S3 (dual core version of the S2), ESP32 Pico (OG ESP with built in flash/psram), ESP32-C3 (Risc-V wifi!) and nRF52840 (BLE wonder-chip from Nordic). the last one is what we didn't get to finish routing because its a particularly tough one. The other 3 worked out fine with a 4 layer PCB. We also designed a few 'BFF' boards - that fit onto a QT Py like a shield. </p>
 <h2 id="bff">BFF</h2>
-<p>As of January 2022, BFF is the placeholder name for Adafruit expansion boards for QT Py boards
+<p>As of January 2022, BFF is the placeholder name for Adafruit expansion boards for QT Py boards that fit onto a QT Py like a shield.
 https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
 https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/</p></div>
             </div>

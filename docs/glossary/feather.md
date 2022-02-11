@@ -31,6 +31,11 @@ https://blog.adafruit.com/2022/01/15/feather-huzzah-esp32-v2/
 The Feather ESP32 is a classic Adafruit board, used in thousands and thousands of projects. And we love it so…but with the CP2104 going EOL and requiring us to do a light re-spin for the CP2102N revision, we thought maybe we’d do a gut renovation. With the new ESP32 PICO module, we save a ton of space AND have 8 MB Flash / 2MB PSRAM instead of the WROOM’s 4 MB Flash & no PSRAM. the PICO is also much smaller, so we have room to upgrade the USB micro B to Type C, add a NeoPixel, STEMMA QT with separate LDO, and even a user button on the very last unused input pin. However, we did have to shuffle a few pins around. the named pins got some changes, so for example, RX and TX used to be 16 and 17 respectively – but those pins are used internally on the PICO module so they’re no longer available. on the V2 feather they’re now 8 and 9. all of the analog pins and the numbered pins are the same, just SPI/I2C/UART named pins are different. that should make code be ‘drop in replacement’ as long as the named pins/ports are used instead of the underlying io pad names. since code needs to be recompiled for the variant, this would be a fully new product ID. however, i think for the bump in capabilities and capacity it is worth an upgrade! Coming soon!
 
 
+### RP2040
+
+Adafruit Feather RP2040
+
+
 ## Featherwing
 
 Plugin add-on boards that provide additional features.  E.g., running motors, adding sensors, include displays, add bluetooth or WiFi capabliities.

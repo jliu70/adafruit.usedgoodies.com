@@ -2,11 +2,9 @@
 
 The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.
 
+Adafruit designs and sells their own custom microcontrollers, components, sensors, and more. 
 
-## Microcontrollers
-
-Adafruit designs and sells their own custom microcontrollers. 
-
+## What are Microcontrollers?
 Microcontrollers are single purpose computers 
 
 - small embedded development boards
@@ -14,7 +12,7 @@ Microcontrollers are single purpose computers
 - limited processing power
 
 
-Microcontrollers vs General Purpose Computer
+#### Microcontrollers vs General Purpose Computer
 
 - Use of Microcontrollers is fine for many cases
 - When you need more computational power, you may want to use a [Raspberry Pi](https://www.raspberrypi.com)
@@ -37,7 +35,7 @@ For more info, see the **Glossary** page for [Circuit Playground Bluefruit](../g
 
 
 
-## Comprehensive list of hardware supported by CircuitPython
+## List of hardware supported by CircuitPython
 List of all the hardware currently supported by CircuitPython (Adafruit and other manufacturers) is available at the [CircuitPython Downloads Page](https://circuitpython.org/downloads).
 
 As of Feb 2022 
@@ -46,11 +44,11 @@ As of Feb 2022
 - The list is sorted by number of downloads.  
     - The most popular board -- the Raspberry Pi Pico -- is not manufactured by Adafruit.
 
-## Adafruit Hardware
+### Adafruit Hardware
 
-Adafruit offers over 60 different microcontrollers.
+Adafruit offers 68 different microcontrollers which run CircuitPython.
 
-Within the Adafruit ecosystem, there are a few general categories:
+#### Within the Adafruit ecosystem, there are a few general microcontroller categories:
 
 - [Adafruit Feather](../glossary/feather.md) (Regular)
     - Supported by an extensive array of expansion options called [FeatherWings](../glossary/feather.md#featherwing)
@@ -59,13 +57,18 @@ Within the Adafruit ecosystem, there are a few general categories:
 - [Metro](../glossary/metro.md) (Arduino form factor)
 - Trinkey (USB dongles)
 
-There are also custom form factors such as 
+#### There are also custom form factors such as: 
 
 - [Circuit Playground](../../glossary/circuit_playground)
 - [CLUE](../glossary/clue.md)
 - Gemma M0
 - FunHouse
-- PyBadge/EdgeBadge
+- MacroPad
+- MagTag
+- MatrixPortal
+- PyBadge/EdgeBadge/PyGamer
+- PyPortal/PyPortal Titano
+- Trellis 
 - Trinket M0
 - [Teensy](../glossary/teensy.md)
 
@@ -79,28 +82,20 @@ Most Adafruit devices use one of the following chipsets:
 - ESP32-S2
 - ESP32-S3
 - NRF52840
-- RP2040
+- [RP2040](../glossary/rp2040.md)
 
-
-You will often see multiple versions of a particular Adafruit form factor based upon different chipsets.
+There are features and advantages to each chipset, so there are often multiple versions of a particular Adafruit form factor based upon different chipsets.
 
 For example:
 
-[Circuit Playground Versions](../glossary/circuit_playground/#circuit-playground)
-
-[QT Py Versions](../glossary/qt_py/#qt-py)
-
-
-
-## RP2040 
-https://www.cytron.io/index.php?route=product/product&product_id=44150&r=1
-
-https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers
+- [Circuit Playground Versions](../glossary/circuit_playground/#circuit-playground)
+- [QT Py Versions](../glossary/qt_py/#qt-py)
 
 
 
-https://github.com/adafruit/PrettyPins
-CSV files for Adafruit pin out diagrams - only needed to be done once per chip
+
+
+[CSV files for Adafruit pin out diagrams](https://github.com/adafruit/PrettyPins) - only needed to be done once per chip
 
 
 

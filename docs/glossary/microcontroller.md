@@ -3,7 +3,7 @@
 
 ### [Back to Index](index.md)
 
-*Related* [Feather](feather.md), [Itsy Bitsy](itsy_bitsy.md), [QT Py](qt_py.md)
+*Related* [Feather](feather.md), [Itsy Bitsy](itsy_bitsy.md), [QT Py](qt_py.md), [RP2040](rp2040.md)
 
 
 Microcontrollers are single purpose computers 

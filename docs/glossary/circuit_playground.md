@@ -42,4 +42,5 @@ Source: [https://learn.adafruit.com/assets/80460](https://learn.adafruit.com/ass
 
 
 ## Additional References
-https://learn.adafruit.com/lightpaint-cplay/makecode-for-circuit-playground-express
+- [Adafruit Learn Guide: MakeCode for Circuit Playground Express](https://learn.adafruit.com/lightpaint-cplay/makecode-for-circuit-playground-express)
+- [Adafruit Learn Guide: Circuit Playground Bluefruit](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)

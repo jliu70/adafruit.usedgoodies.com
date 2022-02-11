@@ -20,18 +20,19 @@ Introduced by [Seeed Studio](https://www.seeedstudio.com/) in 2010, Grove uses a
 While almost the same as a [JST PH](connectors.md#jst) connector, Grove unfortunately is not compatible - they are physically too different for JST PH and Grove to be inter-changeable.
 
 
-Additional References on comparision of Grove to JST PH
+**Additional References on comparision of Grove to JST PH**
 
-- [Grove compared to JST PH](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
-- [Grove compatability to JST PH](https://www.omzlo.com/articles/is-the-seeed-studio-grove-connector-compatible-with-the-jst-ph-connector)
-
-
-As Grove has been around the longest, there are a [large number of components](https://www.seeedstudio.com/category/Grove-c-1003.html?cat=890) available.  Many Grove components can be used with Adafruit hardware.
+1. [Grove compared to JST PH](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
+2. [Grove compatability to JST PH](https://www.omzlo.com/articles/is-the-seeed-studio-grove-connector-compatible-with-the-jst-ph-connector)
 
 
-Grove is is only compatible with STEMMA I2C components.  Analog, PWM and digital IO are not compatible. 
+As Grove has been around the longest, there are a [large number of components](https://www.seeedstudio.com/category/Grove-c-1003.html?cat=890) available.  
 
-If you are unsure, just take a look at the component. If it has SDA / SCL pins, then it is an I2C device.
+Many Grove components can be used with Adafruit hardware.
+
+- Grove is is only compatible with STEMMA I2C components.  
+- Analog, PWM and digital IO are not compatible.  
+- If a component has SDA / SCL pins, then it is an I2C device.
 
 
 Seeed Studio makes a [Grove - QWIIC Hub](https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html) to support interoperability with [Sparkfun QWIIC](connectors.md#qwiic) and [Adafruit STEMMA QT](connectors.md#stemma-qt).
@@ -40,9 +41,9 @@ Seeed Studio makes a [Grove - QWIIC Hub](https://www.seeedstudio.com/Grove-QWIIC
     Different from our Grove system, QWIIC is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with QWIIC, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - QWIIC Hub, which enables you easily connect the I2C devices with Grove/QWIIC/STEMMA QT interface, get the best use of your devices/controller of different interfaces.
 
 
-Additional References
+**Additional References**
 
-[Youtube: Grove 10th Anniversary Documentary 12/31/2020](https://www.youtube.com/watch?v=r-W0XYhVdTk)
+1. [Youtube: Grove 10th Anniversary Documentary 12/31/2020](https://www.youtube.com/watch?v=r-W0XYhVdTk)
 
 
 *Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)

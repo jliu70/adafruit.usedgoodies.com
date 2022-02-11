@@ -44,11 +44,12 @@ nav:
         - PyLeap: glossary/pyleap.md
         - PWM: glossary/pwm.md
         - QT Py: glossary/qt_py.md
-        - Qwiic: glossary/connectors#qwiic
-        - Sheild: glossary/shield.md
+        - QWIIC: glossary/connectors#qwiic
+        - RP2040: glossary/rp2040.md
+        - Shield: glossary/shield.md
         - SPI: glossary/spi.md
-        - Stemma: glossary/connectors#stemma
-        - Stemma QT: glossary/connectors#stemma-qt
+        - STEMMA: glossary/connectors#stemma
+        - STEMMA QT: glossary/connectors#stemma-qt
         - Teensy: glossary/teensy.md
         - WipperSnapper: glossary/wippersnapper.md
     - About: about.md

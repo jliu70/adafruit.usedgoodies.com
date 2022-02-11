@@ -58,29 +58,36 @@ For those looking to ease the transition from block-based programming to python,
 
 CircuitPython is a fork of Micropython.  While CircuitPython looks somewhat like MicroPython there are some [differences](https://github.com/adafruit/circuitpython#differences-from-micropython).
 
-While I’d generally point folks towards MicroPython if they need advanced features like interrupts and threading — or complete access to the RP2040’s Programmable I/O (PIO) in Python — for library support for sensors and other breakouts I would point you to CircuitPython. It’s well supported by our friends at Adafruit.
+Choose MicroPython
+
+- for advanced features like interrupts and threading
+- complete access to the RP2040’s Programmable I/O (PIO) in Python 
+
+Choose CircuitPython  
+
+- beginner friendly
+- library support for sensors and other breakouts 
+- well supported by Adafruit
 
 
 ## CircuitPython Documentation 
 
-We are now sponsoring Read the Docs, where all of our documentation is hosted, which comes with a couple of perks. All of our docs are now ad-free. As well, I worked with our web devs to get the new docs.circuitpython.org URL set up. We’re now working to get all the libraries updated to use the new URL. 
+CircuitPython documentation is hosted at Read the Docs.
 
-http://docs.circuitpython.org/
-
-Community
-https://learn.adafruit.com/welcome-to-the-community
+[http://docs.circuitpython.org/](http://docs.circuitpython.org/)
 
 
-[What is CircuitPython?](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/what-is-circuitpython)
+### Community
+[https://learn.adafruit.com/welcome-to-the-community](https://learn.adafruit.com/welcome-to-the-community)
 
-https://learn.adafruit.com/adafruit-circuit-playground-bluefruit
 
-Adafruit has a great walkthrough on how to [get started with CircuitPython with Raspberry Pi Pico](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
 
 
 ## Additional References
-
+- [Adaruit Learn Guide: What is CircuitPython?](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/what-is-circuitpython)
 - [Arduino](https://arduino.cc) 
-- [CircuitPython](https://circuitpython.org)
+- [CircuitPython.orgnn](https://circuitpython.org)
+- [MicroPython](https://micropython.org)
+- [EduBlocks](https://edublocks.org) 
 - [MakeCode](https://makecode.org) 
 - [Scratch](https://scratch.mit.edu)

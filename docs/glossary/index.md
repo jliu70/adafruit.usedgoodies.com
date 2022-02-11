@@ -9,6 +9,7 @@
 - [CircuitPython](../circuitpython/index.md)
 - [Circuit Pyaground](circuit_playground.md)
 - [Clue](clue.md)
+- [Connectors](connectors.md)
 - [Crickit](crickit.md)
 - [Feather](feather.md)
 - [FeatherWing](feather.md)

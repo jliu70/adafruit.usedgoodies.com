@@ -6,5 +6,5 @@
 *Related* [Feather](feather.md), [QT Py](qt_py.md)
 
 
-Itsy Bitsy is a medium sized board
+Itsy Bitsy is a small sized board, smaller than [Feather](feather.md)
 

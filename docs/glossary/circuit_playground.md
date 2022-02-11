@@ -34,12 +34,8 @@ Among the many Adafruit devices, the [CircuitPlayground Bluefruit](https://www.a
 - Alligator clips instead of soldering
 - Loaded with features: tons of sensors, accelerometer, neopixels, speaker, etc
 - About the size of a Ritz cracker
-- Supported by many Adafruit learn guides as well as third-party online tutorials such as [CircuitPython School](https://www.youtube.com/watch?v=eU1e6xPvZEU&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2)
+- Supported by many [Adafruit learn guides](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit) as well as third-party online tutorials such as [CircuitPython School](https://www.youtube.com/watch?v=eU1e6xPvZEU&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2) and [Bluefruit School](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPRm9MhIOvnfNLe7fWYPx6ak)
 
-
-[Bluefruit School](https://www.youtube.com/playlist?list=PL9VJ9OpT-IPRm9MhIOvnfNLe7fWYPx6ak)
-
-[Learn Guide: CircuitPlayground Bluefruit](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
 
 ![Bluefruit Screenshot](https://cdn-learn.adafruit.com/assets/assets/000/080/460/original/adafruit_products_CPB_labeled.jpg?1567626680)
 Source: [https://learn.adafruit.com/assets/80460](https://learn.adafruit.com/assets/80460)

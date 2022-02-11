@@ -6,49 +6,92 @@
 *Related* [I2C](i2c.md), [SPI](spi.md), [GPIO](gpio.md)
 
 
-It used to be that in order to connect sensors or components you had to use a breadboard or do soldering.
-However in the past decade companies have begun to offer *connectors* which let you easily connect / disconnect components to your project without using a breadboard or soldering.
+It used to be that in order to add sensors or components to your project you had to use a breadboard or do soldering.
+However in the past decade companies have begun to offer *connectors* which let you easily connect / disconnect components to your project without a breadboard or soldering.
 
-A major benefit is that these connectors makes it much more accessible for beginners.  And experienced people can benefit as well since it becomes much easier and quicker to prototype and build interesting projects.  
+A major benefit of these connectors is that it makes it much more accessible for beginners.  And experienced people can also benefit since it becomes much easier and quicker to prototype and build interesting projects.  
 
-Here we describe some of the more popular connectors that are in use today.
+On this page we describe some of the more popular connectors in use today.
 
 ## Grove
 
-https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html
+Introduced by [Seeed Studio](https://www.seeedstudio.com/) in 2010, Grove uses a proprietary 4-pin 2.0mm pin pitch connector for its range of boards and boards made in partnership with Arduino.  The Grove connector can be used with analog, [PWM](pwm.md), digital IO and [I2C](i2c.md).
+
+While almost the same as a [JST PH](connectors.md#jst) connector, Grove unfortunately is not compatible - they are physically too different for JST PH and Grove to be inter-changeable.
+
+
+Additional References on comparision of Grove to JST PH
+
+- [Grove compared to JST PH](https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use)
+- [Grove compatability to JST PH](https://www.omzlo.com/articles/is-the-seeed-studio-grove-connector-compatible-with-the-jst-ph-connector)
+
+
+As Grove has been around the longest, there are a [large number of components](https://www.seeedstudio.com/category/Grove-c-1003.html?cat=890) available.  Many Grove components can be used with Adafruit hardware.
+
+
+Grove is is only compatible with STEMMA I2C components.  Analog, PWM and digital IO are not compatible. 
+
+If you are unsure, just take a look at the component. If it has SDA / SCL pins, then it is an I2C device.
+
+
+Seeed Studio makes a [Grove - QWIIC Hub](https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html) to support interoperability with [Sparkfun QWIIC](connectors.md#qwiic) and [Adafruit STEMMA QT](connectors.md#stemma-qt).
+
+!!! Description 
     Different from our Grove system, QWIIC is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with QWIIC, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - QWIIC Hub, which enables you easily connect the I2C devices with Grove/QWIIC/STEMMA QT interface, get the best use of your devices/controller of different interfaces.
 
-*Related* [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+
+Additional References
+
+[Youtube: Grove 10th Anniversary Documentary 12/31/2020](https://www.youtube.com/watch?v=r-W0XYhVdTk)
+
+
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
 
 
 ## JST
 
-https://en.wikipedia.org/wiki/JST_connector
-    JST Series  "SH" 1.00 mm pin-to-pin pitch     "PH"  2.00mm pin-to-pin pitch
-https://www.linkedin.com/company/jst-sales-america-inc  
+JST is an acronym for the company [Japanese Solderless Terminals](https://web.archive.org/web/20161127093915/http://www.jst-mfg.com/company/info_e.php).  They pioneered the first solderless connectors.
+
+!!! From_the_Archive   
     J.S.T. = Japanese Solderless Terminals As our company name implies, Solderless Terminal, has real significance. When JST was established in 1957, we were Japan's first manufacturer and distributor of Solderless Terminals.
-The Great Search: JST Connectors SH and PH  https://www.youtube.com/watch?v=s5XYd0Z0HFw  1/5/2021
-    1:14 JST PH great for power - Sparkfun originally started LiPo Battery connectors and it became a Maker standard. 
-    2:25 STEMMA QT - JST SH  - Sparkfun also originated QWIIC for breakout boards
-    Also a brief intro to i2c (i2c has become the standard for sensors - rarely see SPI over sensors anymore) https://youtu.be/s5XYd0Z0HFw?t=169
-Grove 10th Anniversary Documentary 12/31/2020  https://www.youtube.com/watch?v=r-W0XYhVdTk
-NOTE: so STEMMA QT is different to STEMMA (see CircuitPython School video) -   STEMMA QT is equivalent to Sparkfun QWIIC.    
+
+There are [many types of JST connectors](https://en.wikipedia.org/wiki/JST_connector), but the two used most commonly with Adafruit are:
+
+- JST Series  "PH"  2.00mm pin-to-pin pitch
+    - Used with [STEMMA](connectors.md#stemma)
+- JST Series  "SH" 1.00 mm pin-to-pin pitch  
+    - Used with [QWIIC](connectors.md#qwiic) and [STEMMA QT](connectors.md#stemma-qt)   
 
 
-*Related* [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+Here's a great video from Jan 5, 2021 where Lady Ada talks about JST SH and PH Connectors:
+
+- [The Great Search: JST Connectors SH and PH](https://www.youtube.com/watch?v=s5XYd0Z0HFw) 
+    - [0:57](https://youtu.be/s5XYd0Z0HFw?t=57) JST PH great for power - Sparkfun originally started LiPo Battery JST PH connectors and it became a Maker standard. 
+    - [2:34](https://youtu.be/s5XYd0Z0HFw?t=154) JST SH  - Sparkfun also originated QWIIC for breakout boards (STEMMA QT compatible with QWIIC) 
+        - Used for I2C (I2C has become the standard for sensors - rarely see sensors over SPI anymore) 
+
+
+
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
 ## QWIIC
 
+QWIIC is an I2C interface system introduced by Sparkfun in 2017, using a 4pin JST SH 1.0mm connector. 
 
-https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html
-    Different from our Grove system, QWIIC is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with QWIIC, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - QWIIC Hub, which enables you easily connect the I2C devices with Grove/QWIIC/STEMMA QT interface, get the best use of your devices/controller of different interfaces.
-    
+STEMMA QT was introduced by Adafruit in 2018.  STEMMA QT is cross-compatible with QWIIC because they use the same connector/cable. 
+
+The I2C protocol enables components to be daisy chained together.
 
 
-*Related* [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+>> QWIIC connectors can be found on many of SparkFun’s boards such as the MicroMod ATP carrier board which uses an M.2 slot, the MicroMod standard, for interchangeable processor boards such as the ESP32, Artemis and the new RP2040. There are also adapters for using QWIIC components on the Raspberry Pi via a HAT and pHAT and for the Arduino range of boards.
+With SparkFun’s QWIIC connector we can easily connect sensors such as the HC-SR04 ultrasonic sensor, soil moisture sensor and even a NEO-M9N GPS breakout.
+
+
+
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 ## STEMMA
 
@@ -61,7 +104,7 @@ As all STEMMA sensors have level shifting and voltage regulation, you can use th
 
 As all STEMMA sensors have level shifting and voltage regulation, you can use them safely with any 3 to 5V power and logic device - from microcontrollers like Arduino-compatibles, to full Linux single board computers like the Raspberry Pi. We even have USB to I2C adapters that let you connect STEMMA devices directly to a computer without any microcontroller programming required! Then, use our Arduino or CircuitPython/Python libraries and examples to easily get your electronics project working on any platform with STEMMA and STEMMA QT.
 
-*Related* [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
 ## STEMMA QT
@@ -103,11 +146,13 @@ CircuitPython School - Adding STEMMA QT_QWIIC to an Arduino RP2040 + Using a Tem
 Minute 0:57  STEMMA QT recap
 Minute 1:42 shows some boards which have STEMMA-QT ports
 
+NOTE: so STEMMA QT is different to STEMMA (see CircuitPython School video) -   STEMMA QT is equivalent to Sparkfun QWIIC.    
+
 
 - [ ] Awesome list for STEMMA QT:  https://github.com/adafruit/awesome-stemma
 
 
-*Related* [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
 
 
 ## STEMMA and STEMMA QT
@@ -128,34 +173,29 @@ https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html
 
 
 STEMMA, QWIIC and Grove Connectors: Which is Right for You?
+
 https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors  4/24/2021
+
 What are STEMMA and STEMMA QT?
+
 Adafruit’s STEMMA connector arrived in 2018 and essentially it is three or four pin JST PH with 2.00 mm pitch, a connector which is keyed so that it cannot be inserted incorrectly. STEMMA is seen on larger boards such as PyPortal which has plenty of space for multiple three and four pin connectors.
 There are two forms of STEMMA connectors, a three or four pin connector. The three pin connector is used for Pulse Width Modulation, Analog and Digital IO. Using this connector we can control Neopixels, read analog sensors and use digital IO devices such as LEDs and buttons. The four-pin connector is for I2C (Inter-Integrated Circuit) components, enabling the use of multiple sensors / devices on a single bus thanks to devices having an address which can be read from / written to.
+
 STEMMA is a great connector, but for smaller boards, such as Adafruit’s QT Py RP2040 we need something smaller and that is where STEMMA QT (‘cutie’) comes in. STEMMA QT is a smaller version of the four pin STEMMA format, roughly half the size of STEMMA, with a 1.0 mm pitch. STEMMA QT is only for use with I2C components. Analog, PWM and digital IO connections are made via the traditional GPIO.
+
 The pin order for QT is designed to match the pin order for SparkFun’s QWIIC enabling the use of QWIIC add-ons with STEMMA QT boards and for the reverse to also be true.
+
 Examples of STEMMA QT boards are Adafruit’s MPR121 capacitive touch sensor, SGP40 air quality sensor, aBME680 temperature / humidity / pressure sensor and AMG8833 IR thermal camera.
 
-What is QWIIC?
-SparkFun’s QWIIC Connect System was released in 2017 and is for use with I2C components. It is compatible with Adafruit’s STEMMA and STEMMA QT as QWIIC uses the same pin ordering. Qwicc, like STEMMA, uses the I2C protocol and enables components to be daisy chained together.
-QWIIC connectors can be found on many of SparkFun’s boards such as the MicroMod ATP carrier board which uses an M.2 slot, the MicroMod standard, for interchangeable processor boards such as the ESP32, Artemis and the new RP2040. There are also adapters for using QWIIC components on the Raspberry Pi via a HAT and pHAT and for the Arduino range of boards.
-With SparkFun’s QWIIC connector we can easily connect sensors such as the HC-SR04 ultrasonic sensor, soil moisture sensor and even a NEO-M9N GPS breakout.
-
-What is Seeed Studio’s Grove Connector?
-Seeed Studio’s Grove connector is a proprietary connector for its range of boards and boards made in partnership with Arduino. The Grove connector is a 4-pin cable which can be used with analog, PWM, digital IO and I2C.
-
-Grove is compatible with STEMMA components, but only for I2C devices as analog, PWM and digital IO are not compatible. If you are unsure, just take a look at the component. If it has SDA / SCL pins, then it is an I2C device.
-
-If you have never used Grove connections before, then the Grove Beginner Kit is worth your investment. In the kit we get an OLED screen, DHT11 temperature sensor, microphone, light sensor and a bonus Arduino compatible board.
 
 ## Connector Comparison
 
-| Device    | Manufacturer                                | Connector                                                                    | Voltage / Logic                                         | Protocols                                                         | Year Introduced | Compatible                           |
-| --------- | ------------------------------------------- | ---------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ------------------------------------ |
-| Grove     | [Seeed Studio](https://www.seeedstudio.com) | Proprietary 4 pin 2.0mm pin pitch, Compatible with STEMMA [I2C](i2c.md) only | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | 4 Pin [I2C](i2c.md) / Analog / Digital / [PWM](pwm.md)            | 2010            | N/A                                  |
-| QWIIC     | [Sparkfun](https://www.sparkfun.com)        | [JST SH](connectors.md#jst) 4 pin 1.0mm pin pitch                            | 3V [DC](https://en.wikipedia.org/wiki/Direct_current)   | [I2C](i2c.md)                                                     | 2017            | N/A                                  |
-| STEMMA    | [Adafruit](https://www.adafruit.com)        | [JST PH](connectors.md#jst) 3 / 4 Pin 2.0mm pin pitch                        | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | 4 Pin [I2C](i2c.md) **or** 3 Pin Analog / Digital / [PWM](pwm.md) | 2014            | intended to be compatible with Grove |
-| STEMMA QT | [Adafruit](https://www.adafruit.com)        | [JST SH](connector.smd#jst) 4 pin 1.0mm pin pitch                            | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | [I2C](i2c.md)                                                     | 2018            | intended to be compatible with QWIIC |
+| Device    | Manufacturer                                | Connector                                             | Voltage / Logic                                         | Protocols                                                         | Year Introduced | Compatible                            |
+| --------- | ------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------- | --------------- | ------------------------------------- |
+| Grove     | [Seeed Studio](https://www.seeedstudio.com) | Proprietary 4 pin 2.0mm pin pitch                     | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | 4 Pin [I2C](i2c.md) / Analog / Digital / [PWM](pwm.md)            | 2010            | Compatible with STEMMA I2C only       |
+| QWIIC     | [Sparkfun](https://www.sparkfun.com)        | [JST SH](connectors.md#jst) 4 pin 1.0mm pin pitch     | 3V [DC](https://en.wikipedia.org/wiki/Direct_current)   | [I2C](i2c.md)                                                     | 2017            | N/A                                   |
+| STEMMA    | [Adafruit](https://www.adafruit.com)        | [JST PH](connectors.md#jst) 3 / 4 Pin 2.0mm pin pitch | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | 4 Pin [I2C](i2c.md)  **or**  3 Pin Analog / Digital / [PWM](pwm.md) | 2014            | Only STEMMA I2C compatible with Grove |
+| STEMMA QT | [Adafruit](https://www.adafruit.com)        | [JST SH](connectors.md#jst) 4 pin 1.0mm pin pitch     | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current) | [I2C](i2c.md)                                                     | 2018            | intended to be compatible with QWIIC  |
 
 Which Connector is Right For You?
 The answer is based on what boards you already have and what you want to achieve. If you have Adafruit’s boards, then you will most likely have some form of STEMMA / STEMMA QT connector and so the entire range of add-ons is available to you. You will also have access to SparkFun’s QWIIC range of add ons which opens up a plethora of options for your projects. This is also true if you have any of SparkFun’s boards with QWIIC connectors. 

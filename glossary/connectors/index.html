@@ -176,11 +176,15 @@
 </li>
                                     
 <li>
-    <a href="../connectors#qwiic" class="dropdown-item">Qwiic</a>
+    <a href="../connectors#qwiic" class="dropdown-item">QWIIC</a>
 </li>
                                     
 <li>
-    <a href="../shield/" class="dropdown-item">Sheild</a>
+    <a href="../rp2040/" class="dropdown-item">RP2040</a>
+</li>
+                                    
+<li>
+    <a href="../shield/" class="dropdown-item">Shield</a>
 </li>
                                     
 <li>
@@ -188,11 +192,11 @@
 </li>
                                     
 <li>
-    <a href="../connectors#stemma" class="dropdown-item">Stemma</a>
+    <a href="../connectors#stemma" class="dropdown-item">STEMMA</a>
 </li>
                                     
 <li>
-    <a href="../connectors#stemma-qt" class="dropdown-item">Stemma QT</a>
+    <a href="../connectors#stemma-qt" class="dropdown-item">STEMMA QT</a>
 </li>
                                     
 <li>
@@ -295,21 +299,27 @@ However in the past decade companies have begun to offer <em>connectors</em> whi
 <h2 id="grove">Grove</h2>
 <p>Introduced by <a href="https://www.seeedstudio.com/">Seeed Studio</a> in 2010, Grove uses a proprietary 4-pin 2.0mm pin pitch connector for its range of boards and boards made in partnership with Arduino.  The Grove connector can be used with analog, <a href="../pwm/">PWM</a>, digital IO and <a href="../i2c/">I2C</a>.</p>
 <p>While almost the same as a <a href="./#jst">JST PH</a> connector, Grove unfortunately is not compatible - they are physically too different for JST PH and Grove to be inter-changeable.</p>
-<p>Additional References on comparision of Grove to JST PH</p>
-<ul>
+<p><strong>Additional References on comparision of Grove to JST PH</strong></p>
+<ol>
 <li><a href="https://arduino.stackexchange.com/questions/9030/what-type-of-connector-does-the-grove-system-use">Grove compared to JST PH</a></li>
 <li><a href="https://www.omzlo.com/articles/is-the-seeed-studio-grove-connector-compatible-with-the-jst-ph-connector">Grove compatability to JST PH</a></li>
+</ol>
+<p>As Grove has been around the longest, there are a <a href="https://www.seeedstudio.com/category/Grove-c-1003.html?cat=890">large number of components</a> available.  </p>
+<p>Many Grove components can be used with Adafruit hardware.</p>
+<ul>
+<li>Grove is is only compatible with STEMMA I2C components.  </li>
+<li>Analog, PWM and digital IO are not compatible.  </li>
+<li>If a component has SDA / SCL pins, then it is an I2C device.</li>
 </ul>
-<p>As Grove has been around the longest, there are a <a href="https://www.seeedstudio.com/category/Grove-c-1003.html?cat=890">large number of components</a> available.  Many Grove components can be used with Adafruit hardware.</p>
-<p>Grove is is only compatible with STEMMA I2C components.  Analog, PWM and digital IO are not compatible. </p>
-<p>If you are unsure, just take a look at the component. If it has SDA / SCL pins, then it is an I2C device.</p>
 <p>Seeed Studio makes a <a href="https://www.seeedstudio.com/Grove-QWIIC-Hub-p-4531.html">Grove - QWIIC Hub</a> to support interoperability with <a href="./#qwiic">Sparkfun QWIIC</a> and <a href="./#stemma-qt">Adafruit STEMMA QT</a>.</p>
 <div class="admonition description">
 <p class="admonition-title">Description</p>
 <p>Different from our Grove system, QWIIC is an I2C interface system initiated by Sparkfun around 2017, using a 4pin JST SH 1.0mm connector. STEMMA QT initiated by Adafruit is cross-compatible with QWIIC, as they use the same connector/cable. To better support different types of interface systems, we provide Grove - QWIIC Hub, which enables you easily connect the I2C devices with Grove/QWIIC/STEMMA QT interface, get the best use of your devices/controller of different interfaces.</p>
 </div>
-<p>Additional References</p>
-<p><a href="https://www.youtube.com/watch?v=r-W0XYhVdTk">Youtube: Grove 10th Anniversary Documentary 12/31/2020</a></p>
+<p><strong>Additional References</strong></p>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=r-W0XYhVdTk">Youtube: Grove 10th Anniversary Documentary 12/31/2020</a></li>
+</ol>
 <p><em>Related</em> <a href="./#connector-comparison">Connector Comparison</a>, <a href="./#grove">Grove</a>, <a href="./#jst">JST</a>, <a href="./#qwiic">QWIIC</a>, <a href="./#stemma">STEMMA</a>, <a href="./#stemma-qt">STEMMA QT</a>, <a href="./#what-is-the-difference-between-stemma-and-stemma-qt">What is the difference between STEMMA and STEMMA QT</a></p>
 <h2 id="jst">JST</h2>
 <p>JST is an acronym for the company <a href="https://web.archive.org/web/20161127093915/http://www.jst-mfg.com/company/info_e.php">Japanese Solderless Terminals</a>.  They pioneered the first solderless connectors.</p>

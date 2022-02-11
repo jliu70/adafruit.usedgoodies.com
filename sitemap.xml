@@ -136,6 +136,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://adafruit.usedgoodies.com/glossary/rp2040/</loc>
+         <lastmod>2022-02-11</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://adafruit.usedgoodies.com/glossary/shield/</loc>
          <lastmod>2022-02-11</lastmod>
          <changefreq>daily</changefreq>

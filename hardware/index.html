@@ -176,11 +176,15 @@
 </li>
                                     
 <li>
-    <a href="../glossary/connectors#qwiic" class="dropdown-item">Qwiic</a>
+    <a href="../glossary/connectors#qwiic" class="dropdown-item">QWIIC</a>
 </li>
                                     
 <li>
-    <a href="../glossary/shield/" class="dropdown-item">Sheild</a>
+    <a href="../glossary/rp2040/" class="dropdown-item">RP2040</a>
+</li>
+                                    
+<li>
+    <a href="../glossary/shield/" class="dropdown-item">Shield</a>
 </li>
                                     
 <li>
@@ -188,11 +192,11 @@
 </li>
                                     
 <li>
-    <a href="../glossary/connectors#stemma" class="dropdown-item">Stemma</a>
+    <a href="../glossary/connectors#stemma" class="dropdown-item">STEMMA</a>
 </li>
                                     
 <li>
-    <a href="../glossary/connectors#stemma-qt" class="dropdown-item">Stemma QT</a>
+    <a href="../glossary/connectors#stemma-qt" class="dropdown-item">STEMMA QT</a>
 </li>
                                     
 <li>
@@ -245,7 +249,7 @@
             
             <li class="nav-item" data-level="1"><a href="#hardware" class="nav-link">Hardware</a>
               <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#microcontrollers" class="nav-link">Microcontrollers</a>
+            <li class="nav-item" data-level="2"><a href="#what-are-microcontrollers" class="nav-link">What are Microcontrollers?</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -253,19 +257,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#comprehensive-list-of-hardware-supported-by-circuitpython" class="nav-link">Comprehensive list of hardware supported by CircuitPython</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#adafruit-hardware" class="nav-link">Adafruit Hardware</a>
+            <li class="nav-item" data-level="2"><a href="#list-of-hardware-supported-by-circuitpython" class="nav-link">List of hardware supported by CircuitPython</a>
               <ul class="nav flex-column">
               </ul>
             </li>
             <li class="nav-item" data-level="2"><a href="#chipsets" class="nav-link">Chipsets</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#rp2040" class="nav-link">RP2040</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -283,15 +279,15 @@
 
 <h1 id="hardware">Hardware</h1>
 <p>The Adafruit lingo for their hardware is quite extensive and can be confusing to someone new to the Adafruit ecosystem.  One of the primary goals of this website is to help newcomers sort through this cornicopia of terminology.</p>
-<h2 id="microcontrollers">Microcontrollers</h2>
-<p>Adafruit designs and sells their own custom microcontrollers. </p>
+<p>Adafruit designs and sells their own custom microcontrollers, components, sensors, and more. </p>
+<h2 id="what-are-microcontrollers">What are Microcontrollers?</h2>
 <p>Microcontrollers are single purpose computers </p>
 <ul>
 <li>small embedded development boards</li>
 <li>limited storage and memory</li>
 <li>limited processing power</li>
 </ul>
-<p>Microcontrollers vs General Purpose Computer</p>
+<h4 id="microcontrollers-vs-general-purpose-computer">Microcontrollers vs General Purpose Computer</h4>
 <ul>
 <li>Use of Microcontrollers is fine for many cases</li>
 <li>When you need more computational power, you may want to use a <a href="https://www.raspberrypi.com">Raspberry Pi</a><ul>
@@ -308,7 +304,7 @@
 </div>
 <p>Among the many Adafruit devices, the <a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a> is more accesible to beginners.  It is a great piece of hardware to start with.</p>
 <p>For more info, see the <strong>Glossary</strong> page for <a href="../glossary/circuit_playground#circuit-playground-bluefruit">Circuit Playground Bluefruit</a></p>
-<h2 id="comprehensive-list-of-hardware-supported-by-circuitpython">Comprehensive list of hardware supported by CircuitPython</h2>
+<h2 id="list-of-hardware-supported-by-circuitpython">List of hardware supported by CircuitPython</h2>
 <p>List of all the hardware currently supported by CircuitPython (Adafruit and other manufacturers) is available at the <a href="https://circuitpython.org/downloads">CircuitPython Downloads Page</a>.</p>
 <p>As of Feb 2022 </p>
 <ul>
@@ -318,9 +314,9 @@
 </ul>
 </li>
 </ul>
-<h2 id="adafruit-hardware">Adafruit Hardware</h2>
-<p>Adafruit offers over 60 different microcontrollers.</p>
-<p>Within the Adafruit ecosystem, there are a few general categories:</p>
+<h3 id="adafruit-hardware">Adafruit Hardware</h3>
+<p>Adafruit offers 68 different microcontrollers which run CircuitPython.</p>
+<h4 id="within-the-adafruit-ecosystem-there-are-a-few-general-microcontroller-categories">Within the Adafruit ecosystem, there are a few general microcontroller categories:</h4>
 <ul>
 <li><a href="../glossary/feather/">Adafruit Feather</a> (Regular)<ul>
 <li>Supported by an extensive array of expansion options called <a href="../glossary/feather/#featherwing">FeatherWings</a></li>
@@ -331,13 +327,18 @@
 <li><a href="../glossary/metro/">Metro</a> (Arduino form factor)</li>
 <li>Trinkey (USB dongles)</li>
 </ul>
-<p>There are also custom form factors such as </p>
+<h4 id="there-are-also-custom-form-factors-such-as">There are also custom form factors such as:</h4>
 <ul>
 <li><a href="../../glossary/circuit_playground">Circuit Playground</a></li>
 <li><a href="../glossary/clue/">CLUE</a></li>
 <li>Gemma M0</li>
 <li>FunHouse</li>
-<li>PyBadge/EdgeBadge</li>
+<li>MacroPad</li>
+<li>MagTag</li>
+<li>MatrixPortal</li>
+<li>PyBadge/EdgeBadge/PyGamer</li>
+<li>PyPortal/PyPortal Titano</li>
+<li>Trellis </li>
 <li>Trinket M0</li>
 <li><a href="../glossary/teensy/">Teensy</a></li>
 </ul>
@@ -349,17 +350,15 @@
 <li>ESP32-S2</li>
 <li>ESP32-S3</li>
 <li>NRF52840</li>
-<li>RP2040</li>
+<li><a href="../glossary/rp2040/">RP2040</a></li>
 </ul>
-<p>You will often see multiple versions of a particular Adafruit form factor based upon different chipsets.</p>
+<p>There are features and advantages to each chipset, so there are often multiple versions of a particular Adafruit form factor based upon different chipsets.</p>
 <p>For example:</p>
-<p><a href="../glossary/circuit_playground/#circuit-playground">Circuit Playground Versions</a></p>
-<p><a href="../glossary/qt_py/#qt-py">QT Py Versions</a></p>
-<h2 id="rp2040">RP2040</h2>
-<p>https://www.cytron.io/index.php?route=product/product&amp;product_id=44150&amp;r=1</p>
-<p>https://store-usa.arduino.cc/products/arduino-nano-rp2040-connect-with-headers</p>
-<p>https://github.com/adafruit/PrettyPins
-CSV files for Adafruit pin out diagrams - only needed to be done once per chip</p>
+<ul>
+<li><a href="../glossary/circuit_playground/#circuit-playground">Circuit Playground Versions</a></li>
+<li><a href="../glossary/qt_py/#qt-py">QT Py Versions</a></li>
+</ul>
+<p><a href="https://github.com/adafruit/PrettyPins">CSV files for Adafruit pin out diagrams</a> - only needed to be done once per chip</p>
 <h1 id="choosing-a-board">Choosing a Board</h1>
 <p><a href="choosing_a_board/">Go to Choosing a Board</a></p>
 <div>

@@ -60,14 +60,14 @@ CircuitPython is a fork of Micropython.  While CircuitPython looks somewhat like
 
 Choose MicroPython
 
-- for advanced features like interrupts and threading
-- complete access to the RP2040’s Programmable I/O (PIO) in Python 
+- For advanced features like interrupts and threading
+- Complete access to the RP2040’s Programmable I/O (PIO) in Python 
 
 Choose CircuitPython  
 
-- beginner friendly
-- library support for sensors and other breakouts 
-- well supported by Adafruit
+- Beginner friendly
+- Extensive library support for sensors and other breakouts 
+- Well supported by Adafruit
 
 
 ## CircuitPython Documentation 

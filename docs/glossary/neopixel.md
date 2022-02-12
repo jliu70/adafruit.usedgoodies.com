@@ -6,6 +6,7 @@
 NeoPixel
 
 
+WIP
 
 - [ ] Neopixel Uberguide:  https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
 - [ ] Learn: Make It Glow - Your First NeoPixel Project   https://learn.adafruit.com/make-it-glow-your-first-neopixel-project

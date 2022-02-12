@@ -41,3 +41,6 @@ PyPortal   - tho my PyPortal seems to be DOA - forum support post requesting RMA
 - [ ] Learn: QT Py ESP32-S2 wipper snapper   https://www.youtube.com/watch?v=NaFqSdJdPmQ  (2minutes)  1/12/2022
 ESP32-S2,  13 GPIO, 4MB Flash, 2MB PSRAM, USB-C 
 
+
+
+WIP

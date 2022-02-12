@@ -10,3 +10,8 @@ PyLeap
 
 2/3/2022  CLUE support is coming to PyLeap soon
 https://blog.adafruit.com/2022/02/03/get-a-clue-adafruit-clue-nrf52840-is-coming-to-pyleap/
+
+
+iOS app to download projects to Circuit Playground Bluefruit or CLUE via Bluetooth LE
+
+WIP

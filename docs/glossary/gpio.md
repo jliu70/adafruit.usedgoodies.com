@@ -6,6 +6,8 @@
 *Related* [I2C](i2c.md), [SPI](spi.md)
 
 
+WIP
+
 GPIO - General Purpose Input/Output 
 
 - standard interface used to connect electronic devices

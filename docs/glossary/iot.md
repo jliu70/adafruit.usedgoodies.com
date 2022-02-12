@@ -5,6 +5,7 @@
 
 *Related* [Adafruit IO](adafruit_io.md), [WipperSnapper](wippersnapper.md)
 
-IOT
+[IOT or Internet of Things](https://en.wikipedia.org/wiki/Internet_of_things)
 
 
+WIP

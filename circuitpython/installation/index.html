@@ -258,7 +258,29 @@
 
 <h1 id="installation">installation</h1>
 <p><a href="https://circuitpython.org/downloads">CircuitPython hardware binaries downloads</a></p>
-<p><a href="https://circuitpython.org/libraries">CircuitPython Bundle Libraries</a></p></div>
+<p><a href="https://circuitpython.org/libraries">CircuitPython Bundle Libraries</a></p>
+<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
+<p>General steps</p>
+<ol>
+<li>Download UF2 binaries for your board<ul>
+<li>Go to Downloads site and click on your board</li>
+<li>download and then go into bootloader mode </li>
+<li>drag and drop the UF2 file to your device USB device</li>
+</ul>
+</li>
+<li>Download Bundle Libraries<ul>
+<li>Manually<ul>
+<li>download the bundle, unzip, then drag and drop the libraries you need</li>
+</ul>
+</li>
+<li>Via Circup<ul>
+<li>can create a text file, e.g., <code>requirements.txt</code></li>
+<li>run <code>circup install -r requirements.txt</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ol></div>
             </div>
         </div>
 

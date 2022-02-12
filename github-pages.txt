@@ -1,0 +1,70 @@
+
+
+# Github Pages - Verify a custom domain
+https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/verifying-your-custom-domain-for-github-pages
+
+Under user account profile > Pages > Add a domain (Verified domains)
+
+
+## Add a DNS TXT record
+Copy verification steps
+Before we can verify usedgoodies.com, you'll need to complete these steps:
+
+Create a TXT record in your DNS configuration for the following hostname:
+	
+_github-pages-challenge-jliu70.usedgoodies.com
+
+
+3c9b0e7c1e6c3486af8fbfe4069988
+
+
+## Add a DNS CNAME record
+adafruit.usedgoodies.com CNAME to jliu70.github.io
+
+
+
+# Create the Project Repo
+https://github.com/jliu70/adafruit.usedgoodies.com
+
+
+
+# Deploy the site via mkdocs
+https://www.mkdocs.org/user-guide/deploying-your-docs/
+mkdocs gh-deploy
+
+
+
+Project Repo settings > pages > 
+choose the branch "gh-pages" and leave default of "/(root)"
+
+
+
+Site is now enabled:  http://adafruit.usedgoodies.com
+
+
+HTTPS  
+
+# 1/20/2022
+NOTE: HTTPS encryption can take up to 24 hours before this option is available
+NOTE: about two hours later I was able to check the Enable HTTPS checkbox.
+
+TLS certificate is being provisioned. This may take up to 15 minutes to complete.
+1 of 3 
+Certificate Requested: Domain authorization succeeded.
+
+and then it was done.  Only about 5 minutes later (but this was at 9:57pm)
+
+
+
+# Follow ups 
+Multiple projects on Github pages
+https://webapps.stackexchange.com/questions/42455/publishing-more-than-one-site-on-github-pages
+https://deanattali.com/blog/multiple-github-pages-domains/
+
+
+#1/20/2022
+Later on, created a new test github project.  Then just need to create a CNAME record for new sub-domain to same jliu70.github.io. 
+Then project settings > pages and that seems to work.
+ https://testgh.usedgoodies.com/glossary/
+
+

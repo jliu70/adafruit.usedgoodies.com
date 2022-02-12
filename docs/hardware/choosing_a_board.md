@@ -65,6 +65,9 @@ Minute 0:57  Stemma QT recap
 Minute 1:42 shows some boards which have STEMMA-QT ports
 
 
+NOTE: so STEMMA QT is different to STEMMA (see CircuitPython School video) -   STEMMA QT is equivalent to Sparkfun QWIIC.    
+
+
 
 # Connectors
 
@@ -75,6 +78,4 @@ Explore what is STEMMA or STEMMA QT
 <div>
 <a href="../../glossary/connectors/" class="btn btn-primary" role="button">Go to Connectors</a>
 </div>
-
-
 

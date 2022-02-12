@@ -50,6 +50,7 @@ Adafruit offers 68 different microcontrollers which run CircuitPython.
 
 #### Within the Adafruit ecosystem, there are a few general microcontroller categories:
 
+- [Circuit Playground](../../glossary/circuit_playground) 
 - [Adafruit Feather](../glossary/feather.md) (Regular)
     - Supported by an extensive array of expansion options called [FeatherWings](../glossary/feather.md#featherwing)
 - [ItsyBitsy](../glossary/itsy_bitsy.md) (Small)
@@ -59,7 +60,6 @@ Adafruit offers 68 different microcontrollers which run CircuitPython.
 
 #### There are also custom form factors such as: 
 
-- [Circuit Playground](../../glossary/circuit_playground)
 - [CLUE](../glossary/clue.md)
 - Gemma M0
 - FunHouse
@@ -94,6 +94,7 @@ For example:
 
 
 
+Pretty Pins - pin out diagrams for Adafruit hardware
 
 [CSV files for Adafruit pin out diagrams](https://github.com/adafruit/PrettyPins) - only needed to be done once per chip
 

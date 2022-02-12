@@ -247,8 +247,20 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
-            <li class="nav-item" data-level="1"><a href="#installation" class="nav-link">installation</a>
+            <li class="nav-item" data-level="1"><a href="#installation" class="nav-link">Installation</a>
               <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#circuitpython-uf2-image" class="nav-link">CircuitPython UF2 Image</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#circuitpython-libaries" class="nav-link">CircuitPython Libaries</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#additional-circuitpython-resources" class="nav-link">Additional CircuitPython Resources</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
               </ul>
             </li>
         </ul>
@@ -256,31 +268,237 @@
 </div></div>
                     <div class="col-md-9" role="main">
 
-<h1 id="installation">installation</h1>
-<p><a href="https://circuitpython.org/downloads">CircuitPython hardware binaries downloads</a></p>
-<p><a href="https://circuitpython.org/libraries">CircuitPython Bundle Libraries</a></p>
-<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
-<p>General steps</p>
+<h1 id="installation">Installation</h1>
+<p>CircuitPython installation has two general steps:</p>
 <ol>
-<li>Download UF2 binaries for your board<ul>
-<li>Go to Downloads site and click on your board</li>
-<li>download and then go into bootloader mode </li>
-<li>drag and drop the UF2 file to your device USB device</li>
+<li>Installing the CircuitPython UF2 image onto your device</li>
+<li>Installing additional CircuitPython Libraries as needed</li>
+</ol>
+<h2 id="circuitpython-uf2-image">CircuitPython UF2 Image</h2>
+<p>CircuitPython UF2 image installation is a simple drag-and-drop operation because Adafruit devices usually support USB mode.</p>
+<p>When you connect the microcontroller to your computer via a USB cable, it will appear on your computer as a USB drive.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Make sure that the cable you use is a USB <strong>data</strong> cable.  If you are using a USB charging cable, the device will not be mounted on your system as a USB drive.</p>
+</div>
+<h3 id="steps">Steps</h3>
+<ol>
+<li>Download UF2 image for your board<ul>
+<li>Go to <a href="https://circuitpython.org/downloads">CircuitPython Downloads</a> site and click on your board</li>
+<li>NOTE: if your board does not appear on the list, then it probably does not support CircuitPython.  The majority of Adafruit devices support CircuitPython.</li>
 </ul>
 </li>
-<li>Download Bundle Libraries<ul>
-<li>Manually<ul>
-<li>download the bundle, unzip, then drag and drop the libraries you need</li>
+<li>Place your device into bootloader mode (see Adafruit documentation for your device as this process varies)</li>
+<li>Drag and drop the UF2 file you downloaded in the first step to your device via the mounted Bootloader USB drive (the name of the mounted Bootloader drive varies)<ul>
+<li>If the copy is successful, you should see the Bootloader drive automatically unmount, and then a new drive usually named <code>CIRCUITPY</code> will automatically mount</li>
 </ul>
 </li>
-<li>Via Circup<ul>
-<li>can create a text file, e.g., <code>requirements.txt</code></li>
-<li>run <code>circup install -r requirements.txt</code></li>
+</ol>
+<p>At this point, you are done!  You can proceed to start coding on CircuitPython on your device.</p>
+<p>Located on your <code>CIRCUITPY</code> drive folder, the main starter program is <code>code.py</code> </p>
+<h4 id="additional-references">Additional References</h4>
+<p>Great video walkthrough of the process: <a href="https://www.youtube.com/watch?v=Wa1E8ze3v04&amp;list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&amp;index=2">CircuitPython School - CircuitPython Installation</a></p>
+<h2 id="circuitpython-libaries">CircuitPython Libaries</h2>
+<p>Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
+However, once your program makes calls beyond the libraries included with the binary install  -- most commonly after you attach additional sensors or other breakouts to the microcontroller, you will need to do additional steps of downloading the CircuitPython Library Bundle and copying libraries to the microcontroller.</p>
+<p>The full CircuitPython Library Bundle is around 3.5MB compressed.</p>
+<ul>
+<li>Since the storage available on most microcontrollers is limited<ul>
+<li>There is not enough capacity to store the complete CircuitPython Library bundle</li>
+<li>Often you need to copy additional libraries individually based upon the sensors, components and other breakouts you attach.</li>
 </ul>
 </li>
 </ul>
+<p>The main options for copying additional libraries onto the microcontroller are:</p>
+<ul>
+<li>Manual</li>
+<li>Using a tool (I highly recommend <code>circup</code>)</li>
+<li>For Adafruit Learn Guides:  <a href="https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/">Bundlefly</a></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><em>A Beginner's Recommendation</em>.</p>
+<p><strong><a href="https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/">Bundlefly</a></strong></p>
+<p>Adafruit Learn Guides now have a feature called <a href="https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/">Bundlefly</a> which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.
+You should find the download link called <code>Download Project Bundle</code> located at the beginning of any CircuitPython code section.</p>
+<p>Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.</p>
+</div>
+<h3 id="manual">Manual</h3>
+<ol>
+<li>Download the <a href="https://circuitpython.org/libraries">CircuitPython Library Bundle</a><ul>
+<li>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+Make sure to download the bundle that matches the major version of your CircuitPython </div>
 </li>
-</ol></div>
+<li>Unzip the bundle, then drag and drop the individual libraries you need</li>
+</ul>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Most Adafruit learn guides and other 3rd party tutorials reference the manual method.</p>
+</div>
+<h3 id="using-circup">Using circup</h3>
+<p><strong>PRE-REQUISITE</strong></p>
+<ul>
+<li>Have a working Python3 installation on your computer.<ul>
+<li>For Windows, best to download <a href="https://www.python.org/downloads/windows/">python</a> and install.</li>
+<li>For Mac, you have options such as <ul>
+<li><a href="https://docs.brew.sh/Homebrew-and-Python">homebrew</a> </li>
+<li><a href="https://stackoverflow.com/questions/68011799/how-to-install-python-3-8-required-to-be-downloaded-from-xcode-command-line-to">Command Line Tools (must have an Apple ID)</a> (what I use)</li>
+</ul>
+</li>
+<li>For Linux, check your distro documentation for info on how to install Python3 (if not already installed)</li>
+</ul>
+</li>
+</ul>
+<p><a href="https://circup.readthedocs.io/en/latest/">Circup</a> is a great way to install CircuitPython libraries and keep all your CircuitPython libraries up to date.</p>
+<p>While <code>circup</code> does require some intial setup, you should only need to do the setup once.</p>
+<p>Circup usage is very similar to the python <code>pip</code> tool.</p>
+<p>IMHO using <code>circup</code> is vastly superior to copying CircuitPython libraries manually.</p>
+<p><strong>Circup Advantages</strong></p>
+<ul>
+<li>No need to manually: <ul>
+<li>Download the CircuitPython Bundle Library zip file</li>
+<li>Extract the bundle zip file</li>
+<li>Drag and drop individual libraries to the microcontroller</li>
+</ul>
+</li>
+<li>Install individual libraries by name or a list of libraries in a text file.</li>
+<li>Generate a list of libraries currently installed on your device with the <code>freeze</code> option. (see below for more info)</li>
+</ul>
+<p>I first learned about <code>circup</code> from one of John Park's CircuitPython Parsec videos: </p>
+<ul>
+<li><a href="https://blog.adafruit.com/2021/09/17/john-parks-circuitpython-parsec-circup-adafruit-johnedgarpark-adafruit-circuitpython/">Adafruit Blog on John Park's CircuitPython Parsec:  CircUp  CircuitPython Updater</a>  </li>
+<li><a href="https://www.youtube.com/watch?v=TXKoDqLprgY">Video: John Park's CircuitPython Parsec: Circup CircuitPython Updater</a>   (9/17/2021)</li>
+</ul>
+<h4 id="circup-initial-setup-only-need-to-run-once">Circup Initial Setup - only need to run once</h4>
+<p>I recommend to install circup via a python virtual environment.</p>
+<p>Although if you prefer, you may skip the virtual environment creation and directly <code>pip install circup</code> onto your computer.</p>
+<p><strong>Create Python Virtual Environment</strong> (optional - skip to <strong>Install Circup</strong> if you don't want to use a virtual environment)</p>
+<p>On a Mac:</p>
+<pre><code>python3 -m venv ~/.virtualenvs/circup
+</code></pre>
+<p>On Linux:</p>
+<pre><code>python3 -m venv ~/.virtualenvs/circup
+</code></pre>
+<p>On Windows:</p>
+<p>Pre-requisites</p>
+<ul>
+<li>Install Python on your computer</li>
+</ul>
+<pre><code>python -m venv ~/.virtualenvs/circup
+</code></pre>
+<p><strong>Activate Virtual Environment</strong></p>
+<p>Mac and Linux</p>
+<pre><code>. ~/.virtualenvs/circup/bin/activate
+</code></pre>
+<p>Windows</p>
+<pre><code>source ~/.virtualenvs/circup/Scripts/activate
+</code></pre>
+<p><strong>Install Circup</strong></p>
+<p>On all platforms:</p>
+<pre><code>pip install circup
+</code></pre>
+<p>On Mac/Linux if you did not use a virtual environment:</p>
+<pre><code>pip3 install circup
+</code></pre>
+<h4 id="circup-usage">Circup Usage</h4>
+<p>NOTE: If using a python virtual environment, before you can call circup, you will first need to activate the virtual environment. (see <strong>Activate Virtual Environment</strong> above)</p>
+<p><strong>Command Examples</strong></p>
+<ul>
+<li>Circup install a library</li>
+</ul>
+<pre><code>circup install adafruit_debouncer
+</code></pre>
+<ul>
+<li>Circup remove a library</li>
+</ul>
+<pre><code>(circup) jliu@JEFFREYs-MBP ~ % circup uninstall adafruit_debouncer
+Found device at /Volumes/CIRCUITPY, running CircuitPython 6.3.0.
+A newer version of CircuitPython (7.0.0) is available.
+Get it here: https://circuitpython.org/downloads
+Uninstalled 'adafruit_debouncer'.
+</code></pre>
+<ul>
+<li>Circup install list of libraries from a text file </li>
+</ul>
+<pre><code>(circup) jliu@JEFFREYs-MBP /Volumes/CIRCUITPY/lib % circup install -r ../requirements.txt
+Found device at /Volumes/CIRCUITPY, running CircuitPython 6.3.0.
+A newer version of CircuitPython (7.0.0) is available.
+Get it here: https://circuitpython.org/downloads
+Searching for dependencies for: ['a newer version of circuitpython (7.0.0) is available.', 'adafruit_debouncer', 'found device at /volumes/circuitpy, running circuitpython 6.3.0.', 'get it here: https://circuitpython.org/downloads']
+WARNING:
+    a newer version of circuitpython (7.0.0) is available. is not a known CircuitPython library.
+WARNING:
+    found device at /volumes/circuitpy, running circuitpython 6.3.0. is not a known CircuitPython library.
+WARNING:
+    get it here: https://circuitpython.org/downloads is not a known CircuitPython library.
+Ready to install: ['adafruit_debouncer']
+
+
+Installed 'adafruit_debouncer'.
+</code></pre>
+<ul>
+<li>Circup create list of libraries from installed libraries on microcontroller<ul>
+<li>Similar to the <code>pip freeze</code> command. </li>
+<li>NOTE: Instead of the <code>freeze</code> option, you may also manually create a text file with a list of libraries.</li>
+</ul>
+</li>
+</ul>
+<pre><code>circup freeze &gt; requirements.txt
+</code></pre>
+<h4 id="circup-miscellaneous-info">Circup Miscellaneous Info</h4>
+<ul>
+<li>Circup bundles-show</li>
+</ul>
+<pre><code>(circup) jliu@JEFFREYs-MBP ~ % circup bundle-show
+adafruit/Adafruit_CircuitPython_Bundle
+ https://github.com/adafruit/Adafruit_CircuitPython_Bundle
+ version = 20210921
+adafruit/CircuitPython_Community_Bundle
+ https://github.com/adafruit/CircuitPython_Community_Bundle
+ version = 20210921
+circuitpython/CircuitPython_Org_Bundle
+ https://github.com/circuitpython/CircuitPython_Org_Bundle
+ version = 0.0.3
+</code></pre>
+<p><a href="https://github.com/adafruit/circup/pull/110">Github Issue requesting support for community bundle and future bundles</a></p>
+<ul>
+<li>Circup bundles by default are downloaded to User's <code>DATA_DIR/circup</code> </li>
+</ul>
+<p>NOTE:  Mac default <code>DATA_DIR/circup</code> directory is  <code>~/Library/Application\ Support/circup</code></p>
+<pre><code>(circup) % ls -lrt ~/Library/Application\ Support/circup
+total 35752
+-rw-r--r--  1 jliu  staff  11320 Sep 21 11:55 circuitpython-org-bundle-py.zip
+-rw-r--r--  1 jliu  staff   5506 Sep 21 11:55 circuitpython-org-bundle-6mpy.zip
+-rw-r--r--  1 jliu  staff   4992 Sep 21 11:55 circuitpython-org-bundle-7mpy.zip
+drwxr-xr-x  5 jliu  staff  160 Sep 21 11:55 circuitpython
+-rw-r--r--  1 jliu  staff  4531939 Dec  5 10:25 adafruit-circuitpython-bundle-6mpy.zip
+-rw-r--r--  1 jliu  staff  1398845 Dec  5 10:25 circuitpython-community-bundle-py.zip
+-rw-r--r--  1 jliu  staff   866768 Dec  5 10:25 circuitpython-community-bundle-6mpy.zip
+-rw-r--r--  1 jliu  staff   655732 Dec  5 10:25 circuitpython-community-bundle-7mpy.zip
+-rw-r--r--  1 jliu  staff  7197908 Jan  1 19:44 adafruit-circuitpython-bundle-py.zip
+-rw-r--r--  1 jliu  staff  3607698 Jan  1 19:44 adafruit-circuitpython-bundle-7mpy.zip
+drwxr-xr-x  8 jliu  staff  256 Jan  1 19:44 adafruit
+-rw-r--r--  1 jliu  staff  160 Jan  1 19:44 circup.json
+
+(circup) jliu@JEFFREYs-MBP ~/Library/Application Support/circup  % du -sh .
+ 51M   .
+</code></pre>
+<p>Config file <code>circup.json</code></p>
+<pre><code>% find ~ -name circup.json
+/Users/jliu/Library/Application Support/circup/circup.json
+</code></pre>
+<h4 id="circup-resources">Circup Resources</h4>
+<ul>
+<li><a href="https://circup.readthedocs.io/en/latest/">Circup documentation</a></li>
+<li><a href="https://github.com/adafruit/circup">Circup Github repo</a></li>
+<li><a href="https://learn.adafruit.com/keep-your-circuitpython-libraries-on-devices-up-to-date-with-circup/">Adafruit Learn Guide: Circup</a></li>
+</ul>
+<h2 id="additional-circuitpython-resources">Additional CircuitPython Resources</h2>
+<p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p></div>
             </div>
         </div>
 

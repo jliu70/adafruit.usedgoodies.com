@@ -270,7 +270,8 @@ I2C has become the standard for sensors - rarely see SPI over sensors anymore.</
 <li>data (SDA)</li>
 </ul>
 <p>I2C uses unique addresses for devices so it makes it possible to daisy chain multiple devices.<br />
-NOTE: if you need to use the same type of component or sensor twice, some devices allow you to set a jumper to change the default address.  </p>
+NOTE: if you need to use the same type of component or sensor twice, some devices allow you to set a jumper to change the default address.<br />
+Another option is to use <a href="https://www.adafruit.com/product/4704">SparkFun STEMMA QT / Qwiic TCA9548A Mux Breakout - 8 Channel</a></p>
 <p>Addresses range from 0 to 128 
 A seven bit wide address space theoretically allows 128 I2C addresses – however, some addresses are reserved for special purposes. Thus, only 112 addresses are available with the 7 bit address scheme. <sup>5</sup></p>
 <p>THe <a href="../connectors/#qwiic">QWIIC</a> and <a href="../connectors/#stemma-qt">STEMMA QT</a> devices exclusively communicate via I2C.  <a href="../connectors/#stemma">STEMMA</a> 4-pin connectors can also use I2C. <a href="../connectors/#grove">Grove</a> devices can also use I2C.  If you are unsure if a device uses I2C, if you see SCL and SDA pins then it is an I2C device.</p>

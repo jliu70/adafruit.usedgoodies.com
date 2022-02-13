@@ -18,7 +18,7 @@ Addresses range from 0 to 128
 A seven bit wide address space theoretically allows 128 I2C addresses – however, some addresses are reserved for special purposes. Thus, only 112 addresses are available with the 7 bit address scheme. <sup>5</sup>
 
 
-THe [QWIIC](connectors.md#qwiic) and [STEMMA QT](connectors.md#stemma-qt) connectors exclusively communicate via I2C.  [STEMMA](connectors.md#stemma) 4-pin connectors can also use I2C. [Grove](connectors.md#grove) devices can also use I2C.  If you are unsure if a device uses I2C, if you see SCL and SDA pins then it is an I2C device.
+THe [QWIIC](connectors.md#qwiic) and [STEMMA QT](connectors.md#stemma-qt) devices exclusively communicate via I2C.  [STEMMA](connectors.md#stemma) 4-pin connectors can also use I2C. [Grove](connectors.md#grove) devices can also use I2C.  If you are unsure if a device uses I2C, if you see SCL and SDA pins then it is an I2C device.
 
 
 

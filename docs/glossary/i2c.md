@@ -21,6 +21,8 @@ I2C uses four wires
 
 I2C uses unique addresses for devices so it makes it possible to daisy chain multiple devices.  
 NOTE: if you need to use the same type of component or sensor twice, some devices allow you to set a jumper to change the default address.  
+Another option is to use [SparkFun STEMMA QT / Qwiic TCA9548A Mux Breakout - 8 Channel](https://www.adafruit.com/product/4704)
+
 
 Addresses range from 0 to 128 
 A seven bit wide address space theoretically allows 128 I2C addresses – however, some addresses are reserved for special purposes. Thus, only 112 addresses are available with the 7 bit address scheme. <sup>5</sup>

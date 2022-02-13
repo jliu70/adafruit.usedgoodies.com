@@ -11,6 +11,14 @@ WIP
 I2C or [Inter-Integrated Circuit](https://en.wikipedia.org/wiki/I²C) is a serial communication protocol commonly used for sensors and other simple devices that don’t need to send or receive data quickly.
 I2C has become the standard for sensors - rarely see SPI over sensors anymore.
 
+I2C uses four wires
+
+- power 
+- ground
+- clock (SCL)
+- data (SDA)
+
+
 I2C uses unique addresses for devices so it makes it possible to daisy chain multiple devices.  
 NOTE: if you need to use the same type of component or sensor twice, some devices allow you to set a jumper to change the default address.  
 

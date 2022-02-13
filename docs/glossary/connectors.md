@@ -124,7 +124,6 @@ STEMMA standard is not plug-compatible with STEMMA-QT
 
 ## STEMMA QT
 
-
  STEMMA is not plug-compatible with STEMMA-QT
 
  STEMMA-QT 
@@ -147,7 +146,7 @@ STEMMA standard is not plug-compatible with STEMMA-QT
     https://www.youtube.com/watch?v=6GXRRuFuFy0
 
 
-3. From the [Adafruit STEMMA Sunday video 7/28/2019](https://www.youtube.com/watch?v=_Cu7UOcGL14) description
+3. From the [Adafruit STEMMA & STEMMA QT Plug & play connectivity - STEMMA Sunday video 7/28/2019](https://www.youtube.com/watch?v=_Cu7UOcGL14) description
 
     STEMMA started in 2014, intended to be compatible with Grove (cause Grove is all that existed at the time - since 2010)
     QWIIC started in 2017, STEMMA-QT added so that could use the smaller connectors.

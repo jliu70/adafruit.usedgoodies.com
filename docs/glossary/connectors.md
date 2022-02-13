@@ -143,11 +143,12 @@ STEMMA QT (‘cutie’)
 
 Examples of STEMMA QT boards
 
-- Adafruit MPR121 capacitive touch sensor
-- Adafrruit SGP40 air quality sensor
-- aBME680 temperature / humidity / pressure sensor
-- Adafruit AHT20 temperature sensor
-- Adafruit AMG8833 IR thermal camera
+- [Adafruit MPR121 capacitive touch sensor](https://www.adafruit.com/product/4830)
+- [Adafruit SGP40 air quality sensor](https://www.adafruit.com/product/4829)
+- [Adafruit BME680 temperature / humidity / pressure sensor](https://www.adafruit.com/product/3660)
+- [Adafruit AHT20 temperature sensor](https://www.adafruit.com/product/4566)
+- [Adafruit VL53L1X Time of Flight Distance Sensor](https://www.adafruit.com/product/3967)
+- [Adafruit AMG8833 IR thermal camera](https://www.adafruit.com/product/3538)
 
 
 **Additional References**

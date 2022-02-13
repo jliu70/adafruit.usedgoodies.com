@@ -99,12 +99,19 @@ With SparkFun’s QWIIC connector we can easily connect sensors such as the HC-S
 
 STEMMA standard is not plug-compatible with STEMMA-QT
 
- STEMMA 
+STEMMA 
 
- - JST PH 3 and 4 pin connectors (2.0mm pitch connectors)
- - 4 pins - I2C
- - 3 pins - PWM/Analog/Digital
- - Aims to be compatible with Grove/Gravity
+- JST PH 3 and 4 pin connectors (2.0mm pitch connectors)
+    - 4 pins - I2C
+        - Enable the use of multiple sensors / devices on a single bus thanks to devices having an address
+    - 3 pins - PWM/Analog/Digital
+        - Control Neopixels
+        - Read analog sensors 
+        - Use digital IO devices such as LEDs and buttons
+- Connector is keyed so that it cannot be inserted incorrectly
+- STEMMA is seen on larger boards such as PyPortal
+- Aims to be compatible with Grove/Gravity
+
 
 ** Additional References **
 
@@ -124,13 +131,24 @@ STEMMA standard is not plug-compatible with STEMMA-QT
 
 ## STEMMA QT
 
- STEMMA is not plug-compatible with STEMMA-QT
+STEMMA is not plug-compatible with STEMMA-QT
 
- STEMMA-QT 
- 
- - JST SH (1.0mm pitch connectors)
- - 4 pins - I2C (when the larger JST PH connectors won't fit on a small sensor board)
- - Cross-compatible with SparkFun QWIIC
+STEMMA QT (‘cutie’) 
+
+- JST SH (1.0mm pitch connectors)
+- 4 pins - I2C only 
+- About half the size of STEMMA
+    - great for smaller boards such as [Adafruit QT Py](qt_py.md)
+- Cross-compatible with SparkFun QWIIC
+
+Examples of STEMMA QT boards
+
+- Adafruit MPR121 capacitive touch sensor
+- Adafrruit SGP40 air quality sensor
+- aBME680 temperature / humidity / pressure sensor
+- Adafruit AHT20 temperature sensor
+- Adafruit AMG8833 IR thermal camera
+
 
 **Additional References**
 
@@ -170,18 +188,16 @@ STEMMA standard is not plug-compatible with STEMMA-QT
 
 ## STEMMA, QWIIC and Grove Connectors: Which is Right for You?
 
-https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors  4/24/2021
+Reference: [Toms Hardware STEMMA vs QWIIC vs Grove Connectors](https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors)  4/24/2021
 
-What are STEMMA and STEMMA QT?
+Depends on what boards you already have
 
-Adafruit’s STEMMA connector arrived in 2018 and essentially it is three or four pin JST PH with 2.00 mm pitch, a connector which is keyed so that it cannot be inserted incorrectly. STEMMA is seen on larger boards such as PyPortal which has plenty of space for multiple three and four pin connectors.
-There are two forms of STEMMA connectors, a three or four pin connector. The three pin connector is used for Pulse Width Modulation, Analog and Digital IO. Using this connector we can control Neopixels, read analog sensors and use digital IO devices such as LEDs and buttons. The four-pin connector is for I2C (Inter-Integrated Circuit) components, enabling the use of multiple sensors / devices on a single bus thanks to devices having an address which can be read from / written to.
-
-STEMMA is a great connector, but for smaller boards, such as Adafruit’s QT Py RP2040 we need something smaller and that is where STEMMA QT (‘cutie’) comes in. STEMMA QT is a smaller version of the four pin STEMMA format, roughly half the size of STEMMA, with a 1.0 mm pitch. STEMMA QT is only for use with I2C components. Analog, PWM and digital IO connections are made via the traditional GPIO.
-
-The pin order for QT is designed to match the pin order for SparkFun’s QWIIC enabling the use of QWIIC add-ons with STEMMA QT boards and for the reverse to also be true.
-
-Examples of STEMMA QT boards are Adafruit’s MPR121 capacitive touch sensor, SGP40 air quality sensor, aBME680 temperature / humidity / pressure sensor and AMG8833 IR thermal camera.
+- Adafruit boards usualy have some form of STEMMA / STEMMA QT connector
+    - completely cross-compatible with Sparkfun QWIIC
+- Seeed Grove connectors work with multiple platforms
+    - Arduino
+    - Raspberry Pi
+    - Raspberry Pi Pico
 
 
 ## Connector Comparison
@@ -195,13 +211,4 @@ Examples of STEMMA QT boards are Adafruit’s MPR121 capacitive touch sensor, SG
 
 
 !!! note
-    Adafruit Learn Guide also has a table which outlines the [cross-compatability matrix](https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison).
-
-
-Which Connector is Right For You?
-The answer is based on what boards you already have and what you want to achieve. If you have Adafruit’s boards, then you will most likely have some form of STEMMA / STEMMA QT connector and so the entire range of add-ons is available to you. You will also have access to SparkFun’s QWIIC range of add ons which opens up a plethora of options for your projects. This is also true if you have any of SparkFun’s boards with QWIIC connectors. 
-
-Seeed’s Grove connectors work with Arduino, Raspberry Pi and now the Raspberry Pi Pico. So buying one set of Grove components is good value for those that wish to use them across multiple platforms.
-
-Ultimately the choice is yours. What projects you wish to build will dictate the choices that you make. But no matter what choice you make, all of these connectors make electronics a breeze and give you the confidence to learn new skills without worrying about your wiring.
-
+    An Adafruit Learn Guide has a table which outlines the [cross-compatability matrix](https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison).

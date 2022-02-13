@@ -2,7 +2,7 @@
 
 ### [Back to Hardware Overview](index.md)
 
-*Related* [Grove](../glossary/connectors.md#grove), [JST](../glossary/connectors.md#jst), [QWIIC](../glossary/connectors.md#qwiic), [Stemma](../glossary/connectors.md#stemma), [Stemma QT](../glossary/connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](../glossary/connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Grove](../glossary/connectors.md#grove), [JST](../glossary/connectors.md#jst), [QWIIC](../glossary/connectors.md#qwiic), [Stemma](../glossary/connectors.md#stemma), [Stemma QT](../glossary/connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](../glossary/connectors.md#connector-comparison)
 
 
 ## Adafruit Learn Guides on choosing a microcontroller

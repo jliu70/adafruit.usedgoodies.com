@@ -46,7 +46,7 @@ Seeed Studio makes a [Grove - QWIIC Hub](https://www.seeedstudio.com/Grove-QWIIC
 1. [Youtube: Grove 10th Anniversary Documentary 12/31/2020](https://www.youtube.com/watch?v=r-W0XYhVdTk)
 
 
-*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#connector-comparison)
 
 
 
@@ -75,7 +75,7 @@ Here's a great video from Jan 5, 2021 where Lady Ada talks about JST SH and PH C
 
 
 
-*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#connector-comparison)
 
 
 ## QWIIC
@@ -92,7 +92,7 @@ With SparkFun’s QWIIC connector we can easily connect sensors such as the HC-S
 
 
 
-*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#connector-comparison)
 
 ## STEMMA
 
@@ -125,7 +125,7 @@ STEMMA
 
 3. [Awesome list for STEMMA and STEMMA QT](https://github.com/adafruit/awesome-stemma)
 
-*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#connector-comparison)
 
 
 
@@ -181,7 +181,7 @@ Examples of STEMMA QT boards
 5. [Awesome list for STEMMA and STEMMA QT](https://github.com/adafruit/awesome-stemma)
 
 
-*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt)
+*Related* [Connector Comparison](connectors.md#connector-comparison), [Grove](connectors.md#grove), [JST](connectors.md#jst), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between STEMMA and STEMMA QT](connectors.md#connector-comparison)
 
 
 

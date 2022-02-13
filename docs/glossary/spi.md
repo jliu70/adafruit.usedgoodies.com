@@ -3,7 +3,7 @@
 
 ### [Back to Index](index.md)
 
-*Related* [I2C](i2c.md), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](connectors.md#what-is-the-difference-between-stemma-and-stemma-qt), [GPIO](gpio.md)
+*Related* [I2C](i2c.md), [QWIIC](connectors.md#qwiic), [STEMMA](connectors.md#stemma), [STEMMA QT](connectors.md#stemma-qt), [What is the difference between Stemma and Stemma QT](connectors.md#connector-comparison), [GPIO](gpio.md)
 
 
 WIP 
@@ -11,14 +11,6 @@ WIP
 SPI
 
 
-
-
-
-[CircuitPython Basics: Digital Inputs & Outputs](https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs)
-
-[CircuitPython Basics: Analog Inputs & Outputs](https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs)
-
-[CircuitPython Basics: I2C and SPI](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
 
 
 
@@ -37,3 +29,12 @@ PROTOCOLS: UART - I2C - SPI - Serial communications #001
 https://www.youtube.com/watch?v=IyGwvGzrqp8
 [http://electronoobs.com/eng\_circuitos\_tut36.php](http://electronoobs.com/eng_circuitos_tut36.php)
 
+
+
+**Additional References**
+
+1. [Adafruit Learn Guide: SPI devices](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/spi-devices)
+2. [CircuitPython Basics: I2C and SPI](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
+3. [CircuitPython Basics: Digital Inputs & Outputs](https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs)
+4. [CircuitPython Basics: Analog Inputs & Outputs](https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs)
+5. [I2C addressing](https://www.i2c-bus.org/addressing/)

@@ -14,6 +14,14 @@ SPI
 
 
 
+[CircuitPython Basics: Digital Inputs & Outputs](https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs)
+
+[CircuitPython Basics: Analog Inputs & Outputs](https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs)
+
+[CircuitPython Basics: I2C and SPI](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
+
+
+
 #raspberrypi  Raspberry Pi GPIO - Getting started with gpiozero  2/22/2020
 [https://www.youtube.com/watch?v=iL_oZGHLHvU](https://www.youtube.com/watch?v=iL_oZGHLHvU)
 [https://dronebotworkshop.com/raspberry-pi-gpio/](https://dronebotworkshop.com/raspberry-pi-gpio/)

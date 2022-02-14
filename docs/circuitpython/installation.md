@@ -88,7 +88,8 @@ While `circup` does require some intial setup, you should only need to do the se
 
 Circup usage is very similar to python `pip`.
 
-IMHO using `circup` is vastly superior to copying CircuitPython libraries manually, but it does require the user to be comfortable with the command line.
+!!! note
+    IMHO using `circup` is vastly superior to copying CircuitPython libraries manually, but it does require the user to be comfortable with the command line.
 
 **Circup Advantages**
 

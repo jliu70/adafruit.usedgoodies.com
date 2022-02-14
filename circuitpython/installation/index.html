@@ -304,27 +304,32 @@
 <p>Great video walkthrough of the process: <a href="https://www.youtube.com/watch?v=Wa1E8ze3v04&amp;list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&amp;index=2">CircuitPython School - CircuitPython Installation</a></p>
 <h2 id="circuitpython-libaries">CircuitPython Libaries</h2>
 <p>Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
-However, once your program makes calls beyond the libraries included with the binary install  -- most commonly after you attach additional sensors or other breakouts to the microcontroller, you will need to do additional steps of downloading the CircuitPython Library Bundle and copying libraries to the microcontroller.</p>
+However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: </p>
+<ul>
+<li>Download the CircuitPython Library Bundle</li>
+<li>Copy additional libraries to the microcontroller</li>
+</ul>
 <p>The full CircuitPython Library Bundle is around 3.5MB compressed.</p>
 <ul>
 <li>Since the storage available on most microcontrollers is limited<ul>
-<li>There is not enough capacity to store the complete CircuitPython Library bundle</li>
-<li>Often you need to copy additional libraries individually based upon the sensors, components and other breakouts you attach.</li>
+<li>There is often not enough capacity to store the complete CircuitPython Library bundle</li>
+<li>Only copy additional libraries individually based upon the sensors, components and other breakouts you attach</li>
 </ul>
 </li>
 </ul>
-<p>The main options for copying additional libraries onto the microcontroller are:</p>
+<h3 id="the-main-options-for-copying-additional-libraries-onto-the-microcontroller-are">The main options for copying additional libraries onto the microcontroller are:</h3>
 <ul>
+<li>For Adafruit Learn Guides:  <a href="../../glossary/bundlefly/">Bundlefly</a></li>
 <li>Manual</li>
 <li>Using a tool (I highly recommend <code>circup</code>)</li>
-<li>For Adafruit Learn Guides:  <a href="../../glossary/bundlefly/">Bundlefly</a></li>
 </ul>
+<h3 id="bundlefly">Bundlefly</h3>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
 <p><em>A Beginner's Recommendation</em>.</p>
 <p><strong><a href="../../glossary/bundlefly/">Bundlefly</a></strong></p>
-<p>All CircuitPython Adafruit Learn Guides now have a feature called <a href="../../glossary/bundlefly/">Bundlefly</a> which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.
-You should find the download link called <code>Download Project Bundle</code> located at the beginning of any CircuitPython code section.</p>
+<p>All CircuitPython Adafruit Learn Guides now have a feature called <a href="../../glossary/bundlefly/">Bundlefly</a> which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.</p>
+<p>Find the download link called <code>Download Project Bundle</code> located at the beginning of any CircuitPython code section.</p>
 <p>Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.</p>
 </div>
 <h3 id="manual">Manual</h3>
@@ -343,24 +348,11 @@ Make sure to download the bundle that matches the major version of your CircuitP
 <p class="admonition-title">Note</p>
 <p>Most Adafruit learn guides and other 3rd party tutorials reference the manual method.</p>
 </div>
-<h3 id="using-circup">Using circup</h3>
-<p><strong>PRE-REQUISITE</strong></p>
-<ul>
-<li>Have a working Python3 installation on your computer.<ul>
-<li>For Windows, best to download <a href="https://www.python.org/downloads/windows/">python</a> and install.</li>
-<li>For Mac, you have options such as <ul>
-<li><a href="https://docs.brew.sh/Homebrew-and-Python">homebrew</a> </li>
-<li><a href="https://stackoverflow.com/questions/68011799/how-to-install-python-3-8-required-to-be-downloaded-from-xcode-command-line-to">Command Line Tools (must have an Apple ID)</a> (what I use)</li>
-</ul>
-</li>
-<li>For Linux, check your distro documentation for info on how to install Python3 (if not already installed)</li>
-</ul>
-</li>
-</ul>
+<h3 id="using-a-tool-circup">Using a tool: circup</h3>
 <p><a href="https://circup.readthedocs.io/en/latest/">Circup</a> is a great way to install CircuitPython libraries and keep all your CircuitPython libraries up to date.</p>
 <p>While <code>circup</code> does require some intial setup, you should only need to do the setup once.</p>
-<p>Circup usage is very similar to the python <code>pip</code> tool.</p>
-<p>IMHO using <code>circup</code> is vastly superior to copying CircuitPython libraries manually.</p>
+<p>Circup usage is very similar to python <code>pip</code>.</p>
+<p>IMHO using <code>circup</code> is vastly superior to copying CircuitPython libraries manually, but it does require the user to be comfortable with the command line.</p>
 <p><strong>Circup Advantages</strong></p>
 <ul>
 <li>No need to manually: <ul>
@@ -378,6 +370,19 @@ Make sure to download the bundle that matches the major version of your CircuitP
 <li><a href="https://www.youtube.com/watch?v=TXKoDqLprgY">Video: John Park's CircuitPython Parsec: Circup CircuitPython Updater</a>   (9/17/2021)</li>
 </ul>
 <h4 id="circup-initial-setup-only-need-to-run-once">Circup Initial Setup - only need to run once</h4>
+<p><strong>Pre-requisite</strong></p>
+<ul>
+<li>Have a working Python3 installation on your computer.<ul>
+<li>For Windows, best to download <a href="https://www.python.org/downloads/windows/">python</a> and install.</li>
+<li>For Mac, you have options such as <ul>
+<li><a href="https://docs.brew.sh/Homebrew-and-Python">homebrew</a> </li>
+<li><a href="https://stackoverflow.com/questions/68011799/how-to-install-python-3-8-required-to-be-downloaded-from-xcode-command-line-to">Command Line Tools (must have an Apple ID)</a> (what I use)</li>
+</ul>
+</li>
+<li>For Linux, check your distro documentation for info on how to install Python3 (if not already installed)</li>
+</ul>
+</li>
+</ul>
 <p>I recommend to install circup via a python virtual environment.</p>
 <p>Although if you prefer, you may skip the virtual environment creation and directly <code>pip install circup</code> onto your computer.</p>
 <p><strong>Create Python Virtual Environment</strong> (optional - skip to <strong>Install Circup</strong> if you don't want to use a virtual environment)</p>

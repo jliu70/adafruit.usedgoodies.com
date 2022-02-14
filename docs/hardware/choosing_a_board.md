@@ -23,10 +23,10 @@ There are many features to consider when choosing a board
     - Bluetooth
 - Connectors 
     - Solderless 
-        - STEMMA, STEMMA QT, etc
+        - [STEMMA, STEMMA QT, etc](../glossary/connectors.md)
         - Alligator Clips
-        - Bolt on kit for Circuit Playground or Gemma
-    - Breadboard
+        - [Bolt on kit for Circuit Playground or Gemma](https://www.adafruit.com/product/4103)
+    - [Breadboard](https://www.adafruit.com/product/64)
     - Solder 
 - Expansion
 - Size

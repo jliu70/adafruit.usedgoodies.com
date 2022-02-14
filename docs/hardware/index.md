@@ -59,11 +59,12 @@ Adafruit offers 68 different microcontrollers which run CircuitPython.
 - [Metro](../glossary/metro.md) (Arduino form factor)
 - Trinkey (USB dongles)
 
-#### There are also custom form factors such as: 
+#### There are other form factors such as: 
 
 - [CLUE](../glossary/clue.md)
 - Gemma M0
 - FunHouse
+- KB2040
 - MacroPad
 - MagTag
 - MatrixPortal

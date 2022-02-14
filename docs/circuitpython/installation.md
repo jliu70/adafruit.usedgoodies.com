@@ -38,19 +38,24 @@ Great video walkthrough of the process: [CircuitPython School - CircuitPython In
 ## CircuitPython Libaries
 
 Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
-However, once your program makes calls beyond the libraries included with the binary install  -- most commonly after you attach additional sensors or other breakouts to the microcontroller, you will need to do additional steps of downloading the CircuitPython Library Bundle and copying libraries to the microcontroller.
+However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: 
+
+- Download the CircuitPython Library Bundle
+- Copy additional libraries to the microcontroller
 
 The full CircuitPython Library Bundle is around 3.5MB compressed.
 
 - Since the storage available on most microcontrollers is limited
-    - There is not enough capacity to store the complete CircuitPython Library bundle
-    - Often you need to copy additional libraries individually based upon the sensors, components and other breakouts you attach.
+    - There is often not enough capacity to store the complete CircuitPython Library bundle
+    - Only copy additional libraries individually based upon the sensors, components and other breakouts you attach
 
-The main options for copying additional libraries onto the microcontroller are:
+### The main options for copying additional libraries onto the microcontroller are:
 
+- For Adafruit Learn Guides:  [Bundlefly](../glossary/bundlefly.md)
 - Manual
 - Using a tool (I highly recommend `circup`)
-- For Adafruit Learn Guides:  [Bundlefly](../glossary/bundlefly.md)
+
+### Bundlefly  
 
 !!! note
     *A Beginner's Recommendation*.
@@ -58,7 +63,8 @@ The main options for copying additional libraries onto the microcontroller are:
     **[Bundlefly](../glossary/bundlefly.md)**
 
     All CircuitPython Adafruit Learn Guides now have a feature called [Bundlefly](../glossary/bundlefly.md) which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.
-    You should find the download link called `Download Project Bundle` located at the beginning of any CircuitPython code section.
+    
+    Find the download link called `Download Project Bundle` located at the beginning of any CircuitPython code section.
 
     Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.
 
@@ -74,25 +80,15 @@ The main options for copying additional libraries onto the microcontroller are:
     Most Adafruit learn guides and other 3rd party tutorials reference the manual method.
 
 
-### Using circup 
-
-**PRE-REQUISITE**
-
-- Have a working Python3 installation on your computer.
-    - For Windows, best to download [python](https://www.python.org/downloads/windows/) and install.
-    - For Mac, you have options such as 
-        - [homebrew](https://docs.brew.sh/Homebrew-and-Python) 
-        - [Command Line Tools (must have an Apple ID)](https://stackoverflow.com/questions/68011799/how-to-install-python-3-8-required-to-be-downloaded-from-xcode-command-line-to) (what I use)
-    - For Linux, check your distro documentation for info on how to install Python3 (if not already installed)
-
+### Using a tool: circup 
 
 [Circup](https://circup.readthedocs.io/en/latest/) is a great way to install CircuitPython libraries and keep all your CircuitPython libraries up to date.
 
 While `circup` does require some intial setup, you should only need to do the setup once.
 
-Circup usage is very similar to the python `pip` tool.
+Circup usage is very similar to python `pip`.
 
-IMHO using `circup` is vastly superior to copying CircuitPython libraries manually.
+IMHO using `circup` is vastly superior to copying CircuitPython libraries manually, but it does require the user to be comfortable with the command line.
 
 **Circup Advantages**
 
@@ -111,6 +107,15 @@ I first learned about `circup` from one of John Park's CircuitPython Parsec vide
 
 
 #### Circup Initial Setup - only need to run once
+
+**Pre-requisite**
+
+- Have a working Python3 installation on your computer.
+    - For Windows, best to download [python](https://www.python.org/downloads/windows/) and install.
+    - For Mac, you have options such as 
+        - [homebrew](https://docs.brew.sh/Homebrew-and-Python) 
+        - [Command Line Tools (must have an Apple ID)](https://stackoverflow.com/questions/68011799/how-to-install-python-3-8-required-to-be-downloaded-from-xcode-command-line-to) (what I use)
+    - For Linux, check your distro documentation for info on how to install Python3 (if not already installed)
 
 I recommend to install circup via a python virtual environment.
 

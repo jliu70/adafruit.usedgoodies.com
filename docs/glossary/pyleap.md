@@ -19,7 +19,7 @@
 
 The main PyLeap guide on the Adafruit Learning System:
 
-- [PyLeap App](https://learn.adafruit.com/pyleap-app)   
+- [Adafruit Learn Guide: PyLeap App](https://learn.adafruit.com/pyleap-app)   
 
 
 The following PyLeap projects (as of 2/2022) are available on the Adafruit Learning System:

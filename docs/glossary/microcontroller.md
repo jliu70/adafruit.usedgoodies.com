@@ -15,7 +15,7 @@ Microcontrollers are single purpose computers
 
 ## Microcontrollers vs General Purpose Computer
 
-- Use of Microcontrollers is fine for most cases
+- Use of microcontrollers is fine for most cases
 - When you need more computational power, you may want to use a [Raspberry Pi](https://www.raspberrypi.com)
     - For example, if you wish to have a web dashboard to interface with, then you will need to use a Raspberry Pi
 
@@ -23,7 +23,7 @@ Microcontrollers are single purpose computers
 
 ## Comparison of Raspberry Pi to Arduino
 
-Features
+### Features
 
 | Raspberry Pi                        | Arduino                       |
 |:------------------------------------|:------------------------------|
@@ -40,7 +40,7 @@ Features
 The Raspberry Pi's schematics are released, but the board itself is not open hardware. The Raspberry Pi Foundation relies on income from the sale of Raspberry Pis to do its charitable work.
 Reference: [https://opensource.com/resources/raspberry-pi](https://opensource.com/resources/raspberry-pi)
 
-Specs
+### Specs
 
 | Raspberry Pi                       | Arduino                      |
 | :--------------------------------- | :--------------------------- |
@@ -54,7 +54,7 @@ Specs
 
 
 
-Extras
+### Extras
 
 | Raspberry Pi                | Arduino   |
 | :-------------------------- | :-------- |
@@ -66,9 +66,11 @@ Extras
 | Adapter cables as required  |           |
 
 
-NOTE: as the Raspberry Pi is a SBC - you will need all the peripherals for Input and Output, as well as an OS
+NOTE: as the Raspberry Pi is a SBC (Single Board Computer) - you will need all the peripherals for Input and Output, as well as an OS.
 
 NOTE: the Arduino is a microcontroller so that it requires a separate computer to push code/instructions to it
 
-Arduino - precision timing, measure pulse widths to a high degree of accuracy
-Raspberry Pi - add more intelligence or connect it to the Internet 
+**Recap** 
+
+- Arduino - precision timing, measure pulse widths to a high degree of accuracy
+- Raspberry Pi - add more intelligence  

@@ -5,6 +5,7 @@ The Adafruit lingo for their hardware is quite extensive and can be confusing to
 Adafruit designs and sells their own custom microcontrollers, components, sensors, and more. 
 
 ## What are Microcontrollers?
+
 Microcontrollers are single purpose computers 
 
 - small embedded development boards
@@ -12,9 +13,9 @@ Microcontrollers are single purpose computers
 - limited processing power
 
 
-#### Microcontrollers vs General Purpose Computer
+Microcontrollers vs General Purpose Computer
 
-- Use of Microcontrollers is fine for many cases
+- Use of microcontrollers is fine for many cases
 - When you need more computational power, you may want to use a [Raspberry Pi](https://www.raspberrypi.com)
     - For example, if you wish to have a web dashboard to interface with, then you will need to use a Raspberry Pi
 

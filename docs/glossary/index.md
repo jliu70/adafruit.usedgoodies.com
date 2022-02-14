@@ -5,6 +5,7 @@
 - [Adafruit IO](adafruit_io.md)
 - [Backpack](backpack.md)
 - [BFF](qt_py.md#bff)
+- [Bundlefly](bundlefly.md)
 - [Cape](cape.md)
 - [CircuitPython](../circuitpython/index.md)
 - [Circuit Pyaground](circuit_playground.md)

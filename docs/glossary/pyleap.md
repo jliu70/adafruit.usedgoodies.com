@@ -11,7 +11,6 @@
 [PyLeap](https://learn.adafruit.com/pyleap-app)  is an app for **iOS** and **iPadOS**.  It allows you to collect complete projects from the Adafruit Learn System, and transfer them directly to your Circuit Playground Bluefruit without opening a code editor or connecting to a computer.  Send files and libraries directly to your Bluefruit device!
 
 
-
 !!! note
     You will need to connect the Circuit Playground Bluefruit to a battery - Do NOT connect to a computer!!
 

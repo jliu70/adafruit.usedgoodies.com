@@ -34,3 +34,5 @@ You can visit this page at any time by navigating to https://io.adafruit.com/wip
 [Adafruit Learn Guide: WipperSnapper Action Counter using funhouse](https://learn.adafruit.com/no-code-wippersnapper-action-counter)
 
 [Adafruit Youtube Video 1/12/2022: QT Py ESP32-S2 wipper snapper](https://www.youtube.com/watch?v=NaFqSdJdPmQ)  (2minutes)  
+
+[Adafruit Blog 2/14/2022: WipperSnapper No-Code IoT Platform now works with Adafruit Feather HUZZAH ESP8266](https://blog.adafruit.com/2022/02/14/wippersnapper-no-code-iot-platform-now-works-with-adafruit-feather-huzzah-esp8266/)

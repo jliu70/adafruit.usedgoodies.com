@@ -195,7 +195,7 @@ Depends on what boards you already have
 
 - Adafruit boards usualy have some form of STEMMA / STEMMA QT connector
     - STEMMA QT is completely cross-compatible with Sparkfun QWIIC
-    - STEMMA is completely different from STEMMA QT/QWIIC, aims to be compatible with Grove I2C 
+    - STEMMA is different from STEMMA QT/QWIIC, aims to be compatible with Grove I2C 
 - Seeed Grove connectors work with multiple platforms
     - Arduino
     - Raspberry Pi

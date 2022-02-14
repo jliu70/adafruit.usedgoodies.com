@@ -13,21 +13,12 @@ Microcontrollers are single purpose computers
 - limited processing power
 
 
-Microcontrollers vs General Purpose Computer
+## Microcontrollers vs General Purpose Computer
 
 - Use of Microcontrollers is fine for most cases
 - When you need more computational power, you may want to use a [Raspberry Pi](https://www.raspberrypi.com)
     - For example, if you wish to have a web dashboard to interface with, then you will need to use a Raspberry Pi
 
-
-
-## Microcontrollers vs General Purpose Computer
-
-- Microcontrollers are "mini-computers".
-
-Use of Arduino is fine for most cases
-
-When you need more computational power, you may want to use a Raspberry Pi
 
 
 ## Comparison of Raspberry Pi to Arduino

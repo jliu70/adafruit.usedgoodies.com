@@ -57,7 +57,7 @@ The main options for copying additional libraries onto the microcontroller are:
 
     **[Bundlefly](../glossary/bundlefly.md)**
 
-    All Circuit Python Adafruit Learn Guides now have a feature called [Bundlefly](../glossary/bundlefly.md) which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.
+    All CircuitPython Adafruit Learn Guides now have a feature called [Bundlefly](../glossary/bundlefly.md) which will allow users to download one zip file which includes the code, all required libraries, and if needed, asset files.
     You should find the download link called `Download Project Bundle` located at the beginning of any CircuitPython code section.
 
     Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.

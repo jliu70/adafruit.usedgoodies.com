@@ -23,6 +23,7 @@ nav:
         - Index: glossary/index.md
         - Adafruit IO: glossary/adafruit_io.md
         - Backpack: glossary/backpack.md
+        - Bundlefly: glossary/bundlefly.md
         - Cape: glossary/cape.md
         - Circuit Playground: glossary/circuit_playground.md
         - Clue: glossary/clue.md

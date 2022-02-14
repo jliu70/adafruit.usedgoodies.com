@@ -5,8 +5,10 @@
 
 
 
-All Circuit Python guides on the [Adafruit Learning System](https://learn.adafruit.com) now have a feature called **[Bundlefly](https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/
-)** which allow users to download one zip file which includes the code, all required libraries, and if needed, asset files. You should find the download link called `Download Project Bundle` located at the beginning of any CircuitPython code section.
+All CircuitPython guides on the [Adafruit Learning System](https://learn.adafruit.com) now have a feature called **[Bundlefly](https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/
+)** which allow users to download one zip file which includes the code, all required libraries, and if needed, asset files. 
+
+You should find the download link called `Download Project Bundle` located at the beginning of any CircuitPython code section.
 
 Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.
 

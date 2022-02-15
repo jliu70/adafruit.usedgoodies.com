@@ -301,7 +301,9 @@
 <p>At this point, you are done!  You can proceed to start coding on CircuitPython on your device.</p>
 <p>Located on your <code>CIRCUITPY</code> drive folder, the main starter program is <code>code.py</code> </p>
 <h4 id="additional-references">Additional References</h4>
-<p>Great video walkthrough of the process: <a href="https://www.youtube.com/watch?v=Wa1E8ze3v04&amp;list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&amp;index=2">CircuitPython School - CircuitPython Installation</a></p>
+<ul>
+<li>Great video walkthrough of the process: <a href="https://www.youtube.com/watch?v=Wa1E8ze3v04&amp;list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&amp;index=2">CircuitPython School - CircuitPython Installation</a></li>
+</ul>
 <h2 id="circuitpython-libaries">CircuitPython Libaries</h2>
 <p>Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
 However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: </p>
@@ -317,6 +319,7 @@ However, once your code makes calls beyond the libraries included with the binar
 </ul>
 </li>
 </ul>
+<p>As of Feb 15, 2022, the number of CircuitPython libraries is 344!</p>
 <h3 id="the-main-options-for-copying-additional-libraries-onto-the-microcontroller-are">The main options for copying additional libraries onto the microcontroller are:</h3>
 <ul>
 <li>For Adafruit Learn Guides:  <a href="../../glossary/bundlefly/">Bundlefly</a></li>
@@ -460,6 +463,11 @@ Installed 'adafruit_debouncer'.
 </li>
 </ul>
 <pre><code>circup freeze &gt; requirements.txt
+</code></pre>
+<ul>
+<li>Circup update existing libraries</li>
+</ul>
+<pre><code>circup update
 </code></pre>
 <h4 id="circup-miscellaneous-info">Circup Miscellaneous Info</h4>
 <ul>

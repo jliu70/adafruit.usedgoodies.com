@@ -46,6 +46,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://adafruit.usedgoodies.com/glossary/blinka/</loc>
+         <lastmod>2022-02-15</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://adafruit.usedgoodies.com/glossary/bundlefly/</loc>
          <lastmod>2022-02-15</lastmod>
          <changefreq>daily</changefreq>

@@ -1,15 +1,28 @@
-# About
+# Contact Us
 
 
-This guide is for people new to Adafruit and to electronics.  
+## We welcome all comments, feedback, suggestions or error corrections.
 
-- The focus is on the Adafruit ecosystem 
-- Roadmap for people new to the Adafruit ecosystem.  
-- Review Adafruit lingo and branding.  
 
-This website does not cover electronics in general --  Along the way some electronics is discussed, but this website does not cover topics in depth.  
+### Option 1: Adafruit Forums 
 
-As much as possible, links to additional resources or references will be provided.
+The easiest way to contact us is via the Adafruit Forums:
 
-!!! note
-    I am not affiliated with Adafruit in any way, and I am not being paid by Adafruit.  I'm just a huge fan of Adafruit.  I wrote this guide because I haven't seen anything on Adafruit similar to this.
+- [Adafruit Forum Post: Adafruit for Newbies - Reference website to help newcomers](https://forums.adafruit.com/viewtopic.php?f=60&t=188399)
+
+You will need to create a free Adafruit forum account in order to post.
+
+For newbies, the benefits are 
+
+- Straight forward and simple to post to the forum.
+- In the event that there is a question I can not answer, there are other Adafruit support and community members who may also be able to help
+
+
+
+### Option 2: Github Issue 
+
+For more experienced people, if you have a Github account, you may also choose to open an issue on the repo for the site itself.
+
+- [Github adafruit.usedgoodies.com repo - Issues](https://github.com/jliu70/adafruit.usedgoodies.com/issues)
+
+Please note that while I will see submissions here, that it's not as visible to the rest of the community. 

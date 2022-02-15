@@ -53,7 +53,7 @@ nav:
         - STEMMA QT: glossary/connectors#stemma-qt
         - Teensy: glossary/teensy.md
         - WipperSnapper: glossary/wippersnapper.md
-    - About: about.md
+    - Contact Us: contact.md
 
 markdown_extensions:
     - toc:

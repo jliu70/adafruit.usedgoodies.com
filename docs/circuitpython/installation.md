@@ -31,7 +31,7 @@ Located on your `CIRCUITPY` drive folder, the main starter program is `code.py`
 
 #### Additional References
 
-Great video walkthrough of the process: [CircuitPython School - CircuitPython Installation](https://www.youtube.com/watch?v=Wa1E8ze3v04&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&index=2)
+- Great video walkthrough of the process: [CircuitPython School - CircuitPython Installation](https://www.youtube.com/watch?v=Wa1E8ze3v04&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&index=2)
 
 
 
@@ -48,6 +48,9 @@ The full CircuitPython Library Bundle is around 3.5MB compressed.
 - Since the storage available on most microcontrollers is limited
     - There is often not enough capacity to store the complete CircuitPython Library bundle
     - Only copy additional libraries individually based upon the sensors, components and other breakouts you attach
+
+As of Feb 15, 2022, the number of CircuitPython libraries is 344!
+
 
 ### The main options for copying additional libraries onto the microcontroller are:
 
@@ -217,6 +220,11 @@ Installed 'adafruit_debouncer'.
 circup freeze > requirements.txt
 ```
 
+
+- Circup update existing libraries
+```
+circup update
+```
 
 
 #### Circup Miscellaneous Info

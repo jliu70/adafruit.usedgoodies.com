@@ -1,27 +1,32 @@
 # Contact Us
 
 
-## We welcome all comments, feedback, suggestions or error corrections.
+## Questions, comments, suggestions or error corrections
+
+I hope you found this website to be helpful.  
+
+If you have additional questions, comments, suggests or error corrections, please feel free to send feedback.
+
 
 
 ### Option 1: Adafruit Forums 
 
-The easiest way to contact us is via the Adafruit Forums:
+The easiest way to send feedback is via the Adafruit Forums:
 
 - [Adafruit Forum Post: Adafruit for Newbies - Reference website to help newcomers](https://forums.adafruit.com/viewtopic.php?f=60&t=188399)
 
 You will need to create a free Adafruit forum account in order to post.
 
-For newbies, the benefits are 
+For newbies, the benefits are: 
 
 - Straight forward and simple to post to the forum.
-- In the event that there is a question I can not answer, there are other Adafruit support and community members who may also be able to help
+- If there is a question where I do not know the answer, Adafruit support or other community members may also be able to help
 
 
 
 ### Option 2: Github Issue 
 
-For more experienced people, if you have a Github account, you may also choose to open an issue on the repo for the site itself.
+For more experienced people, if you have a Github account, you may also choose to open an issue on the repo for the site itself:
 
 - [Github adafruit.usedgoodies.com repo - Issues](https://github.com/jliu70/adafruit.usedgoodies.com/issues)
 

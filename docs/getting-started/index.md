@@ -146,24 +146,17 @@ I've been an Adabox subscriber since [Adabox015](https://www.adafruit.com/adabox
 | Adabox020 | 10/27/2021 | LED Glasses  [https://www.adafruit.com/adabox020/](https://www.adafruit.com/adabox020/)                                                                                                  |
 
 
-https://www.adafruitdaily.com
+# Other Media
 
-Welcome to Adafruit Daily. Choose what categories interest you, and we will send tips your way. Please note we send tips out Monday through Friday and each category corresponds to a specific day of the week. You can unsubscribe at any time.
-Which categories are you interested in?
-Electronics
-Python for Microcontrollers
-Maker Business
-New Products at Adafruit
-3D Printing
-Biohacking
-Wearables/Cosplay
-Internet of Things Monthly
-MakeCode
-EYE on NPI
+Aside from Video [https://www.adafruit.com/shows](https://www.adafruit.com/shows)
 
+Adafruit is dedicated to providing you information in your chosen way.
 
-Check out the popular Python on Microcontrollers Newsletter here.
-https://www.adafruitdaily.com/category/circuitpython/
+- [Newsletters](https://www.adafruitdaily.com)
+- [Blog](https://blog.adafruit.com/?s=python)
+- [Instagram](https://www.instagram.com/adafruit/channel/)
+- [Reddit](https://www.reddit.com/r/adafruit/)
+
 
 
 # [Next Steps](website-structure.md)

@@ -7,9 +7,17 @@
 
 WIP 
 
+Blinka, our CircuitPython library compatibility layer for Single Board Computers, or SBCs. 
+
+
+More techincal guides on how to add SBC to Blinka:
+
+First step
+https://learn.adafruit.com/adding-a-single-board-computer-to-platformdetect-for-blinka
+
+Second step
 https://learn.adafruit.com/adding-a-single-board-computer-to-blinka
 
-https://learn.adafruit.com/adding-a-single-board-computer-to-platformdetect-for-blinka
 
 
 

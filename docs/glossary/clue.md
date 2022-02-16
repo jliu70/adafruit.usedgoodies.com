@@ -17,3 +17,6 @@ Same general form factor as Micro:Bit
 Here's a fun program - WORDLE clone on an Adafruit CLUE
 
 https://blog.adafruit.com/2022/02/11/a-handheld-version-of-wordle-using-a-clue-and-circuitpython-clue-circuitpython-michael_lacock/
+
+
+https://forums.adafruit.com/viewtopic.php?f=60&t=188244

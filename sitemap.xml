@@ -41,6 +41,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://adafruit.usedgoodies.com/glossary/airlift/</loc>
+         <lastmod>2022-02-16</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://adafruit.usedgoodies.com/glossary/backpack/</loc>
          <lastmod>2022-02-16</lastmod>
          <changefreq>daily</changefreq>

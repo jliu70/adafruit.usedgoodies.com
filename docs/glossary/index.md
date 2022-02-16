@@ -3,6 +3,7 @@
 - [Adafruit Feather aka *Feather*](feather.md)
 - [Adafruit Featherwing aka *Featherwing*](feather.md#featherwing)
 - [Adafruit IO](adafruit_io.md)
+- [AirLift](airlift.md)
 - [Backpack](backpack.md)
 - [BFF](qt_py.md#bff)
 - [Bundlefly](bundlefly.md)

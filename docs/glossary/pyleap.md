@@ -32,6 +32,7 @@ The following PyLeap projects (as of 2/2022) are available on the Adafruit Learn
 - [Adafruit Learn Guide: PyLeap MP3 Playback for Circuit Playground Bluefruit](https://learn.adafruit.com/pyleap-mp3-playback-for-cpb)
 - [Adafruit Learn Guide: PyLeap Tone Piano for Circuit Playground Bluefruit](https://learn.adafruit.com/pyleap-tone-piano-for-cpb)
 - [Adafruit Learn Guide: PyLeap EyeLights LED Glasses Rainbows for Circuit Playground Bluefruit](https://learn.adafruit.com/pyleap-eyelights-led-glasses-for-circuit-playground-bluefruit)
+- [Adafruit Learn Guide: PyLeap Blink Animation for Circuit Playground Bluefruit](https://learn.adafruit.com/pyleap-device-enabled-blinky)
 
 
 **Additional References**

@@ -14,7 +14,7 @@
 - [Connectors](connectors.md)
 - [Crickit](crickit.md)
 - [Feather](feather.md)
-- [FeatherWing](feather.md)
+- [FeatherWing](feather.md#featherwing)
 - [Glider](glider.md)
 - [GPIO](gpio.md)
 - [Grove](connectors.md#grove)

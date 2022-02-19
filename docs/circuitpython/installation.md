@@ -1,6 +1,6 @@
 # Installation
 
-CircuitPython installation has two general steps:
+## CircuitPython installation has two general steps:
 
 1. Installing the CircuitPython UF2 image onto your device
 2. Installing additional CircuitPython Libraries as needed
@@ -274,6 +274,34 @@ Config file `circup.json`
 /Users/jliu/Library/Application Support/circup/circup.json
 ```
 
+Circup help
+```
+(circup) jliu@JEFFREYs-MBP ~  % circup --help
+Usage: circup [OPTIONS] COMMAND [ARGS]...
+
+  A tool to manage and update libraries on a CircuitPython device.
+
+Options:
+  --verbose         Comprehensive logging is sent to stdout.
+  --path DIRECTORY  Path to CircuitPython directory. Overrides automatic path
+                    detection.
+  --version         Show the version and exit.
+  --help            Show this message and exit.
+
+Commands:
+  bundle-add     Add bundles to the local bundles list, by "user/repo"...
+  bundle-remove  Remove one or more bundles from the local bundles list.
+  bundle-show    Show the list of bundles, default and local, with URL,...
+  freeze         Output details of all the modules found on the connected...
+  install        Install a named module(s) onto the device.
+  list           Lists all out of date modules found on the connected...
+  show           Show a list of available modules in the bundle.
+  uninstall      Uninstall a named module(s) from the connected device.
+  update         Update modules on the device. Use --all to automatically
+                 update all modules without Major Version warnings.
+
+```
+
 #### Circup Resources
 - [Circup documentation](https://circup.readthedocs.io/en/latest/)
 - [Circup Github repo](https://github.com/adafruit/circup)
@@ -284,4 +312,7 @@ Config file `circup.json`
 ## Additional CircuitPython Resources
 
 Adafruit has a great walkthrough on how to [get started with CircuitPython with Raspberry Pi Pico](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
+
+Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    3/19/2021 
+
 

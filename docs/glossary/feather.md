@@ -9,7 +9,7 @@
 WIP
 
 
-Feather Format is an Adafruit standard format for microcontrollers.
+[Feather](https://learn.adafruit.com/adafruit-feather) is an Adafruit standard format for microcontrollers.
 
 - Large, comparatively for microcontrollers.  
     - Still pretty small compared to a Raspberry Pi or other types of SBCs (Single Board Computers)
@@ -52,3 +52,10 @@ Example:  NeoPixel FeatherWing for all Feather Boards https://www.adafruit.com/p
 | [Adafruit AirLift FeatherWing](https://www.adafruit.com/product/4264)      | $12.95 |
 | [Adafruit FeatherWing OLED 128x64](https://www.adafruit.com/product/4650)  | $14.95 |
 | [Adafruit Ultimate GPS FeatherWIng](https://www.adafruit.com/product/3133) | $24.95 |
+
+
+
+**Additional References**
+
+- [Introducing Adafruit Feather](https://learn.adafruit.com/adafruit-feather)
+

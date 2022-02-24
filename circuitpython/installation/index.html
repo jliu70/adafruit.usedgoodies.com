@@ -519,6 +519,32 @@ drwxr-xr-x  8 jliu  staff  256 Jan  1 19:44 adafruit
 <pre><code>% find ~ -name circup.json
 /Users/jliu/Library/Application Support/circup/circup.json
 </code></pre>
+<p>Circup help</p>
+<pre><code>(circup) jliu@JEFFREYs-MBP ~  % circup --help
+Usage: circup [OPTIONS] COMMAND [ARGS]...
+
+  A tool to manage and update libraries on a CircuitPython device.
+
+Options:
+  --verbose         Comprehensive logging is sent to stdout.
+  --path DIRECTORY  Path to CircuitPython directory. Overrides automatic path
+                    detection.
+  --version         Show the version and exit.
+  --help            Show this message and exit.
+
+Commands:
+  bundle-add     Add bundles to the local bundles list, by &quot;user/repo&quot;...
+  bundle-remove  Remove one or more bundles from the local bundles list.
+  bundle-show    Show the list of bundles, default and local, with URL,...
+  freeze         Output details of all the modules found on the connected...
+  install        Install a named module(s) onto the device.
+  list           Lists all out of date modules found on the connected...
+  show           Show a list of available modules in the bundle.
+  uninstall      Uninstall a named module(s) from the connected device.
+  update         Update modules on the device. Use --all to automatically
+                 update all modules without Major Version warnings.
+
+</code></pre>
 <h4 id="circup-resources">Circup Resources</h4>
 <ul>
 <li><a href="https://circup.readthedocs.io/en/latest/">Circup documentation</a></li>
@@ -527,7 +553,11 @@ drwxr-xr-x  8 jliu  staff  256 Jan  1 19:44 adafruit
 </ul>
 <h2 id="additional-circuitpython-resources">Additional CircuitPython Resources</h2>
 <p>Adafruit has a great walkthrough on how to <a href="https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython">get started with CircuitPython with Raspberry Pi Pico</a></p>
-<p>Adafruit video <a href="https://www.youtube.com/watch?v=1xctZfhZt_g">Collin lab one minute CircuitPython on Raspberry Pi Pico</a>    3/19/2021 </p></div>
+<ul>
+<li>Adafruit video <a href="https://www.youtube.com/watch?v=1xctZfhZt_g">Collin lab one minute CircuitPython on Raspberry Pi Pico</a>    </li>
+<li><a href="https://github.com/adafruit/awesome-circuitpython/">Awesome CircuitPython list</a></li>
+<li><a href="https://github.com/todbot/circuitpython-tricks">circuitpython-tricks</a></li>
+</ul></div>
             </div>
         </div>
 

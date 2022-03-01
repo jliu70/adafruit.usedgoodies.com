@@ -3,7 +3,7 @@
 
 ### [Back to Index](index.md)
 
-*Related* [I2C](i2c.md), [SPI](spi.md)
+*Related* [I2C](i2c.md), [SPI](spi.md), [Raspberry Pi](raspberry_pi.md)
 
 
 WIP

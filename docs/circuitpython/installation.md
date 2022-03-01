@@ -313,6 +313,7 @@ Commands:
 
 Adafruit has a great walkthrough on how to [get started with CircuitPython with Raspberry Pi Pico](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
 
-Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    3/19/2021 
-
+- Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    
+- [Awesome CircuitPython list](https://github.com/adafruit/awesome-circuitpython/)
+- [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks)
 

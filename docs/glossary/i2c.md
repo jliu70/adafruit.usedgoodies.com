@@ -48,3 +48,6 @@ https://blog.adafruit.com/2022/02/03/luxuriously-long-stemma-qt-cable-samples/
 3. [CircuitPython Basics: Digital Inputs & Outputs](https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs)
 4. [CircuitPython Basics: Analog Inputs & Outputs](https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs)
 5. [I2C addressing](https://www.i2c-bus.org/addressing/)
+
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

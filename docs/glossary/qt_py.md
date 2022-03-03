@@ -5,8 +5,13 @@
 
 *Related* [Feather](feather.md), [Itsy Bitsy](itsy_bitsy.md)
 
+WIP
+
 QT Py is tiny.
 
+It is size and pin compatible with Seeed Studio XIAO.
+
+Adafruit [sells](https://www.adafruit.com/product/5033) the [Seeduino XIAO expansion board](https://blog.adafruit.com/2021/04/26/testing-out-qt-py-rp2040-with-xiao-extension-board/) which works with the Adafruit QT Py.
 
 
 ### Three versions of QT Py
@@ -40,3 +45,11 @@ QT Py is tiny.
 As of January 2022, BFF is the placeholder name for Adafruit expansion boards for QT Py boards that fit onto a QT Py like a shield.
 https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
 https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/
+
+
+
+## Additional References
+- [Hackster.io QT Py Review](https://www.hackster.io/news/this-little-qt-py-has-certainly-caught-our-eye-dfc2e322775f)
+
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

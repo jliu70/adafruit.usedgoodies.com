@@ -21,3 +21,6 @@ https://blog.adafruit.com/2021/11/12/the-raspberry-pi-build-hat-and-lego-compone
 
 
 https://www.freecodecamp.org/news/what-is-raspberry-pi-specs-and-models-2021-guide/
+
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

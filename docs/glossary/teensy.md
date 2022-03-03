@@ -15,3 +15,6 @@ The awesome new Teensy 3.6 is a small, breadboard-friendly development board des
 Version 3.6 features a 32 bit 180 MHz ARM Cortex-M4 processor with floating point unit. All digital and analog pins are 3.3 volts. 
 
 WIP
+
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

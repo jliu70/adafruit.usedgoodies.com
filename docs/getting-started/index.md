@@ -15,7 +15,7 @@ As much as possible, links to additional resources or references will be provide
 Adafruit is an [open-source hardware company](https://blog.adafruit.com/2022/02/07/500-adafruit-projects-have-been-certified-as-open-source-by-oshwa/) which designs custom hardware and components.  Located in New York City, Adafruit was founded by Limor Fried (aka "Lady Ada") in 2005.  All designs and guides are openly shared. 
 
 Adafruit also provides [Learn Guides](https://learn.adafruit.com) which uses the hardware to do cool stuff.
-Adafruit has almost 2,500 guides, and it can be overwhelming for those just starting out ("newbies"). 
+Adafruit has over 2,600 guides, and it can be overwhelming for those just starting out ("newbies"). 
 
 
 
@@ -164,3 +164,6 @@ Adafruit is dedicated to providing you information in your chosen way.
 <div class="text-center">
 <a href="website-structure/" class="btn btn-primary" role="button">Next Steps</a>
 </div>
+
+
+<small>This page was last updated on 2022-03-03 12:23:07 -0500.</small>

@@ -22,3 +22,4 @@ The first is the Divider Block. This block is a simple way to help you organize 
 
 The second new block is the Battery Block. This block takes a value from 0-100.0 and displays the percentage left in a battery icon. It also allows for the text of the value to be displayed, similar to the options on a phone. This block works particularly well paired with the Adafruit LC709203F Fuel Gauge and Battery Monitor.
 
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

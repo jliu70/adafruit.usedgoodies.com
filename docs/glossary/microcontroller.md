@@ -73,3 +73,14 @@ NOTE: the Arduino is a microcontroller so that it requires a separate computer t
 
 - Arduino - precision timing, measure pulse widths to a high degree of accuracy
 - Raspberry Pi - add more intelligence  
+
+
+## Resources
+- [Learn: The Great Search SAMD21 Microcontrollers](https://blog.adafruit.com/2021/03/02/the-great-search-microchip-samd21-microcontrollers-thegreatsearch-adafruit-digikey-digikey-microchipmakes-adafruit/)
+
+https://makezine.com/comparison/boards
+https://www.digikey.com/en/maker/boards-guide
+    https://media.digikey.com/Resources/Maker/the-original-guide-to-boards-2020.pdf
+As mentioned by Lady Ada on 8/6/2021  https://youtu.be/UwGtmSZkm2c?t=245         
+
+<small>This page was last updated on 2022-03-02 14:26:07 -0500.</small>

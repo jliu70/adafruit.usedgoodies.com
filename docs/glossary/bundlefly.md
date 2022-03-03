@@ -26,3 +26,5 @@ Adafruit automatically checks which libraries and assets are required for the pr
 **Additional References**
 
 [https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/](https://blog.adafruit.com/2021/04/14/adafruitlearningsystem-weekly-update-project-bundle/)
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

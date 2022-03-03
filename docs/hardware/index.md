@@ -110,3 +110,5 @@ Pretty Pins - pin out diagrams for Adafruit hardware
 <a href="./choosing_a_board/" class="btn btn-primary" role="button">Go to Choosing a Board</a>
 </div>
 
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

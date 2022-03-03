@@ -36,3 +36,5 @@ Definitions for various terms, listed in alphabetical order.
 <div>
 <a href="../../glossary/" class="btn btn-primary" role="button">Glossary - Index</a>
 </div>
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

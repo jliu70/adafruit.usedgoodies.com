@@ -1,13 +1,20 @@
 # Installation
 
+Adafruit has [great documentation](https://learn.adafruit.com/welcome-to-circuitpython) for CircuitPython.
+
+This page tries to supplement the existing documentation by providing a quick overview and a summary of the overall process.
+
+Other documentation listed at [Additional Referernces](index.md#additional-references)
+
+
 ## CircuitPython installation has two general steps:
 
 1. Installing the CircuitPython UF2 image onto your device
 2. Installing additional CircuitPython Libraries as needed
 
-## CircuitPython UF2 Image
+## I. CircuitPython UF2 Image
 
-CircuitPython UF2 image installation is a simple drag-and-drop operation because Adafruit devices usually support USB mode.
+Installation of CircuitPython via CircuitPython UF2 image installation is a simple drag-and-drop operation because Adafruit devices usually support USB mode.
 
 When you connect the microcontroller to your computer via a USB cable, it will appear on your computer as a USB drive.
 
@@ -15,27 +22,46 @@ When you connect the microcontroller to your computer via a USB cable, it will a
     Make sure that the cable you use is a USB **data** cable.  If you are using a USB charging cable, the device will not be mounted on your system as a USB drive.
 
 
-### Steps 
+### UF2 Steps 
 
 1. Download UF2 image for your board
     - Go to [CircuitPython Downloads](https://circuitpython.org/downloads) site and click on your board
     - NOTE: if your board does not appear on the list, then it probably does not support CircuitPython.  The majority of Adafruit devices support CircuitPython.
-2. Place your device into bootloader mode (see Adafruit documentation for your device as this process varies)
-3. Drag and drop the UF2 file you downloaded in the first step to your device via the mounted Bootloader USB drive (the name of the mounted Bootloader drive varies)
+2. Place your device into bootloader mode 
+    - Refer to documentation for your device as this process varies
+3. Drag and drop the UF2 file you downloaded in the first step to your device via the mounted Bootloader USB drive 
+    - The name of the mounted Bootloader drive varies.  For example, the `Raspberry Pi Pico` bootloader drive is named `RPI-RPI2`)
     - If the copy is successful, you should see the Bootloader drive automatically unmount, and then a new drive usually named `CIRCUITPY` will automatically mount
 
 
-At this point, you are done!  You can proceed to start coding on CircuitPython on your device.
+If the above three steps are done successfully, you are done!  You can start coding with CircuitPython on your device.  Thereafter when you reconnect your device to your computer, it should automatically been seen as a USB drive named `CIRCUITPY`.   You will no longer see the bootloader disk mounted unless you place the device into bootloader mode -- usually you will only go to the bootloader mode to upgrade CircuitPython. 
 
 Located on your `CIRCUITPY` drive folder, the main starter program is `code.py` 
 
+Use any editor of your choice  --  saved changes to `code.py` run immediately.
+
+!!! note
+    *A Beginner's Recommendation*.
+
+    **Mu Editor**
+
+While you may use any editor of your choice the [Mu Editor](https://codewith.mu/en/download) is a great editor for beginners.
+There are versions for Windows, Mac OS, and Linux.
+
+- When you first run Mu Editor, it should prompt you to pick a mode
+    - You may pick the mode for "CircuiPython".  
+        - The advantage to "CircuitPython mode" is that the Mu Editor will let you access the Serial Console where you can interact with the REPL (Read Eval Print Loop) 
+
+ 
 #### Additional References
 
 - Great video walkthrough of the process: [CircuitPython School - CircuitPython Installation](https://www.youtube.com/watch?v=Wa1E8ze3v04&list=PL9VJ9OpT-IPSsQUWqQcNrVJqy4LhBjPX2&index=2)
 
+- Another great video walkthrough of the process: [DroneBot Workshop - CircuitPython with Raspberry Pi Pico](https://www.youtube.com/watch?v=07vG-_CcDG0)
 
 
-## CircuitPython Libaries
+
+## II. CircuitPython Libaries
 
 Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
 However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: 
@@ -309,11 +335,4 @@ Commands:
 
 
 
-## Additional CircuitPython Resources
-
-Adafruit has a great walkthrough on how to [get started with CircuitPython with Raspberry Pi Pico](https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/micropython-or-circuitpython)
-
-- Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    
-- [Awesome CircuitPython list](https://github.com/adafruit/awesome-circuitpython/)
-- [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks)
-
+<small>This page was last updated on 2022-03-03 12:51:07 -0500.</small>

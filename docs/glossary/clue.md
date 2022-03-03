@@ -20,3 +20,6 @@ https://blog.adafruit.com/2022/02/11/a-handheld-version-of-wordle-using-a-clue-a
 
 
 https://forums.adafruit.com/viewtopic.php?f=60&t=188244
+
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

@@ -22,3 +22,22 @@ Reference:  [https://opensource.com/resources/raspberry-pi](https://opensource.c
 
 
 [CircuitPython on Raspberry Pi (Bare Metal / No OS)](https://learn.adafruit.com/circuitpython-on-raspberry-pi-bare-metal-no-os)
+
+
+
+### References
+
+- [Raspberry Pi Awesome list](https://www.awesomelists.io/awesome-raspberry-pi/)
+
+
+
+
+- [Raspberry Pi inventory tracker](https://rpilocator.com)   
+As referenced from:
+    - https://www.jeffgeerling.com/blog/2022/its-dire-raspberry-pi-availability-tracker-launched
+    - https://news.ycombinator.com/item?id=30154141
+
+
+
+<small>This page was last updated on 2022-03-02 10:23:07 -0500.</small>
+

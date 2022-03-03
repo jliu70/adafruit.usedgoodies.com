@@ -45,3 +45,4 @@ The following PyLeap projects (as of 2/2022) are available on the Adafruit Learn
     - PyLeap - iOS app (this is one of two Adafruit iOS apps) - a BLE file transfer app to send CircuitPython projects via BLE to your Adafruit hardware
 
 
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

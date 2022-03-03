@@ -31,3 +31,6 @@ For more experienced people, if you have a Github account, you may also choose t
 - [Github adafruit.usedgoodies.com repo - Issues](https://github.com/jliu70/adafruit.usedgoodies.com/issues)
 
 Please note that while I will see submissions here, that it's not as visible to the rest of the community. 
+
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

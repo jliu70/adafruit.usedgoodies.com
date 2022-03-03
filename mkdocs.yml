@@ -47,6 +47,7 @@ nav:
         - PWM: glossary/pwm.md
         - QT Py: glossary/qt_py.md
         - QWIIC: glossary/connectors#qwiic
+        - Rasbperry Pi: glossary/raspberry_pi.md
         - RP2040: glossary/rp2040.md
         - Shield: glossary/shield.md
         - SPI: glossary/spi.md

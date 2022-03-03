@@ -36,3 +36,8 @@ You can visit this page at any time by navigating to https://io.adafruit.com/wip
 [Adafruit Youtube Video 1/12/2022: QT Py ESP32-S2 wipper snapper](https://www.youtube.com/watch?v=NaFqSdJdPmQ)  (2minutes)  
 
 [Adafruit Blog 2/14/2022: WipperSnapper No-Code IoT Platform now works with Adafruit Feather HUZZAH ESP8266](https://blog.adafruit.com/2022/02/14/wippersnapper-no-code-iot-platform-now-works-with-adafruit-feather-huzzah-esp8266/)
+
+
+
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>

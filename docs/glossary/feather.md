@@ -16,7 +16,8 @@ WIP
 - Alot of feather boards.  
     - All the same size and mostly use the same standards for pins and connections.  
 
-NOTE: not all feathers run [CircuitPython](../circuitpython/index.md).
+!!! note
+    Not all feathers run [CircuitPython](../circuitpython/index.md).
 
 
 ### Some Versions of the Adafruit Feather
@@ -59,3 +60,4 @@ Example:  NeoPixel FeatherWing for all Feather Boards https://www.adafruit.com/p
 
 - [Introducing Adafruit Feather](https://learn.adafruit.com/adafruit-feather)
 
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

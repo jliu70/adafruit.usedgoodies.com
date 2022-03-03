@@ -189,7 +189,6 @@ Examples of STEMMA QT boards
 
 ## STEMMA, QWIIC and Grove Connectors: Which is Right for You?
 
-Reference: [Toms Hardware STEMMA vs QWIIC vs Grove Connectors](https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors)  4/24/2021
 
 Depends on what boards you already have
 
@@ -208,9 +207,13 @@ Depends on what boards you already have
 | --------- | ------------------------------------------- | ----------------------------------------------------- | --------------------------------------------------------- | ------------------------------------------------------------------- | --------------- | ------------------------------------- |
 | Grove     | [Seeed Studio](https://www.seeedstudio.com) | Proprietary 4 pin 2.0mm pin pitch                     | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current)   | 4 Pin [I2C](i2c.md) / Analog / Digital / [PWM](pwm.md)              | 2010            | Compatible with STEMMA I2C only       |
 | QWIIC     | [Sparkfun](https://www.sparkfun.com)        | [JST SH](connectors.md#jst) 4 pin 1.0mm pin pitch     | **3V** [DC](https://en.wikipedia.org/wiki/Direct_current) | [I2C](i2c.md)                                                       | 2017            | N/A                                   |
-| STEMMA    | [Adafruit](https://www.adafruit.com)        | [JST PH](connectors.md#jst) 3 / 4 Pin 2.0mm pin pitch | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current)   | 4 Pin [I2C](i2c.md)  **or**  3 Pin Analog / Digital / [PWM](pwm.md) | 2014            | Only STEMMA I2C compatible with Grove |
+| STEMMA    | [Adafruit](https://www.adafruit.com)        | [JST PH](connectors.md#jst) 3 Pin **or** [JST PH](connectors.md#jst) 4 Pin 2.0mm pin pitch | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current)   | 4 Pin [I2C](i2c.md)  **or**  3 Pin Analog / Digital / [PWM](pwm.md) | 2014            | Only STEMMA I2C ([JST PH](connectors.md#jst) 4 Pin) compatible with Grove |
 | STEMMA QT | [Adafruit](https://www.adafruit.com)        | [JST SH](connectors.md#jst) 4 pin 1.0mm pin pitch     | 3-5V [DC](https://en.wikipedia.org/wiki/Direct_current)   | [I2C](i2c.md)                                                       | 2018            | intended to be compatible with QWIIC  |
 
+Reference: [Toms Hardware STEMMA vs QWIIC vs Grove Connectors](https://www.tomshardware.com/features/stemma-vs-qwiic-vs-grove-connectors)  4/24/2021
 
 !!! note
     An Adafruit Learn Guide has a table which outlines the [cross-compatability matrix](https://learn.adafruit.com/introducing-adafruit-stemma-qt/stemma-qt-comparison).
+
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

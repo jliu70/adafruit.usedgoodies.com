@@ -23,3 +23,4 @@ WIP
 [Adafruit Learn Guide: Wirelessly Program a Circuit Playground Bluefruit Using the File Glider App](https://learn.adafruit.com/how-to-transfer-files-to-a-circuit-playground-bluefruit-using-the-fileglider-app)
 
 
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

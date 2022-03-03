@@ -419,3 +419,6 @@ see the guide [https://learn.adafruit.com/adafruit-qt-py-2040/pinouts#stemma-qt-
 
 Additional References
 
+
+
+<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>

@@ -32,6 +32,7 @@
 - [PWM](pwm.md)
 - [QT Py](qt_py.md) QT Py (Tiny)
 - [QWIIC](connectors.md#qwiic)
+- [Rasbperry Pi](raspberry_pi.md)
 - [RP2040](rp2040.md)
 - [Shield](shield.md)
 - [SPI](spi.md)

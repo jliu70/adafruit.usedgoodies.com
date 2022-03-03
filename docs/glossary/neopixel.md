@@ -30,3 +30,6 @@ https://forums.adafruit.com/viewtopic.php?f=57&t=158443&p=780838&hilit=neopixel+
 - [ ] https://learn.adafruit.com/qt-py-and-neopixel-leds   QTpy SAMD21 doesn't support circuitpython led_animation library (maybe due to memory constraints)?
 
 
+
+<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+

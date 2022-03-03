@@ -300,13 +300,17 @@
 <li>NOTE: if your board does not appear on the list, then it probably does not support CircuitPython.  The majority of Adafruit devices support CircuitPython.</li>
 </ul>
 </li>
-<li>Place your device into bootloader mode (see Adafruit documentation for your device as this process varies)</li>
-<li>Drag and drop the UF2 file you downloaded in the first step to your device via the mounted Bootloader USB drive (the name of the mounted Bootloader drive varies.  For example, the <code>Raspberry Pi Pico</code> bootloader drive is named <code>RPI-RPI2</code>)<ul>
+<li>Place your device into bootloader mode <ul>
+<li>Refer to documentation for your device as this process varies</li>
+</ul>
+</li>
+<li>Drag and drop the UF2 file you downloaded in the first step to your device via the mounted Bootloader USB drive <ul>
+<li>The name of the mounted Bootloader drive varies.  For example, the <code>Raspberry Pi Pico</code> bootloader drive is named <code>RPI-RPI2</code>)</li>
 <li>If the copy is successful, you should see the Bootloader drive automatically unmount, and then a new drive usually named <code>CIRCUITPY</code> will automatically mount</li>
 </ul>
 </li>
 </ol>
-<p>At this point, you are done!  You can proceed to start coding on CircuitPython on your device.</p>
+<p>At this point, you are done!  You can start coding with CircuitPython on your device.</p>
 <p>Located on your <code>CIRCUITPY</code> drive folder, the main starter program is <code>code.py</code> </p>
 <p>Use any editor of your choice  --  saved changes to <code>code.py</code> run immediately.</p>
 <div class="admonition note">
@@ -316,7 +320,15 @@
 </div>
 <p>While you may use any editor of your choice the <a href="https://codewith.mu/en/download">Mu Editor</a> is a great editor for beginners.
 There are versions for Windows, Mac OS, and Linux.</p>
-<p>When you first run Mu Editor, it will prompt you for the mode, and you can pick the mode for "CircuiPython".  The advantage to "CircuitPython mode" is that the Mu Editor will let you access the Serial Console where the REPL (Read Eval Print Loop) is seen.</p>
+<ul>
+<li>When you first run Mu Editor, it should prompt you to pick a mode<ul>
+<li>You may pick the mode for "CircuiPython".  <ul>
+<li>The advantage to "CircuitPython mode" is that the Mu Editor will let you access the Serial Console where you can interact with the REPL (Read Eval Print Loop) </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
 <h4 id="additional-references">Additional References</h4>
 <ul>
 <li>

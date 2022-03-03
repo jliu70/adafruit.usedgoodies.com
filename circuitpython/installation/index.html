@@ -261,11 +261,11 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#1-circuitpython-uf2-image" class="nav-link">1. CircuitPython UF2 Image</a>
+            <li class="nav-item" data-level="2"><a href="#i-circuitpython-uf2-image" class="nav-link">I. CircuitPython UF2 Image</a>
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-level="2"><a href="#2-circuitpython-libaries" class="nav-link">2. CircuitPython Libaries</a>
+            <li class="nav-item" data-level="2"><a href="#ii-circuitpython-libaries" class="nav-link">II. CircuitPython Libaries</a>
               <ul class="nav flex-column">
               </ul>
             </li>
@@ -286,14 +286,14 @@
 <li>Installing the CircuitPython UF2 image onto your device</li>
 <li>Installing additional CircuitPython Libraries as needed</li>
 </ol>
-<h2 id="1-circuitpython-uf2-image">1. CircuitPython UF2 Image</h2>
+<h2 id="i-circuitpython-uf2-image">I. CircuitPython UF2 Image</h2>
 <p>Installation of CircuitPython via CircuitPython UF2 image installation is a simple drag-and-drop operation because Adafruit devices usually support USB mode.</p>
 <p>When you connect the microcontroller to your computer via a USB cable, it will appear on your computer as a USB drive.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>Make sure that the cable you use is a USB <strong>data</strong> cable.  If you are using a USB charging cable, the device will not be mounted on your system as a USB drive.</p>
 </div>
-<h3 id="steps">Steps</h3>
+<h3 id="uf2-steps">UF2 Steps</h3>
 <ol>
 <li>Download UF2 image for your board<ul>
 <li>Go to <a href="https://circuitpython.org/downloads">CircuitPython Downloads</a> site and click on your board</li>
@@ -310,7 +310,7 @@
 </ul>
 </li>
 </ol>
-<p>At this point, you are done!  You can start coding with CircuitPython on your device.</p>
+<p>If the above three steps are done successfully, you are done!  You can start coding with CircuitPython on your device.  Thereafter when you reconnect your device to your computer, it should automatically been seen as a USB drive named <code>CIRCUITPY</code>.   You will no longer see the bootloader disk mounted unless you place the device into bootloader mode -- usually you will only go to the bootloader mode to upgrade CircuitPython. </p>
 <p>Located on your <code>CIRCUITPY</code> drive folder, the main starter program is <code>code.py</code> </p>
 <p>Use any editor of your choice  --  saved changes to <code>code.py</code> run immediately.</p>
 <div class="admonition note">
@@ -338,7 +338,7 @@ There are versions for Windows, Mac OS, and Linux.</p>
 <p>Another great video walkthrough of the process: <a href="https://www.youtube.com/watch?v=07vG-_CcDG0">DroneBot Workshop - CircuitPython with Raspberry Pi Pico</a></p>
 </li>
 </ul>
-<h2 id="2-circuitpython-libaries">2. CircuitPython Libaries</h2>
+<h2 id="ii-circuitpython-libaries">II. CircuitPython Libaries</h2>
 <p>Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
 However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: </p>
 <ul>

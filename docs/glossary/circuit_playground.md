@@ -40,10 +40,21 @@ Among the many Adafruit devices, the [CircuitPlayground Bluefruit](https://www.a
 ![Bluefruit Screenshot](https://cdn-learn.adafruit.com/assets/assets/000/080/460/original/adafruit_products_CPB_labeled.jpg?1567626680)
 Source: [https://learn.adafruit.com/assets/80460](https://learn.adafruit.com/assets/80460)
 
+## Use with STEMMA QT components
+
+Here is a cable which has alligator clips on one end and STEMMA QT on the other:
+
+- [JST SH 4-pin Cable with Alligator Clips - STEMMA QT](https://www.adafruit.com/product/4398)
+
+You can also get the following if you're using a breadboard:
+
+- [Small Alligator Clip to Male Jumper Wire Bundle - 12 Pieces](https://www.adafruit.com/product/3255)
+
+
 
 ## Additional References
 - [Adafruit Learn Guide: MakeCode for Circuit Playground Express](https://learn.adafruit.com/lightpaint-cplay/makecode-for-circuit-playground-express)
 - [Adafruit Learn Guide: Circuit Playground Bluefruit](https://learn.adafruit.com/adafruit-circuit-playground-bluefruit)
 
 
-<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>
+<small>This page was last updated on 2022-03-12 12:51:07 -0500.</small>

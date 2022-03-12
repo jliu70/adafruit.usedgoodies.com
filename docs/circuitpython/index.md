@@ -46,6 +46,9 @@ Block-based programming, such as [MakeCode](https://makecode.org) or [Scratch](h
 
 Hence for older students, or those students already experienced with [Scratch](https://scratch.mit.edu) or [MakeCode](https://makecode.org), I recommend jumping straight into python.
 
+
+### Edublocks
+
 For those looking to ease the transition from block-based programming to python, [EduBlocks](https://edublocks.org) is an interesting hybrid which offers python in a block-based format.
 
 
@@ -105,4 +108,7 @@ Adafruit has a great walkthrough on how to [get started with CircuitPython with 
 - [Awesome CircuitPython list](https://github.com/adafruit/awesome-circuitpython/)
 - [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks)
 
-<small>This page was last updated on 2022-03-03 16:01:07 -0500.</small>
+- [Independent podcast: The CircuitPython Show (Youtube)](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q)
+
+
+<small>This page was last updated on 2022-03-10 14:15:07 -0500.</small>

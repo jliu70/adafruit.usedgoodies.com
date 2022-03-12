@@ -18,20 +18,24 @@ Here are some great Adafruit guides on how to choose a microcontroller:
 
 There are many features to consider when choosing a board
 
+- What Software is supported
+    - CircuitPython
+    - Arduino
+    - MakeCode
 - Wireless 
     - WiFi 
     - Bluetooth
 - Connectors 
     - Solderless 
         - [STEMMA, STEMMA QT, etc](../glossary/connectors.md)
-        - Alligator Clips
+        - [Alligator Clips](https://www.adafruit.com/product/3255)
         - [Bolt on kit for Circuit Playground or Gemma](https://www.adafruit.com/product/4103)
-    - [Breadboard](https://www.adafruit.com/product/64)
-    - Solder 
-- Expansion
+    - Headers 
+        - [Breadboard](https://www.adafruit.com/product/64)
+        - [Stacking Headers](https://www.adafruit.com/product/2830)
 - Size
+- Expansion
 - Battery and Pass-thru chargning
-- Header pins
 - Cabling
 - Price 
 - Power
@@ -65,4 +69,20 @@ Explore what is STEMMA or STEMMA QT
 </div>
 
 
-<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+
+
+CircuitPython components for beginners
+
+- sensors - temperature, light, sound, proximity
+- RFID, NFC, PIR 
+- Rotary encoders
+- Potentiometers
+- buttons
+- relays
+- cameras
+- displays
+
+
+
+
+<small>This page was last updated on 2022-03-11 13:15:07 -0500.</small>

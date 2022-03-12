@@ -156,7 +156,7 @@ Adafruit is dedicated to providing you information in your chosen way.
 - [Blog](https://blog.adafruit.com/?s=python)
 - [Instagram](https://www.instagram.com/adafruit/channel/)
 - [Reddit](https://www.reddit.com/r/adafruit/)
-
+- [Discord](http://adafru.it/discord)
 
 
 # [Next Steps](website-structure.md)
@@ -166,4 +166,4 @@ Adafruit is dedicated to providing you information in your chosen way.
 </div>
 
 
-<small>This page was last updated on 2022-03-03 12:23:07 -0500.</small>
+<small>This page was last updated on 2022-03-04 16:45:07 -0500.</small>

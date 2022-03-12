@@ -16,19 +16,20 @@ Adafruit [sells](https://www.adafruit.com/product/5033) the [Seeduino XIAO expan
 
 ### Three versions of QT Py
 
-| Device                                                  | Microcontroller        | Code                                | RAM                         | Cost   |
-| ------------------------------------------------------- | ---------------------- | ----------------------------------- | --------------------------- | ------ |
-| [QT Py SAMD21](https://www.adafruit.com/product/4600)   | ATSAMD21 ARM Cortex M0 | Arduino, CircuitPython, or MakeCode | 256 KB of SPI Flash storage | $7.50  |
-| [QT Py ESP32-S2](https://www.adafruit.com/product/5325) | ESP32-S2               | Arduino, CircuitPython, or MakeCode | 4 MB of SPI Flash storage   | $12.50 |
-| [QT Py RP2040](https://www.adafruit.com/product/4900)   | [RP2040](rp2040.md)    | Arduino, CircuitPython, or MakeCode | 8MB of SPI Flash            | $9.95  |
+| Device                                                  | Microcontroller        | Code                                | RAM / Storage                          | Cost   |
+| ------------------------------------------------------- | ---------------------- | ----------------------------------- | -------------------------------------- | ------ |
+| [QT Py SAMD21](https://www.adafruit.com/product/4600)   | ATSAMD21 ARM Cortex M0 | Arduino, CircuitPython, or MakeCode | 32KB RAM / 256 KB of SPI Flash storage | $7.50  |
+| [QT Py ESP32-S2](https://www.adafruit.com/product/5325) | ESP32-S2               | Arduino, CircuitPython, or MakeCode | 2MB PSRSM / 4 MB of SPI Flash storage  | $12.50 |
+| [QT Py RP2040](https://www.adafruit.com/product/4900)   | [RP2040](rp2040.md)    | Arduino, CircuitPython, or MakeCode | 264KB RAM / 8MB of SPI Flash           | $9.95  |
 
 
 #### Additional versions of the QT Py on the way
 
-| Device                                                                                            | Microcontroller | Code                                | RAM                         |
-| ------------------------------------------------------------------------------------------------- | --------------- | ----------------------------------- | --------------------------- |
-| [QT Py nRF52840](https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/) <sup>1</sup> | nRF52840        | Arduino, CircuitPython, or MakeCode | 256 KB of SPI Flash storage |
-| [QT Py ESP32-S3](https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/) <sup>2</sup>          | ESP32-S3        | Arduino, CircuitPython, or MakeCode | 4 MB of SPI Flash storage   |
+| Device                                                                                                                                 | Microcontroller | Code                                | RAM /Storage                   |
+| -------------------------------------------------------------------------------------------------------------------------------------- | --------------- | ----------------------------------- | ------------------------------ |
+| [QT Py nRF52840](https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/) <sup>1</sup>                                      | nRF52840        | Arduino, CircuitPython, or MakeCode | 256KB RAM / ? storage          |
+| [QT Py ESP32-S3](https://blog.adafruit.com/2022/01/07/qt-py-with-esp32-s3/) <sup>2, 3</sup>                                            | ESP32-S3        | Arduino, CircuitPython, or MakeCode | ? RAM / ? storage              |
+| [QT Py ESP32-C3](https://blog.adafruit.com/2022/03/09/coming-soon-adafruit-qt-py-esp32-c3-wifi-dev-board-with-stemma-qt/) <sup>4</sup> | ESP32-C3        | Arduino, CircuitPython, or MakeCode | 400KB SRAM / 4MB Flash storage |
 
 
 1. [Adafruit blog post about QT Py nRF52840 1/6/2022](https://blog.adafruit.com/2022/01/06/qt-py-bluefruit-routin-party/)
@@ -39,6 +40,9 @@ Adafruit [sells](https://www.adafruit.com/product/5033) the [Seeduino XIAO expan
 
 3. [Desk of Lady Ada youtube video 1/9/2022](https://www.youtube.com/watch?v=xC7oodxTWgE)  
     This weekend we cranked through 3.5 QT Py designs (we didnt finish routing one, its a toughie!) - we already make SAMD21, RP2040 and ESP32-S2 and we wanted to add some more chips to the mix: ESP32-S3 (dual core version of the S2), ESP32 Pico (OG ESP with built in flash/psram), ESP32-C3 (Risc-V wifi!) and nRF52840 (BLE wonder-chip from Nordic). the last one is what we didn't get to finish routing because its a particularly tough one. The other 3 worked out fine with a 4 layer PCB. We also designed a few 'BFF' boards - that fit onto a QT Py like a shield. 
+
+4. [Adafruit blog post about QT Ot ESP32-C3 3/9/2022](https://blog.adafruit.com/2022/03/09/coming-soon-adafruit-qt-py-esp32-c3-wifi-dev-board-with-stemma-qt/)
+     ESP32-C3 is a low-cost microcontroller from Espressif that supports 2.4 GHz Wi-Fi and Bluetooth® Low Energy (Bluetooth LE). It has built-in USB-to-Serial, but not native USB – it cannot act as a keyboard or disk drive. The chip used here has 4MB of Flash memory, 400 KB of SRAM and can easily handle TLS connections.
 
 
 ## BFF 
@@ -52,4 +56,4 @@ https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/
 - [Hackster.io QT Py Review](https://www.hackster.io/news/this-little-qt-py-has-certainly-caught-our-eye-dfc2e322775f)
 
 
-<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+<small>This page was last updated on 2022-03-09 18:36:07 -0500.</small>

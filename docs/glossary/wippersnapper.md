@@ -37,7 +37,10 @@ You can visit this page at any time by navigating to https://io.adafruit.com/wip
 
 [Adafruit Blog 2/14/2022: WipperSnapper No-Code IoT Platform now works with Adafruit Feather HUZZAH ESP8266](https://blog.adafruit.com/2022/02/14/wippersnapper-no-code-iot-platform-now-works-with-adafruit-feather-huzzah-esp8266/)
 
+[Adafruit Blog 3/9/2022: WipperSnapper update - MCP9808 temperature sensor and Feahter ESP32v2](https://blog.adafruit.com/2022/03/09/wippersnapper-updates-mcp9808-temperature-sensor-and-feather-esp32v2-compatibility-coming-soon-wippersnapperwednesday/)
 
 
+[Adafruit Blog 3/11/2022: Wipper Snapper - how to add a new component](https://blog.adafruit.com/2022/03/10/new-guide-how-to-add-a-new-component-to-adafruit-io-wippersnapper-nocode-iot/)
 
-<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+
+<small>This page was last updated on 2022-03-11 15:17:07 -0500.</small>

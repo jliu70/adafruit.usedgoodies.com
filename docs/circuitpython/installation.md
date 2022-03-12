@@ -34,11 +34,11 @@ When you connect the microcontroller to your computer via a USB cable, it will a
     - If the copy is successful, you should see the Bootloader drive automatically unmount, and then a new drive usually named `CIRCUITPY` will automatically mount
 
 
-If the above three steps are done successfully, you are done!  You can start coding with CircuitPython on your device.  Thereafter when you reconnect your device to your computer, it should automatically been seen as a USB drive named `CIRCUITPY`.   You will no longer see the bootloader disk mounted unless you place the device into bootloader mode -- usually you will only go to the bootloader mode to upgrade CircuitPython. 
+If the above three steps complete successfully, you are done!  You can start coding with CircuitPython on your device.  Thereafter when you reconnect your device to your computer, it should automatically been seen as a USB drive named `CIRCUITPY`.   You will no longer see the bootloader disk mounted unless you place the device into bootloader mode -- usually you will only go to the bootloader mode to upgrade CircuitPython. 
 
 Located on your `CIRCUITPY` drive folder, the main starter program is `code.py` 
 
-Use any editor of your choice  --  saved changes to `code.py` run immediately.
+Use any editor of your choice  --  changes saved to `code.py` run immediately.
 
 !!! note
     *A Beginner's Recommendation*.
@@ -64,7 +64,7 @@ There are versions for Windows, Mac OS, and Linux.
 ## II. CircuitPython Libaries
 
 Once you have CircuitPython installed on your device, you can start coding in CircuitPython immediately.
-However, once your code makes calls beyond the libraries included with the binary install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: 
+However, once your code makes calls beyond the libraries included with the UF2 image install  -- most commonly after you attach sensors or other breakouts to the microcontroller -- you will need the following additional steps: 
 
 - Download the CircuitPython Library Bundle
 - Copy additional libraries to the microcontroller
@@ -335,4 +335,4 @@ Commands:
 
 
 
-<small>This page was last updated on 2022-03-03 12:51:07 -0500.</small>
+<small>This page was last updated on 2022-03-03 18:21:07 -0500.</small>

@@ -49,7 +49,7 @@ As of Feb 2022
 
 Adafruit offers 68 different microcontrollers which run CircuitPython.
 
-#### Within the Adafruit ecosystem, there are a few general microcontroller categories:
+#### Within the Adafruit ecosystem, the primary microcontroller form factors are:
 
 - [Circuit Playground](../../glossary/circuit_playground) 
 - [Adafruit Feather](../glossary/feather.md) (Regular)
@@ -59,17 +59,17 @@ Adafruit offers 68 different microcontrollers which run CircuitPython.
 - [Metro](../glossary/metro.md) (Arduino form factor)
 - Trinkey (USB dongles)
 
-#### There are other form factors such as: 
+#### Other form factors: 
 
 - [CLUE](../glossary/clue.md)
-- Gemma M0
-- FunHouse
-- KB2040
-- MacroPad
-- MagTag
-- MatrixPortal
-- PyBadge/EdgeBadge/PyGamer
-- PyPortal/PyPortal Titano
+- Gemma M0 (tiny - great for wearble projects)
+- FunHouse (home automation)
+- KB2040 (custom keyboards)
+- MacroPad (custom macrokeypad)
+- MagTag (e-ink display with WiFi)
+- MatrixPortal (power LED Matrix displays - has WiFi)
+- PyBadge/EdgeBadge/PyGamer 
+- PyPortal/PyPortal Titano (an [IoT](../glossary/iot.md) display)
 - Trellis 
 - Trinket M0
 - [Teensy](../glossary/teensy.md)
@@ -111,4 +111,4 @@ Pretty Pins - pin out diagrams for Adafruit hardware
 </div>
 
 
-<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+<small>This page was last updated on 2022-03-04 14:15:07 -0500.</small>

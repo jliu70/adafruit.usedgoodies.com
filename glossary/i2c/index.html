@@ -287,20 +287,27 @@ Another option is to use <a href="https://www.adafruit.com/product/4704">SparkFu
 <p>Addresses range from 0 to 128 
 A seven bit wide address space theoretically allows 128 I2C addresses – however, some addresses are reserved for special purposes. Thus, only 112 addresses are available with the 7 bit address scheme. <sup>5</sup></p>
 <p>THe <a href="../connectors/#qwiic">QWIIC</a> and <a href="../connectors/#stemma-qt">STEMMA QT</a> devices exclusively communicate via I2C.  <a href="../connectors/#stemma">STEMMA</a> 4-pin connectors can also use I2C. <a href="../connectors/#grove">Grove</a> devices can also use I2C.  If you are unsure if a device uses I2C, if you see SCL and SDA pins then it is an I2C device.</p>
+<p>I2C is ideal for short distances and low bandwidth communication.
+I2C uses a client/server architecture. </p>
+<p>I2C limitiations:</p>
+<ul>
+<li>No hot plugging support</li>
+<li>No auto device discovery</li>
+<li>Addresses collisions may occur (if multiple devices use the same address)</li>
+</ul>
 <p>https://blog.adafruit.com/2022/02/03/luxuriously-long-stemma-qt-cable-samples/</p>
 <div class="admonition quote">
 <p class="admonition-title">Quote</p>
 <p>I2C was never meant to go 200, 300 or 400mm but we laugh in the face of death thanks to these samples we got of some looooooooong stemma qt cables. each cable has two JST SH connectors on either end and a PVC sheathed center. we were inspired by this tweet https://twitter.com/lovyan03/status/1480867328783163396 about I2C wire interleaving with power in order to avoid cross-talk for long cables (I2C is not differential so you definitely do not want to use twisted wires!) if you look closely, the cable is flat and has the red power wire between SDA and SCL instead of having them next to each other. we’re just trying it out here with our fancy new ESP32 Feather V2 which has an onboard STEMMA QT connector </p>
 </div>
-<p><strong>Additional References</strong></p>
-<ol>
-<li><a href="https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/i2c-devices">Adafruit Learn Guide: I2C devices</a></li>
-<li><a href="https://learn.adafruit.com/circuitpython-basics-i2c-and-spi">CircuitPython Basics: I2C and SPI</a></li>
-<li><a href="https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs">CircuitPython Basics: Digital Inputs &amp; Outputs</a></li>
-<li><a href="https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs">CircuitPython Basics: Analog Inputs &amp; Outputs</a></li>
-<li><a href="https://www.i2c-bus.org/addressing/">I2C addressing</a></li>
-</ol>
-<p><small>This page was last updated on 2022-03-03 15:45:07 -0500.</small></p></div>
+<p><strong>Additional References</strong>
+1. <a href="https://learn.adafruit.com/working-with-i2c-devices">Adafruit Learn Guide: Working with I2C devices</a>
+1. <a href="https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/i2c-devices">Adafruit Learn Guide: I2C devices</a>
+2. <a href="https://learn.adafruit.com/circuitpython-basics-i2c-and-spi">CircuitPython Basics: I2C and SPI</a>
+3. <a href="https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs">CircuitPython Basics: Digital Inputs &amp; Outputs</a>
+4. <a href="https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs">CircuitPython Basics: Analog Inputs &amp; Outputs</a>
+5. <a href="https://www.i2c-bus.org/addressing/">I2C addressing</a></p>
+<p><small>This page was last updated on 2022-03-16 15:07:07 -0500.</small></p></div>
             </div>
         </div>
 

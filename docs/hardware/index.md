@@ -81,8 +81,9 @@ Most Adafruit devices use one of the following chipsets:
 
 - SAMD21
 - SAMD51
-- ESP32-S2
-- ESP32-S3
+- [ESP32-S2](../glossary/esp32.md)
+- [ESP32-S3](../glossary/esp32.md)
+- [ESP32-C3](../glossary/esp32.md)
 - NRF52840
 - [RP2040](../glossary/rp2040.md)
 
@@ -92,7 +93,6 @@ For example:
 
 - [Circuit Playground Versions](../glossary/circuit_playground/#circuit-playground)
 - [QT Py Versions](../glossary/qt_py/#qt-py)
-
 
 
 
@@ -111,4 +111,4 @@ Pretty Pins - pin out diagrams for Adafruit hardware
 </div>
 
 
-<small>This page was last updated on 2022-03-04 14:15:07 -0500.</small>
+<small>This page was last updated on 2022-03-13 13:03:07 -0500.</small>

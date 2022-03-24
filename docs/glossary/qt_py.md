@@ -50,10 +50,11 @@ As of January 2022, BFF is the placeholder name for Adafruit expansion boards fo
 https://blog.adafruit.com/2022/01/11/qt-py-bff-with-lipoly-charging-and-switch/
 https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/
 
+[Adafruit LiIon or LiPoly Charger BFF Add-On for QT Py](https://www.adafruit.com/product/5397)
 
 
 ## Additional References
 - [Hackster.io QT Py Review](https://www.hackster.io/news/this-little-qt-py-has-certainly-caught-our-eye-dfc2e322775f)
 
 
-<small>This page was last updated on 2022-03-09 18:36:07 -0500.</small>
+<small>This page was last updated on 2022-03-18 08:46:07 -0500.</small>

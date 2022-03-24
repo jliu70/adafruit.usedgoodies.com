@@ -31,10 +31,17 @@ A seven bit wide address space theoretically allows 128 I2C addresses – howeve
 THe [QWIIC](connectors.md#qwiic) and [STEMMA QT](connectors.md#stemma-qt) devices exclusively communicate via I2C.  [STEMMA](connectors.md#stemma) 4-pin connectors can also use I2C. [Grove](connectors.md#grove) devices can also use I2C.  If you are unsure if a device uses I2C, if you see SCL and SDA pins then it is an I2C device.
 
 
+I2C is ideal for short distances and low bandwidth communication.
+I2C uses a client/server architecture. 
+
+I2C limitiations:
+
+- No hot plugging support
+- No auto device discovery
+- Addresses collisions may occur (if multiple devices use the same address)
 
 
 https://blog.adafruit.com/2022/02/03/luxuriously-long-stemma-qt-cable-samples/
-
 
 !!! quote
     I2C was never meant to go 200, 300 or 400mm but we laugh in the face of death thanks to these samples we got of some looooooooong stemma qt cables. each cable has two JST SH connectors on either end and a PVC sheathed center. we were inspired by this tweet https://twitter.com/lovyan03/status/1480867328783163396 about I2C wire interleaving with power in order to avoid cross-talk for long cables (I2C is not differential so you definitely do not want to use twisted wires!) if you look closely, the cable is flat and has the red power wire between SDA and SCL instead of having them next to each other. we’re just trying it out here with our fancy new ESP32 Feather V2 which has an onboard STEMMA QT connector 
@@ -42,12 +49,12 @@ https://blog.adafruit.com/2022/02/03/luxuriously-long-stemma-qt-cable-samples/
 
 
 **Additional References**
-
 1. [Adafruit Learn Guide: I2C devices](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi/i2c-devices)
 2. [CircuitPython Basics: I2C and SPI](https://learn.adafruit.com/circuitpython-basics-i2c-and-spi)
 3. [CircuitPython Basics: Digital Inputs & Outputs](https://learn.adafruit.com/circuitpython-digital-inputs-and-outputs)
 4. [CircuitPython Basics: Analog Inputs & Outputs](https://learn.adafruit.com/circuitpython-basics-analog-inputs-and-outputs)
+1. [Adafruit Learn Guide: Working with I2C devices](https://learn.adafruit.com/working-with-i2c-devices)
 5. [I2C addressing](https://www.i2c-bus.org/addressing/)
 
 
-<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>
+<small>This page was last updated on 2022-03-16 15:07:07 -0500.</small>

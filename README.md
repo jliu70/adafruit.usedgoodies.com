@@ -42,3 +42,8 @@ mkdocs serve
 
 ```
 
+
+# Special mention on the Adafruit Blog after I posted about adafruit.usedgoodies.com to the forums:
+https://blog.adafruit.com/2022/02/14/adafruit-for-newbies/
+
+https://forums.adafruit.com/viewtopic.php?f=60&t=188399

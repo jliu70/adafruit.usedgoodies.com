@@ -106,9 +106,9 @@ Adafruit has a great walkthrough on how to [get started with CircuitPython with 
 
 - Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    
 - [Awesome CircuitPython list](https://github.com/adafruit/awesome-circuitpython/)
-- [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks)
+- [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks) a GitHub repository with a very good list of tips & tricks 
 
-- [Independent podcast: The CircuitPython Show (Youtube)](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q)
+- [Independent podcast: The CircuitPython Show (Youtube)](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q) where Paul Cutler interviews members of the CircuitPython Community
 
 
 <small>This page was last updated on 2022-03-10 14:15:07 -0500.</small>

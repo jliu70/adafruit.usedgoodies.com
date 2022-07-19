@@ -9,6 +9,8 @@ WipperSnapper
 
 WIP
 
+You can visit this page at any time by navigating to https://io.adafruit.com/wippersnapper.
+
 
 - [Adafruit Youtube video 9/28/2021: Welcome to WipperSnapper](https://www.youtube.com/watch?v=beFuT_hG_LE)
 
@@ -16,14 +18,39 @@ WIP
 
 - [Adafruit Learn Guide: Quickstart Adafruit IO WipperSnapper ](https://learn.adafruit.com/quickstart-adafruit-io-wippersnapper/)
 
-- [Adafruit Learn Guide: No-Code WipperSnapper Water Detection](https://learn.adafruit.com/water-detection-with-wippersnapper)  (requires Adafruit IO+ subscription)
 
+- [WipperSnapper Firmware Installer and Design Update](https://io.adafruit.com/blog/notebook/2022/07/06/wippersnapper-installer-and-design-update/)
+The Adafruit IO team has a new update over on the IO Blog. It details a shiny new “getting started” experience for WipperSnapper that’s tailored to first-time IoT users, as well as a glittering trove of design updates.
 
+Here’s some details about how the onboarding process can help new users, from the post:
+
+- plugging the board in with an appropriate cable
+- downloading the latest, stable firmware version, built custom to your board
+- a helpful reset timing animation for reliably entering bootloader mode
+- setting up your secrets file (AIO Key embedded automatically!)
+- understanding the pattern of blinking lights during firmware boot
+
+A bunch of menus, pages, and buttons had their designs refreshed as well, and this is just the beginning. Adafruit IO is getting a lot of love this year, stay tuned!
 
 
 WipperSnapper Devices List
+[Adafruit Blog 7/15/2022: UPDATED GUIDES: WipperSnapper Setup Pages ](https://blog.adafruit.com/2022/07/15/updated-guides-wippersnapper-setup-pages-circuitpython-adafruitlearningsystem-adafruit-adafruit/)
 
-You can visit this page at any time by navigating to https://io.adafruit.com/wippersnapper.
+Read the updated guides for the:
+
+Adafruit ESP32 Feather V2
+Adafruit Feather HUZZAH32
+Adafruit ESP32-S2 Feather
+Adafruit ESP32-S2 TFT Feather
+Adafruit ESP8266 Feather
+Adafruit QT Py ESP32 Pico
+Adafruit QT Py ESP32-S2,
+and Adafruit QT Py ESP32-S3!
+
+
+
+- [Adafruit Learn Guide: No-Code WipperSnapper Water Detection](https://learn.adafruit.com/water-detection-with-wippersnapper)  (requires Adafruit IO+ subscription)
+
 
 [Adafruit Youtube video 9/29/2021: I2C Scan with Adafruit.io WipperSnapper](https://www.youtube.com/watch?v=6KqP9b_0gRY)
 
@@ -39,10 +66,27 @@ You can visit this page at any time by navigating to https://io.adafruit.com/wip
 
 [Adafruit Blog 3/9/2022: WipperSnapper update - MCP9808 temperature sensor and Feahter ESP32v2](https://blog.adafruit.com/2022/03/09/wippersnapper-updates-mcp9808-temperature-sensor-and-feather-esp32v2-compatibility-coming-soon-wippersnapperwednesday/)
 
+[Adafruit Blog 3/14/2022: WipperSnapper adds MCP9601 Thermocouple Amplifier Support](https://blog.adafruit.com/2022/03/14/wippersnapper-adds-mcp9601-thermocouple-amplifier-support-nocode-iot-microchipmakes/)
+
 [Adafruit Blog 3/22/2022: WipperSnapper update - TSL2591 light sensor](https://blog.adafruit.com/2022/03/22/wippersnapper-adds-tsl2591-light-sensor-support-nocode-iot/)
+
+[Adafruit Blog 3/23/2022: WipperSnapper update - AHT20 temperature and humidity sensor](https://blog.adafruit.com/2022/03/23/updated-guide-adafruit-aht20-temperature-humidity-sensor-adafruit-adafruit/)
+
+[Adafruit Blog 3/25/2022: WipperSnapper update - Adafruit ESP32 Feather V2](https://blog.adafruit.com/2022/03/25/updated-guide-adafruit-esp32-feather-v2-adafruit-adafruit-adafruitio-wippersnapper/)
+
+[Adafruit Blog 3/29/2022: WipperSnapper update - Adafruit ESP32 Feather S2](https://blog.adafruit.com/2022/03/29/updated-guide-adafruit-esp32-s2-feather-adafruit-adafruit-adafruitio-wippersnapper/)
+
+[Adafruit Blog 5/9/2022: WipperSnapper update - Adafruit QT Py ESP32 S3](https://blog.adafruit.com/2022/05/09/wippersnapper-no-code-iot-platform-now-works-with-adafruit-qt-py-esp32-s3-and-adafruit-qt-py-esp32-pico-nocode-iot-esp32s3-esp32/)
+
+[Adafruit Blog 6/10/2022: WipperSnapper update - No-Code IoT for the Adafruit ESP32-S3 Feather and Adafruit ESP32-S3 TFT Feather](https://blog.adafruit.com/2022/06/10/wippersnapper-no-code-iot-platform-now-works-with-the-adafruit-esp32-s3-feather-and-adafruit-esp32-s3-tft-feather-esp32s3/)
+
+[Adafruit Blog 7/12/2022: WipperSnapper update - No-Code IoT for the Adafruit QT Py ESP32-C3](https://blog.adafruit.com/2022/07/12/wippersnapper-no-code-iot-platform-now-works-with-adafruit-qt-py-esp32-c3-nocode-iot-esp32c3-riscv/)
 
 
 [Adafruit Blog 3/11/2022: Wipper Snapper - how to add a new component](https://blog.adafruit.com/2022/03/10/new-guide-how-to-add-a-new-component-to-adafruit-io-wippersnapper-nocode-iot/)
 
 
-<small>This page was last updated on 2022-03-22 12:47:07 -0500.</small>
+[Adafruit Blog 5/9/2022: Wipper Snapper - how to add a new board](https://blog.adafruit.com/2022/05/09/new-guide-how-to-add-a-new-board-to-wippersnapper-adafruitlearningsystem-adafruit-adafruit/)
+
+
+<small>This page was last updated on 2022-07-15 19:47:07 -0500.</small>

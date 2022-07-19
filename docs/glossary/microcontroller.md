@@ -18,6 +18,7 @@ Microcontrollers are single purpose computers
 - Use of microcontrollers is fine for most cases
 - When you need more computational power, you may want to use a [Raspberry Pi](raspberry_pi.md)
     - For example, if you wish to have a web dashboard to interface with
+    - Would like to process larger data sets
 
 
 ## Comparison of Raspberry Pi to Arduino
@@ -83,4 +84,7 @@ https://www.digikey.com/en/maker/boards-guide
     https://media.digikey.com/Resources/Maker/the-original-guide-to-boards-2020.pdf
 As mentioned by Lady Ada on 8/6/2021  https://youtu.be/UwGtmSZkm2c?t=245         
 
-<small>This page was last updated on 2022-03-02 14:26:07 -0500.</small>
+[Adafruit_CircuitPython_HTTPServer - Simple HTTP Server for CircuitPython](https://github.com/adafruit/Adafruit_CircuitPython_HTTPServer)
+
+
+<small>This page was last updated on 2022-03-29 12:26:07 -0500.</small>

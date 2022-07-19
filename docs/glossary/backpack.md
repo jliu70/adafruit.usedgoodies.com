@@ -3,6 +3,9 @@
 
 ### [Back to Index](index.md)
 
+*Related* [expansion boards](../hardware/index.md#expansion-options)
+
+
 WIP 
 
 Backpack
@@ -29,4 +32,4 @@ Additional Reference
 https://learn.adafruit.com/led-backpack-displays-on-raspberry-pi-and-beaglebone-black
 
 
-<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>
+<small>This page was last updated on 2022-07-19 15:45:07 -0500.</small>

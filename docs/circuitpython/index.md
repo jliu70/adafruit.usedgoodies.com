@@ -51,6 +51,18 @@ Hence for older students, or those students already experienced with [Scratch](h
 
 For those looking to ease the transition from block-based programming to python, [EduBlocks](https://edublocks.org) is an interesting hybrid which offers python in a block-based format.
 
+#### CodeSkool
+
+CodeSkool is a block based Python for Raspberry Pi Pico 
+https://www.reddit.com/r/circuitpython/comments/uri5ws/teach_kids_python_and_embedded_electronics_with_4/
+https://ide.codeskool.cc
+Now at CodeSkool (https://ide.codeskool.cc) we support the complete examples of PicoZero Python API https://picozero.readthedocs.io/en/latest/recipes.html
+All you need is a $4 raspberry Pico board, few led, resistors, a buzzer & a speaker.
+Now write programs that runs and interact with the physical world, using drag & drop scratch blocks with our Python extension.
+With Scratch Kids can use the familiar environment to program Pico. Just drag the blocks and it will generate the python code, that they can upload directly, i.e. save directly using the upload button to the device.
+The kids don't need any tool, just a browser and there familiar scratch environment and they can write code that is running on embedded hardware and can interface with the real world like they used to do with makey makey, etc
+
+
 
 ## What about Micropython?
 
@@ -107,8 +119,12 @@ Adafruit has a great walkthrough on how to [get started with CircuitPython with 
 - Adafruit video [Collin lab one minute CircuitPython on Raspberry Pi Pico](https://www.youtube.com/watch?v=1xctZfhZt_g)    
 - [Awesome CircuitPython list](https://github.com/adafruit/awesome-circuitpython/)
 - [circuitpython-tricks](https://github.com/todbot/circuitpython-tricks) a GitHub repository with a very good list of tips & tricks 
+    - [Adafruit Learn Guide: Todbot's CircuitPython Tricks](https://learn.adafruit.com/todbot-circuitpython-tricks)
+        Includes links to the related Circuit Python Parsec videos 
 
-- [Independent podcast: The CircuitPython Show (Youtube)](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q) where Paul Cutler interviews members of the CircuitPython Community
+- [Independent podcast: The CircuitPython Show (Youtube)](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q) where Paul Cutler interviews members of the CircuitPython Community on a bi-weekly schedule
 
 
-<small>This page was last updated on 2022-03-10 14:15:07 -0500.</small>
+- [Adafruit Blog 5/16/2022:  There are now over 300 CircuitPython compatible microcontroller boards](https://blog.adafruit.com/2022/05/17/there-are-now-over-300-circuitpython-compatible-microcontroller-boards-circuitpython-python-adafruit/)
+
+<small>This page was last updated on 2022-05-25 11:25:07 -0500.</small>

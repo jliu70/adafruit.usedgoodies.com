@@ -39,15 +39,15 @@ For more info, see the **Glossary** page for [Circuit Playground Bluefruit](../g
 ## List of hardware supported by CircuitPython
 List of all the hardware currently supported by CircuitPython (Adafruit and other manufacturers) is available at the [CircuitPython Downloads Page](https://circuitpython.org/downloads).
 
-As of Feb 2022 
+As of May 2022 
 
-- There are over 270 boards supported by CircuitPython and that list grows everyday.
+- There are over 300 boards supported by CircuitPython and that list grows everyday.
 - The list is sorted by number of downloads.  
     - The most popular board -- the Raspberry Pi Pico -- is not manufactured by Adafruit.
 
 ### Adafruit Hardware
 
-Adafruit offers 68 different microcontrollers which run CircuitPython.
+Adafruit offers over 70 different microcontrollers which run CircuitPython.
 
 #### Within the Adafruit ecosystem, the primary microcontroller form factors are:
 
@@ -94,6 +94,27 @@ For example:
 - [Circuit Playground Versions](../glossary/circuit_playground/#circuit-playground)
 - [QT Py Versions](../glossary/qt_py/#qt-py)
 
+- [In general would recommend new users to avoid SAMD21 microcontrollers](https://forums.adafruit.com/viewtopic.php?f=60&t=189584)
+```
+The SAMD21 has limited flash space for including new features in CircuitPython. The non-Express versions are extra crunched because 64k of the flash is used for the file system.
+```
+
+
+## Expansion Options
+
+Most microcontroller form factors have expansion boards which can extend functionality.
+
+These expansion boards are often given "codenames" such as "[FeatherWing](../glossary/feather.md#featherwing)" or "[HAT](../glossary/hat.md)"
+
+There are a wide variety of names for add-on boards.
+
+- [Feather boards](../glossary/feather.md) use [FeatherWings](../glossary/feather.md#featherwing)
+- [Arduinos](../glossary/arduino.md) use [Shields](../glossary/shield.md)
+- [Raspberry Pi SBCs](../glossary/raspberry_pi.md) use [HATs](../glossary/hat.md)
+- [QT Py](../glossary/qt_py.md) use [BFFs](../glossary/qt_py.md#bff)
+- [BeagleBone boards](https://beagleboard.org) use [Capes](../glossary/cape.md)
+- [Circuit Playground Express](../glossary/circuit_playground.md) use Gizmos
+- Raspberry Pi Pico use [Bells](../glossary/bell.md)
 
 
 Pretty Pins - pin out diagrams for Adafruit hardware
@@ -111,4 +132,4 @@ Pretty Pins - pin out diagrams for Adafruit hardware
 </div>
 
 
-<small>This page was last updated on 2022-03-13 13:03:07 -0500.</small>
+<small>This page was last updated on 2022-07-19 13:03:07 -0500.</small>

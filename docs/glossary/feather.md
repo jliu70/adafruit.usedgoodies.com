@@ -33,6 +33,7 @@ WIP
 
 
 
+[Make: review of Adafruit Feather RP2040](https://blog.adafruit.com/2022/06/03/make-review-adafruit-feather-rp2040-piday-rp2040-feather-make-adafruit-raspberry_pi/)
 
 
 
@@ -60,4 +61,4 @@ Example:  NeoPixel FeatherWing for all Feather Boards https://www.adafruit.com/p
 
 - [Introducing Adafruit Feather](https://learn.adafruit.com/adafruit-feather)
 
-<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>
+<small>This page was last updated on 2022-06-03 12:45:07 -0500.</small>

@@ -158,6 +158,7 @@ Adafruit is dedicated to providing you information in your chosen way.
 - [Reddit](https://www.reddit.com/r/adafruit/)
 - [Discord](http://adafru.it/discord)
 
+- [Adafruit music library on SoundCloud](https://blog.adafruit.com/2022/04/27/new-music-alert-adafruit-music-library-on-soundcloud-3/)
 
 # [Next Steps](website-structure.md)
 
@@ -166,4 +167,4 @@ Adafruit is dedicated to providing you information in your chosen way.
 </div>
 
 
-<small>This page was last updated on 2022-03-04 16:45:07 -0500.</small>
+<small>This page was last updated on 2022-04-27 20:45:07 -0500.</small>

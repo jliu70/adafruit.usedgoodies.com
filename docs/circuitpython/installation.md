@@ -69,20 +69,21 @@ However, once your code makes calls beyond the libraries included with the UF2 i
 - Download the CircuitPython Library Bundle
 - Copy additional libraries to the microcontroller
 
-The full CircuitPython Library Bundle is around 3.5MB compressed.
+As of [April 8, 2022 there are 350 CircuitPython libraries](https://blog.adafruit.com/2022/04/08/350-circuitpython-libraries-circuitpython/)!
+
+The full CircuitPython Library Bundle is around 3.5MB compressed.  
 
 - Since the storage available on most microcontrollers is limited
     - There is often not enough capacity to store the complete CircuitPython Library bundle
     - Only copy additional libraries individually based upon the sensors, components and other breakouts you attach
 
-As of Feb 15, 2022, the number of CircuitPython libraries is 344!
 
 
 ### The main options for copying additional libraries onto the microcontroller are:
 
 - For Adafruit Learn Guides:  [Bundlefly](../glossary/bundlefly.md)
-- Manual
-- Using a tool (I highly recommend `circup`)
+- Manually Copy
+- Using a Tool (I highly recommend `circup`)
 
 ### Bundlefly  
 
@@ -98,7 +99,9 @@ As of Feb 15, 2022, the number of CircuitPython libraries is 344!
     Once you have extracted all the files from the downloaded zip file, you just drag-and-drop them onto your microntroller CIRCUITPY drive.
 
 
-### Manual  
+### Manually Copy 
+
+You can download the library bundle and then copy the libraries over to the microntroller manually.  This is the original method which is labor intensive and prone to error.
 
 1. Download the [CircuitPython Library Bundle](https://circuitpython.org/libraries)
     - !!! warning
@@ -335,4 +338,38 @@ Commands:
 
 
 
-<small>This page was last updated on 2022-03-03 18:21:07 -0500.</small>
+
+### Alternatives to Circup
+
+- [ ] minipip: a tool for installing distribution packages for MicroPython and CircuitPython #CircuitPython #MicroPython  
+
+https://blog.adafruit.com/2021/05/26/minipip-a-tool-for-installing-distribution-packages-for-micropython-and-circuitpython-circuitpython-amicropython-aivarannamaa/
+
+- [ ] pipkin - successor to minipip, included with Thonny 4
+
+https://pypi.org/project/pipkin/
+https://forums.adafruit.com/viewtopic.php?f=60&t=189621
+https://blog.adafruit.com/2022/03/25/thonny-python-editor-gets-4-0-0-beta-release-python-micropython/
+
+
+- [ ] [circuitpython_deploy](https://github.com/dastels/circuitpython_deploy.git)
+
+
+# Online Options
+
+- [CircuitPython Online IDE](https://github.com/urfdvw/CircuitPython-online-IDE)
+
+- [CircuitPython Online IDE for Classes](https://github.com/urfdvw/CircuitPython-online-IDE-for-classes)
+
+
+# iOS 
+
+- [Edit CircuitPython Code on iOS with Runestone](https://blog.adafruit.com/2022/05/11/new-guide-edit-circuitpython-code-on-ios-with-runestone-adafruitlearningsystem-adafruit-circuitpython-simonbs-makermelissa/)
+
+
+# Other
+
+- [New PIO functionality in CircuitPython with RP2040](https://blog.adafruit.com/2022/05/11/updated-guide-new-pio-functionality-in-circuitpython-with-rp2040-adafruit/)
+
+
+<small>This page was last updated on 2022-04-12 12:21:07 -0500.</small>

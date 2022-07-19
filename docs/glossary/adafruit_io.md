@@ -22,4 +22,15 @@ The first is the Divider Block. This block is a simple way to help you organize 
 
 The second new block is the Battery Block. This block takes a value from 0-100.0 and displays the percentage left in a battery icon. It also allows for the text of the value to be displayed, similar to the options on a phone. This block works particularly well paired with the Adafruit LC709203F Fuel Gauge and Battery Monitor.
 
-<small>This page was last updated on 2022-03-03 15:45:07 -0500.</small>
+
+[Adafruit Blog: 3/31/2022 Adafruit IO New Actions Features](https://blog.adafruit.com/2022/03/31/adafruit-io-new-actions-features/)
+
+
+[Adafruit Blog: 4/1/2022 Adafruit IO is now storing over 1 billion data records](https://blog.adafruit.com/2022/04/01/adafruit-io-is-now-storing-over-1-billion-data-records/)
+
+
+#### Alternative
+https://blog.adafruit.com/2022/01/26/golioth-simplifies-sending-internet-of-things-data-from-circuitpython-devices-circuitpython-iot-internetofthings-golioth_iot/
+https://blog.golioth.io/click-save-to-stream-iot-device-data-to-the-cloud/
+
+<small>This page was last updated on 2022-04-01 15:45:07 -0500.</small>

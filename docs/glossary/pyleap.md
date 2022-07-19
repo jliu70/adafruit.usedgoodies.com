@@ -35,14 +35,16 @@ The following PyLeap projects (as of 2/2022) are available on the Adafruit Learn
 - [Adafruit Learn Guide: PyLeap Blink Animation for Circuit Playground Bluefruit](https://learn.adafruit.com/pyleap-device-enabled-blinky)
 
 
+
 **Additional References**
 
+- [Adafruit Blog 6/3/2022: PyLeap 2.0 with CLUE support](https://blog.adafruit.com/2022/06/03/pyleap-2-0-with-clue-support/)
 - [Adafruit Demo Video on Youtube: Demo video from 11/24/2021](https://youtu.be/s-hzGcxcOQ4?t=835)
 - [Adafruit Demo Video on Youtube: PyLeap and Glider for CircuitPython. 12/15/2021. (2 minutes)](https://www.youtube.com/watch?v=tkbPfNv_YFI)  
 - [Adafruit Blog 12/22/2021: PyLeap officially released on the App Store](https://blog.adafruit.com/2021/12/22/pyleap-app-available-in-the-app-store/)
 - [Adafruit Blog 2/3/2022: CLUE support coming soon to PyLeap](https://blog.adafruit.com/2022/02/03/get-a-clue-adafruit-clue-nrf52840-is-coming-to-pyleap/)
 - [Github repo - PyLeap - iOS app](https://github.com/adafruit/PyLeap-iOS)   
     - PyLeap - iOS app (this is one of two Adafruit iOS apps) - a BLE file transfer app to send CircuitPython projects via BLE to your Adafruit hardware
+- [Adafruit Blog 4/8/2022: PyLeap UI update](https://blog.adafruit.com/2022/04/08/pyleap-ui-update/)
 
-
-<small>This page was last updated on 2022-02-23 11:15:07 -0500.</small>
+<small>This page was last updated on 2022-06-03 19:45:07 -0500.</small>

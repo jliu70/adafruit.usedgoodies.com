@@ -52,6 +52,8 @@ https://blog.adafruit.com/2022/01/11/gamer-bff-qt-py-mini-gaming-add-on/
 
 [Adafruit LiIon or LiPoly Charger BFF Add-On for QT Py](https://www.adafruit.com/product/5397)
 
+[Adafruit Learn Guide: Adafruit LiIon or LiPoly Charger BFF Add-On for QT Py](https://blog.adafruit.com/2022/04/20/new-guide-adafruit-liion-or-lipoly-charger-bff-add-on-for-qt-py-adafruitlearningsystem-adafruit-adafruit/)
+
 
 ## Additional References
 - [Hackster.io QT Py Review](https://www.hackster.io/news/this-little-qt-py-has-certainly-caught-our-eye-dfc2e322775f)

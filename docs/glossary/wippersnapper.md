@@ -82,6 +82,16 @@ and Adafruit QT Py ESP32-S3!
 
 [Adafruit Blog 7/12/2022: WipperSnapper update - No-Code IoT for the Adafruit QT Py ESP32-C3](https://blog.adafruit.com/2022/07/12/wippersnapper-no-code-iot-platform-now-works-with-adafruit-qt-py-esp32-c3-nocode-iot-esp32c3-riscv/)
 
+[Adafruit Blog 7/18/2022: WipperSnapper UPDATED GUIDE: Adafruit MCP9808 Precision I2C Temperature Sensor Wippersnapper Setup Page](https://blog.adafruit.com/2022/07/18/updated-guide-adafruit-mcp9808-precision-i2c-temperature-sensor-wippersnapper-setup-page/)
+
+[Adafruit Blog 7/20/2022: WipperSnapper UPDATED GUIDE: Adafruit BME280 Humidity + Barometric Pressure + Temperature Sensor Wippersnapper Setup Page](https://blog.adafruit.com/2022/07/20/updated-guide-adafruit-mcp9808-precision-i2c-temperature-sensor-wippersnapper-setup-page-copy/)
+
+[Adafruit Blog 7/27/2022: WipperSnapper Updated Guides: MagTag, FunHouse, PyPortal, and ESP32-S3 Feather](https://blog.adafruit.com/2022/07/27/updated-guides-magtag-funhouse-pyportal-and-esp32-s3-feather-adafruitlearningsystem-adafruit-adafruit/)
+
+[Adafruit Blog 7/28/2022: WipperSnapper Updated Guides: Adafruit SCD-30 – NDIR CO2 Temperature and Humidity Sensor Wippersnapper Setup Page](https://blog.adafruit.com/2022/07/28/updated-guide-adafruit-scd-30-ndir-co2-temperature-and-humidity-sensor-wippersnapper-setup-page/)
+
+[Adafruit Blog 8/15/2022: WipperSnapper Updated Guides: Adafruit SCD-40 and SCD-41 Wippersnapper Setup Page](https://blog.adafruit.com/2022/08/15/updated-guide-adafruit-scd-40-and-scd-41-wippersnapper-setup-page/)
+
 
 [Adafruit Blog 3/11/2022: Wipper Snapper - how to add a new component](https://blog.adafruit.com/2022/03/10/new-guide-how-to-add-a-new-component-to-adafruit-io-wippersnapper-nocode-iot/)
 
@@ -89,4 +99,4 @@ and Adafruit QT Py ESP32-S3!
 [Adafruit Blog 5/9/2022: Wipper Snapper - how to add a new board](https://blog.adafruit.com/2022/05/09/new-guide-how-to-add-a-new-board-to-wippersnapper-adafruitlearningsystem-adafruit-adafruit/)
 
 
-<small>This page was last updated on 2022-07-15 19:47:07 -0500.</small>
+<small>This page was last updated on 2022-07-28 18:47:07 -0500.</small>

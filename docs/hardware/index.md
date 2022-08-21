@@ -96,7 +96,8 @@ For example:
 
 - [In general would recommend new users to avoid SAMD21 microcontrollers](https://forums.adafruit.com/viewtopic.php?f=60&t=189584)
 ```
-The SAMD21 has limited flash space for including new features in CircuitPython. The non-Express versions are extra crunched because 64k of the flash is used for the file system.
+The SAMD21 has limited flash space for including new features in CircuitPython. 
+The non-Express versions are extra crunched because 64k of the flash is used for the file system.
 ```
 
 

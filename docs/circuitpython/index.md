@@ -51,6 +51,10 @@ Hence for older students, or those students already experienced with [Scratch](h
 
 For those looking to ease the transition from block-based programming to python, [EduBlocks](https://edublocks.org) is an interesting hybrid which offers python in a block-based format.
 
+[The CircuitPython Show](https://www.youtube.com/channel/UCHirrB52sk_jVmm9if-ja1Q) interviews Joshua Lowe, the creator of EduBlocks (Aug 8, 2022).   
+[Joshua Lowe joins the show and shares how he started programming and created Edublocks.](https://www.youtube.com/watch?v=x9KDnbFIXVM)
+
+
 #### CodeSkool
 
 CodeSkool is a block based Python for Raspberry Pi Pico 
@@ -127,4 +131,4 @@ Adafruit has a great walkthrough on how to [get started with CircuitPython with 
 
 - [Adafruit Blog 5/16/2022:  There are now over 300 CircuitPython compatible microcontroller boards](https://blog.adafruit.com/2022/05/17/there-are-now-over-300-circuitpython-compatible-microcontroller-boards-circuitpython-python-adafruit/)
 
-<small>This page was last updated on 2022-05-25 11:25:07 -0500.</small>
+<small>This page was last updated on 2022-08-14 11:25:07 -0500.</small>

@@ -38,4 +38,11 @@ ESP32-S3 - dual-core
 Example:  ESP32-S3-Box AI Voice development kit
 
 
-<small>This page was last updated on 2022-03-13 12:57:07 -0500.</small>
+[ESP32 Family Feature Grid](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/hw-reference/chip-series-comparison.html)
+    As mentioned from: [Adafruit Blog: ESP32 Family Feature Grid](https://blog.adafruit.com/2022/08/16/esp32uesday-esp32-family-feature-grid/)
+    I struggle to remember the differences among the original ESP32 and the subsequent S2, S3 and C3 Series microcontrollers. Was going to carefully assemble a feature grid to organize this, and share it here on the blog…but as it turns out Espressif already has a fantastic one, I just didn’t think to look here. It’s perfection! And long!
+
+
+[Adafruit Blog: Updating ESP32 AirLift Firmware](https://blog.adafruit.com/2022/08/16/updated-guide-upgrading-esp32-airlift-firmware/)
+
+<small>This page was last updated on 2022-08-17 13:57:07 -0500.</small>

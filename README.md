@@ -7,11 +7,9 @@ Installation and initial setup of mkdocs
 ### Installation
 
 ```
-python3 -m venv ~/.virtualenvs/mkdocs
+pyenv virtualenv 3.10.7
 
-. ~/virtualenvs/mkdocs/bin/activate
-
-pip install --upgrade pip
+export PYENV_VERSION=mkdocs
 
 pip install mkdocs
 ```
@@ -30,8 +28,11 @@ pip install mkdocs
 ### Activate virtual environment
 
 ```
-. ~/.virtualenvs/mkdocs/bin/activate
+export PYENV_VERSION=mkdocs
 
+or
+
+pyenv local mkdocs
 ```
 
 
@@ -39,7 +40,13 @@ pip install mkdocs
 
 ```
 mkdocs serve
+```
 
+
+### Deploy to Github Pages
+
+```
+mkdocs gh-deploy
 ```
 
 

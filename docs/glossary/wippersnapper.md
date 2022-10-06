@@ -14,6 +14,10 @@ You can visit this page at any time by navigating to https://io.adafruit.com/wip
 
 - [Adafruit Youtube video 9/28/2021: Welcome to WipperSnapper](https://www.youtube.com/watch?v=beFuT_hG_LE)
 
+- [IOT Climate Control with WipperSnapper 8/24/2022](https://www.youtube.com/watch?v=_VC2RdSWZc8)
+Build an #IoT project and take control of it with Adafruit Wipper Snapper!  Connect I2C sensors to trigger a smart outlet whenever the humidity is too high!
+
+
 - [Adafuirt Blog 7/12/2021: WipperSnapper Beta](https://blog.adafruit.com/2021/07/12/adafruit-io-wippersnapper-update-support-for-more-esp32-s2-development-boards-and-beta-information-iot-adafruit-adafruitio/)
 
 - [Adafruit Learn Guide: Quickstart Adafruit IO WipperSnapper ](https://learn.adafruit.com/quickstart-adafruit-io-wippersnapper/)

@@ -60,4 +60,6 @@ You can also get the following if you're using a breadboard:
 [Adafruit Blog 1/26/2022: Circuit Playground Bluefruit BLE Heart Rate Pendant with CircuitPython](https://blog.adafruit.com/2022/01/26/new-guide-circuit-playground-bluefruit-ble-heart-rate-pendant-with-circuitpython/)
 
 
-<small>This page was last updated on 2022-03-12 12:51:07 -0500.</small>
+[Adafruit Blog 10/11/2022: Circuit Playground Bluefruit Talking Pumpkin](https://blog.adafruit.com/2022/10/11/circuit-playground-bluefruit-talking-pumpkin-electronichalloween/)
+
+<small>This page was last updated on 2022-10-12 12:51:07 -0500.</small>

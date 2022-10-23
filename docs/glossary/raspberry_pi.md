@@ -161,8 +161,17 @@ As referenced from:
     - https://news.ycombinator.com/item?id=30154141
 
 
+# Raspberry Pi OS
+
+[Raspberry Pi OS versions](https://blog.adafruit.com/2022/10/21/raspberry-pi-os-versions-piday-raspberrypi-raspberry_pi/)
+
+| Version | Codename | Debian release date | RPi OS release date |
+| ------- | -------- | ------------------- | ------------------- |
+| 9       | Stretch  | June 2017           | August 2017         |
+| 10      | Buster   | July 2019           | July 2019           |
+| 11      | Bullseye | August 2021         | November 2021       |
+| 12      | Bookworm | Expected in 2023    | -                   |
 
 
-
-<small>This page was last updated on 2022-03-08 14:23:07 -0500.</small>
+<small>This page was last updated on 2022-10-21 11:43:07 -0500.</small>
 

@@ -29,8 +29,12 @@ The second new block is the Battery Block. This block takes a value from 0-100.0
 [Adafruit Blog: 4/1/2022 Adafruit IO is now storing over 1 billion data records](https://blog.adafruit.com/2022/04/01/adafruit-io-is-now-storing-over-1-billion-data-records/)
 
 
+
+[Adafruit Blog 10/18/2022: Over 1000 IoT devices have connected to Adafruit.io](https://blog.adafruit.com/2022/10/18/over-1000-iot-devices-have-connected-to-adafruit-io-wippersnapper-iot-nocode-adafruit/)
+
+
 #### Alternative
 https://blog.adafruit.com/2022/01/26/golioth-simplifies-sending-internet-of-things-data-from-circuitpython-devices-circuitpython-iot-internetofthings-golioth_iot/
 https://blog.golioth.io/click-save-to-stream-iot-device-data-to-the-cloud/
 
-<small>This page was last updated on 2022-04-01 15:45:07 -0500.</small>
+<small>This page was last updated on 2022-10-18 12:45:07 -0500.</small>

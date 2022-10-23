@@ -47,6 +47,6 @@ The following PyLeap projects (as of 2/2022) are available on the Adafruit Learn
     - PyLeap - iOS app (this is one of two Adafruit iOS apps) - a BLE file transfer app to send CircuitPython projects via BLE to your Adafruit hardware
 - [Adafruit Blog 4/8/2022: PyLeap UI update](https://blog.adafruit.com/2022/04/08/pyleap-ui-update/)
 - [Adafruit Blog 10/6/2022: New Guide - PyLeap CLUE Sensor Plotter ](https://blog.adafruit.com/2022/10/06/new-guide-pyleap-clue-sensor-plotter-adafruitlearningsystem-adafruit-blitzcitydiy/)
+- [Adafruit Learn Guide: PyLeap Custom Conference Badge for CLUE](https://blog.adafruit.com/2022/10/12/new-guide-pyleap-clue-custom-conference-badge-adafruitlearningsystem-adafruit-blitzcitydiy/)
 
-
-<small>This page was last updated on 2022-10-06 12:45:07 -0500.</small>
+<small>This page was last updated on 2022-10-12 12:45:07 -0500.</small>

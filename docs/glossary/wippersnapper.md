@@ -102,5 +102,6 @@ and Adafruit QT Py ESP32-S3!
 
 [Adafruit Blog 5/9/2022: Wipper Snapper - how to add a new board](https://blog.adafruit.com/2022/05/09/new-guide-how-to-add-a-new-board-to-wippersnapper-adafruitlearningsystem-adafruit-adafruit/)
 
+[Adafruit Blog 10/18/2022: Over 1000 IoT devices have connected to Adafruit.io](https://blog.adafruit.com/2022/10/18/over-1000-iot-devices-have-connected-to-adafruit-io-wippersnapper-iot-nocode-adafruit/)
 
-<small>This page was last updated on 2022-07-28 18:47:07 -0500.</small>
+<small>This page was last updated on 2022-10-18 12:47:07 -0500.</small>

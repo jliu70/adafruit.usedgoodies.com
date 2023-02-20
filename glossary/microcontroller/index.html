@@ -1400,6 +1400,18 @@ Reference: <a href="https://opensource.com/resources/raspberry-pi">https://opens
 <li>Arduino - precision timing, measure pulse widths to a high degree of accuracy</li>
 <li>Raspberry Pi - add more intelligence  </li>
 </ul>
+<p><a href="https://blog.adafruit.com/2023/02/16/using-node-red-on-microcontrollers-mqtt-rei_vilo/">Using Node-RED on microcontrollers</a>
+Could Node-RED generate code for MCUs? Up until now, it provides an elegant low-code/no-code solution for IoT but requires a single-board computer to run, like a Raspberry Pi 4B.
+The Moddable SDK implements JavaScript on MCUs and thus allows to run a Node-RED flow on them.\
+​Supported hardware includes ESP32, Raspberry Pi Pico W, among other options, and proprietary boards like the Moddable Two, built around an ESP32 and a 320×240 touch display
+The project relies on different components:
+The flow is designed with Node-RED.
+​Node-RED MCU Edition exports it to JavaScript.
+Moddable translates the JavaScript project into C++ code.
+Moddable calls the tool-chain of the board to build and link, upload and launch the project.
+Moddable opens an optional debugger.
+Node-RED now includes a new pane, MCU (above) with two parts: on top, the selection of the flows to consider for the MCU; below the choice of the targeted board and different options.
+Targeting MCUs with Node-RED might not be the most optimised solution, especially when displaying a dashboard, but this approach speeds up the development on interfaces for MQTT and GUI.</p>
 <h2 id="resources">Resources</h2>
 <ul>
 <li><a href="https://blog.adafruit.com/2021/03/02/the-great-search-microchip-samd21-microcontrollers-thegreatsearch-adafruit-digikey-digikey-microchipmakes-adafruit/">Learn: The Great Search SAMD21 Microcontrollers</a></li>
